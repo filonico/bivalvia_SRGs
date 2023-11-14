@@ -1,6 +1,6 @@
 #!/bin/bash
 
-yes | for i in 01_datasets/*zip; do
+yes | for i in 01a_assemblies_NCBI/*zip; do
 
         ACC=$(basename $i | sed -E 's/_.+.zip//; s/\./_/') &&
 
