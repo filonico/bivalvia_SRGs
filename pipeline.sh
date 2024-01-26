@@ -43,6 +43,8 @@ rm -rf 01a_assemblies_NCBI/GC*/*rn.{fna,faa}
 #     Rename fasta headers and remove isoforms (other-resources assemblies)     #
 #################################################################################
 
+### ATTENTION: ADD THE DOWNLOADED GENOMES IN SOME WAY ###
+
 # extract assembly files
 # note that they have been download from different resources
 tar -xf 00_input/assemblies_otherResources.tar.gz
@@ -66,3 +68,8 @@ mv 01b_assemblies_otherResources/*/*noIso*faa 01b_assemblies_otherResources/01_P
 
 # remove renamed fasta files containig isoforms
 rm -rf 01b_assemblies_otherResources/*/*rn.{fna,faa}
+
+
+#################################################
+#     Rename fasta headers (transcriptomes)     #
+#################################################
