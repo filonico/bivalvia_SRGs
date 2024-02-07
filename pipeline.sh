@@ -70,6 +70,41 @@ mv 01b_assemblies_otherResources/*/*noIso*faa 01b_assemblies_otherResources/01_P
 rm -rf 01b_assemblies_otherResources/*/*rn.{fna,faa}
 
 
-#################################################
-#     Rename fasta headers (transcriptomes)     #
-#################################################
+######################################
+#     Prpare transcriptome files     #
+######################################
+
+# see 01c_transcriptomes/pipeline.sh
+
+
+################################
+#     Run BUSCO on genomes     #
+################################
+
+mkdir 02_busco
+
+bash scripts/12_run_busco.sh
+
+
+##################################################################################
+#     Aggregate results, then extract ad analyze dmrt, sox and fox candidates    #
+##################################################################################
+
+mkdir -p 01d_FINAL_dataset/{01_PROTEOMES,02_CDSs}
+
+cp 01*/01_PROTEOMES/*faa 01d_FINAL_dataset/01_PROTEOMES/
+cp 01c_transcriptomes/01_transdecoder/01_PROTEOMES_final/*faa 01d_FINAL_dataset/01_PROTEOMES/
+
+cp 01*/02_CDSs/*fna 01d_FINAL_dataset/02_CDSs/
+cp 01c_transcriptomes/01_transdecoder/02_CDSs_final/*fna 01d_FINAL_dataset/02_CDSs/
+
+# extract genes from each species starting from the pfam stockholm alignment
+# REQUIRES: conda_env/alignments_env.yml
+bash scripts/10_get_genes_from_proteomes.sh
+
+# annotate extracted genes with both panther and cdd
+# REQUIRES: conda_envs/ncbi_env.yml
+# REQUIRES: CDD "little endian" database (originally downloaded from: https://ftp.ncbi.nih.gov/pub/mmdb/cdd/little_endian/Cdd_LE.tar.gz)
+# REQUIRES: panther HMM database (originally downloaded from: http://data.pantherdb.org/ftp/hmm_scoring/18.0/PANTHER18.0_hmmscoring.tgz)
+# REQUIRES: edit the script with the full path of your panther- and cdd-databases
+bash scripts/11_annotate_genes.sh

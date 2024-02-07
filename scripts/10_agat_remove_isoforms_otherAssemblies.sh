@@ -21,11 +21,7 @@ zcat 01b_assemblies_otherResources/M_nervosa/ReferenceGenomeSequences/AllSupport
 
 zcat 01b_assemblies_otherResources/M_philippinarum/Modiolus_philippinarum.gff.gz > 01b_assemblies_otherResources/M_philippinarum/Mphi_genomic.gff
 
-zcat 01b_assemblies_otherResources/P_fucata_martensii/Pinctada_fucata_martensii.gff.gz > 01b_assemblies_otherResources/P_fucata_martensii/Pfum_genomic.gff
-
 zcat 01b_assemblies_otherResources/P_viridis/P.viridis_genome-annotation.gff3.gz > 01b_assemblies_otherResources/P_viridis/Pvir_genomic.gff
-
-zcat 01b_assemblies_otherResources/R_philippinarum/Rphil-assembly_v4_NoCont_Annotated.gff.gz > 01b_assemblies_otherResources/R_philippinarum/Rphi_genomic.gff
 
 zcat 01b_assemblies_otherResources/S_broughtonii/EVM.final.gene.gff3.gz > 01b_assemblies_otherResources/S_broughtonii/Sbro_genomic.gff
 

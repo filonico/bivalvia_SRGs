@@ -36,17 +36,9 @@ zcat 01b_assemblies_otherResources/M_nervosa/ReferenceGenomeSequences/AllSupport
 zcat 01b_assemblies_otherResources/M_philippinarum/Modiolus_philippinarum.pep.fa.gz | bash scripts/05_onelinerizer.sh - | sed -E 's/^>Mph/>Mphi/; s/_/./2; s/-/./' > 01b_assemblies_otherResources/M_philippinarum/Mphi_protein_rn.faa
 zcat 01b_assemblies_otherResources/M_philippinarum/Modiolus_philippinarum.cds.fa.gz | bash scripts/05_onelinerizer.sh - | sed -E 's/^>Mph/>Mphi/; s/_/./2; s/-/./' > 01b_assemblies_otherResources/M_philippinarum/Mphi_cds_rn.fna
 
-# PFUM
-zcat 01b_assemblies_otherResources/P_fucata_martensii/Pinctada_fucata_martensii.pep.fa.gz | bash scripts/05_onelinerizer.sh - | sed -E 's/ .+$//; s/^>/>Pfum_/; s/_/./2' > 01b_assemblies_otherResources/P_fucata_martensii/Pfum_protein_rn.faa
-zcat 01b_assemblies_otherResources/P_fucata_martensii/Pinctada_fucata_martensii.cds.fa.gz | bash scripts/05_onelinerizer.sh - | sed -E 's/ .+$//; s/^>/>Pfum_/; s/_/./2' > 01b_assemblies_otherResources/P_fucata_martensii/Pfum_cds_rn.fna
-
 # PVIR
 zcat 01b_assemblies_otherResources/P_viridis/P.viridis_genemodel.pep.fa.gz | bash scripts/05_onelinerizer.sh - | sed -E 's/^>p/>P/; s/\.p1//' > 01b_assemblies_otherResources/P_viridis/Pvir_protein_rn.faa
 zcat 01b_assemblies_otherResources/P_viridis/P.viridis_genemodel.mrna.fa.gz | bash scripts/05_onelinerizer.sh - | sed -E 's/^>p/>P/' > 01b_assemblies_otherResources/P_viridis/Pvir_cds_rn.fna
-
-# RPHI
-zcat 01b_assemblies_otherResources/R_philippinarum/Rphil-assembly_v4_NoCont.AGAT_predicted-proteins.fasta.gz | bash scripts/05_onelinerizer.sh - | sed -E 's/ .+$//; s/^>/>Rphi_/' > 01b_assemblies_otherResources/R_philippinarum/Rphi_protein_rn.faa
-zcat 01b_assemblies_otherResources/R_philippinarum/Rphil-assembly_v4_NoCont.AGAT_predicted-mRNA.fasta.gz | bash scripts/05_onelinerizer.sh - | sed -E 's/ .+$//; s/^>/>Rphi_/' > 01b_assemblies_otherResources/R_philippinarum/Rphi_cds_rn.fna
 
 # SBRO
 zcat 01b_assemblies_otherResources/S_broughtonii/EVM.final.gene.gff3.pep.gz | bash scripts/05_onelinerizer.sh - | sed -E 's/ .+$//; s/^>/>Sbro_/' > 01b_assemblies_otherResources/S_broughtonii/Sbro_protein_rn.faa

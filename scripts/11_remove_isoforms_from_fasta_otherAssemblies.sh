@@ -29,14 +29,8 @@ grep -P '\t'CDS'\t' 01b_assemblies_otherResources/M_nervosa/Mner_genomic_noIso.g
 # MPHI
 grep -P '\t'CDS'\t' 01b_assemblies_otherResources/M_philippinarum/Mphi_genomic_noIso.gff | sed -E 's/^.+Mph_/Mphi_/; s/-mRNA.+$//; s/_/./2; s/-/./g' | sort -u > 01b_assemblies_otherResources/M_philippinarum/Mphi_header_noIso.ls
 
-# PFUM
-grep -P '\t'CDS'\t' 01b_assemblies_otherResources/P_fucata_martensii/Pfum_genomic_noIso.gff | sed -E 's/^.+Parent=/Pfum_/; s/_/./2' | sort -u > 01b_assemblies_otherResources/P_fucata_martensii/Pfum_header_noIso.ls
-
 # PVIR
 grep -P '\t'CDS'\t' 01b_assemblies_otherResources/P_viridis/Pvir_genomic_noIso.gff | sed -E 's/^.+Parent=pvir_/Pvir_/; s/\..+$//' | sort -u > 01b_assemblies_otherResources/P_viridis/Pvir_header_noIso.ls
-
-# RPHI
-grep -P '\t'CDS'\t' 01b_assemblies_otherResources/R_philippinarum/Rphi_genomic_noIso.gff | sed -E 's/^.+Parent=/Rphi_/; s/;makerName=.+$//' | sort -u > 01b_assemblies_otherResources/R_philippinarum/Rphi_header_noIso.ls
 
 # SBRO
 grep -P '\t'CDS'\t' 01b_assemblies_otherResources/S_broughtonii/Sbro_genomic_noIso.gff | sed -E 's/^.+Parent=/Sbro_/' | sort -u > 01b_assemblies_otherResources/S_broughtonii/Sbro_header_noIso.ls

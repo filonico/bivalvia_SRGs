@@ -3,3 +3,8 @@ sexdet_genes_OLD/*
 01b_assemblies_otherResources/*
 00_input/assemblies_otherResources.tar.gz
 01c_transcriptomes/*
+01d_FINAL_dataset/*
+02_busco/*
+03_family_identification/*
+04_family_annotation_filtering/*
+14_annotate_genes_cdd.sh 14_annotate_genes_panther.sh

@@ -10,7 +10,7 @@ for i in 01a_assemblies_NCBI/GC*/*{cds,protein}*; do
         bash scripts/05_onelinerizer.sh $i |\
 
         # rename header
-        sed -E "s/^>.+_cds_/>/; s/P_/P./; s/_.+$//; s/ .+$//; s/^>/>"$spID"_/" $i > "$OUTNAME"_rn."$EXT"
+        sed -E "s/^>.+_cds_/>/; s/P_/P./; s/_.+$//; s/ .+$//; s/^>/>"$spID"_/" > "$OUTNAME"_rn."$EXT"
 
         gzip -9 $i
 
