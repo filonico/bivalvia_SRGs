@@ -100,11 +100,35 @@ cp 01c_transcriptomes/01_transdecoder/02_CDSs_final/*fna 01d_FINAL_dataset/02_CD
 
 # extract genes from each species starting from the pfam stockholm alignment
 # REQUIRES: conda_env/alignments_env.yml
-bash scripts/10_get_genes_from_proteomes.sh
+bash scripts/13_get_genes_from_proteomes.sh
 
 # annotate extracted genes with both panther and cdd
 # REQUIRES: conda_envs/ncbi_env.yml
 # REQUIRES: CDD "little endian" database (originally downloaded from: https://ftp.ncbi.nih.gov/pub/mmdb/cdd/little_endian/Cdd_LE.tar.gz)
 # REQUIRES: panther HMM database (originally downloaded from: http://data.pantherdb.org/ftp/hmm_scoring/18.0/PANTHER18.0_hmmscoring.tgz)
 # REQUIRES: edit the script with the full path of your panther- and cdd-databases
-bash scripts/11_annotate_genes.sh
+bash scripts/14_annotate_genes.sh
+
+# filter genes on the basis of their annotation and compare Panther and CDD results
+# NB: only genes surviving both Panther and CDD annotation filtering are kept for subsequent analysis
+# REQUIRES: conda_envs/ncbi_env.yml
+bash scripts/15_filter_compare_annotations.sh
+
+
+########################################################
+#     Phylogeny-based orthology inference (Possvm)     #
+########################################################
+
+mkdir 05_family_phylogeny
+
+# align and trim each gene family
+# REQUIRES: conda_env/alignments_env.yml
+bash scripts/16_align_and_trim.sh
+
+# alignments were then manually inspected to remove sequences with poorly aligning domains
+# sequeces were then de-aligned and re-aligned
+bash scripts/17_align_and_trim_2ndround.sh
+
+# infere phylogenetic tree of each gene family
+# REQUIRES: conda_envs/phylogeny_env.yml
+bash scripts/18_phylo_inference.sh
