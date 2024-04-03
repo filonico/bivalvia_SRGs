@@ -1,12 +1,13 @@
-01a_assemblies_NCBI/*
-sexdet_genes_OLD/*
-01b_assemblies_otherResources/*
 00_input/assemblies_otherResources.tar.gz
+01a_assemblies_NCBI/*
+01b_assemblies_otherResources/*
 01c_transcriptomes/*
 01d_FINAL_dataset/*
 02_busco/*
+02_busco.tar.gz
 03_family_identification/*
 04_family_annotation_filtering/*
-14_annotate_genes_cdd.sh 14_annotate_genes_panther.sh
 05_family_phylogeny/*
-02_busco.tar.gz
+06_possvm_orthology/*
+07_orthofinder/*
+BACKUP_SOX/*

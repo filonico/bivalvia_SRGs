@@ -132,3 +132,19 @@ bash scripts/17_align_and_trim_2ndround.sh
 # infere phylogenetic tree of each gene family
 # REQUIRES: conda_envs/phylogeny_env.yml
 bash scripts/18_phylo_inference.sh
+
+# infere orthology relationships of dmrt, sox and fox genes from ML trees
+# REQUIRES: conda_envs/possvm.yml 
+bash scripts/19_possvm_orthology.sh
+
+
+#######################################################
+#     MCL-based orthology inference (OrthoFinder)     #
+#######################################################
+
+# prepare the directory of input files to be given to OrthoFinder
+bash scripts/20_prepare_orthofinder_directory.sh
+
+# run OrthoFinder
+# REQUIRES: conda_envs/orthofinder_env.yml
+python3 compiled_softwares/OrthoFinder_source/orthofinder_update.py -f 01d_FINAL_dataset/01_PROTEOMES/01_orthofinder_input/ -t 15 -a 4 -S diamond_ultra_sens --fewer-files -y -o 07_orthofinder/ -n splitted_hogs -X
