@@ -147,4 +147,4 @@ bash scripts/20_prepare_orthofinder_directory.sh
 
 # run OrthoFinder
 # REQUIRES: conda_envs/orthofinder_env.yml
-python3 compiled_softwares/OrthoFinder_source/orthofinder_update.py -f 01d_FINAL_dataset/01_PROTEOMES/01_orthofinder_input/ -t 15 -a 4 -S diamond_ultra_sens --fewer-files -y -o 07_orthofinder/ -n splitted_hogs -X
+bash scripts/21_run_of.sh

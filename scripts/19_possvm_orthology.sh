@@ -25,7 +25,7 @@ python3 compiled_softwares/possvm.py -i 05_family_phylogeny/dmrt_ALL_reduced_ali
 
 echo -e $'\t'Dmrt genes: done!
 
-python3 compiled_softwares/possvm.py -i 05_family_phylogeny/sox_ALL_reduced_aligned_trim04.faa_rooted.treefile -o 06_possvm_orthology/ -r 00_input/sox_reference_outgroup.tsv -method mclw -outgroup 06_possvm_orthology/sox_outgroups.ls -skipprint -skiproot -clean_gene_names > /dev/null 2> 06_possvm_orthology/sox.possvm.log
+python3 compiled_softwares/possvm.py -i 05_family_phylogeny/sox_ALL_reduced_aligned_trim04.faa_rooted.treefile -o 06_possvm_orthology/ -r 00_input/sox_reference_outgroup.tsv -method mclw -outgroup Neur -skipprint -skiproot -clean_gene_names > /dev/null 2> 06_possvm_orthology/sox.possvm.log
 
 echo -e $'\t'Sox genes: done!
 
