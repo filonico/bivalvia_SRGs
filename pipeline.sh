@@ -148,3 +148,14 @@ bash scripts/20_prepare_orthofinder_directory.sh
 # run OrthoFinder
 # REQUIRES: conda_envs/orthofinder_env.yml
 bash scripts/21_run_of.sh
+
+
+#############################################################
+#     Orthogroup decomposition and amino acid diversity     #
+#############################################################
+
+mkdir 08_orthogroup_decomposition
+
+# run disco to split orthogroups into single copy orthologs present in at least the 50% of species
+# REQUIRES: conda_envs/disco_env.yml
+bash scripts/22_run_disco.sh

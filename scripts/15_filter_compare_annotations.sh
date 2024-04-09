@@ -11,7 +11,7 @@ cat 04_family_annotation_filtering/dmrt/*panther* |\
 cat 04_family_annotation_filtering/sox/*panther* |\
 	awk -F "\t" '{print $2"\t"$3}' |\
 	sort -u |\
-	grep -Ei "sox|sex-determining region y" |\
+	grep -Ei "sox|sex-determining region y|FI18025P1" |\
 	grep -iv "bobby" > 04_family_annotation_filtering/sox/sox_PANTHER_annotation.tsv
 
 cat 04_family_annotation_filtering/fox/*panther* |\

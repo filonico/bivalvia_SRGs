@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TOT_TREES=$(find 07_orthofinder/Results_splitted_hogs/Gene_Trees/ -iname "*txt" | xargs ls -lrt | wc -l)
+TOT_TREES=$(ls 07_orthofinder/Results_splitted_hogs/Gene_Trees/ | wc -l)
 counter_file=0
 
 echo Running disco on "$TOT_TREES" OrthoFinder gene trees...
@@ -8,7 +8,7 @@ echo Running disco on "$TOT_TREES" OrthoFinder gene trees...
 for i in 07_orthofinder/Results_splitted_hogs/Resolved_Gene_Trees/*txt; do
 
 	OG="$(basename $i | sed -E 's/_.+$//')"
-	OUTPUT_FILE="$(echo 08_orthogroup_decomposition_alignment/"$OG"_disco_decomposed.txt)"
+	OUTPUT_FILE="$(echo 08_orthogroup_decomposition/"$OG"_disco_decomposed.txt)"
 
 	# keep trees with at least the 50% of species (16 out of 32)
 	python3 compiled_softwares/disco.py -i $i -o "$OUTPUT_FILE" -d "_" -m 18 -v --keep-labels > 08_orthogroup_decomposition_alignment/"$OG"_disco_decomposed.log 2> /dev/null
@@ -23,7 +23,7 @@ for i in 07_orthofinder/Results_splitted_hogs/Resolved_Gene_Trees/*txt; do
 	# write a separate file for each disco sub-tree
 	while read tree; do
 
-		echo $tree > 08_orthogroup_decomposition_alignment/"$OG"_disco_tree"$counter_tree".nwk
+		echo $tree > 08_orthogroup_decomposition/"$OG"_disco_tree"$counter_tree".nwk
 
 		counter_tree=$((counter_tree+1))
 	
