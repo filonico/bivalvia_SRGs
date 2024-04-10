@@ -14,3 +14,6 @@ BACKUP_SOX/*
 08_orthogroup_decomposition/*
 tmp.fna
 09_orthogroup_alignments/*
+23_extract_orthogroup_cdss_*
+*BACKUP/*
+08_orthogroup_decomposition*/*
