@@ -159,3 +159,5 @@ mkdir 08_orthogroup_decomposition
 # run disco to split orthogroups into single copy orthologs present in at least the 50% of species
 # REQUIRES: conda_envs/disco_env.yml
 bash scripts/22_run_disco.sh
+
+mkdir 09_orthogroup_alignments

@@ -12,3 +12,5 @@
 07_orthofinder/*
 BACKUP_SOX/*
 08_orthogroup_decomposition/*
+tmp.fna
+09_orthogroup_alignments/*
