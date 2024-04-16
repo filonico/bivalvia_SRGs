@@ -10,7 +10,7 @@ for i in 07_orthofinder/Results_splitted_hogs/Resolved_Gene_Trees/*txt; do
 	OG="$(basename $i | sed -E 's/_.+$//')"
 	OUTPUT_FILE="$(echo 08_orthogroup_decomposition/"$OG"_disco_decomposed.txt)"
 
-	# keep trees with at least the 50% of species (16 out of 32)
+	# keep trees with at least the 50% of species (18 out of 36)
 	python3 compiled_softwares/disco.py -i $i -o "$OUTPUT_FILE" -d "_" -m 18 -v --keep-labels > 08_orthogroup_decomposition_alignment/"$OG"_disco_decomposed.log 2> /dev/null
 
 	# if the produced file is empty, skip to the next iteration

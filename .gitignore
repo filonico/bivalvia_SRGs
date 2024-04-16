@@ -17,3 +17,5 @@ tmp.fna
 23_extract_orthogroup_cdss_*
 *BACKUP/*
 08_orthogroup_decomposition*/*
+24_align_trim_orthogroups*
+09_orthogroup_alignments_withoutSgloAmar/*

@@ -161,3 +161,26 @@ mkdir 08_orthogroup_decomposition
 bash scripts/22_run_disco.sh
 
 mkdir 09_orthogroup_alignments
+
+# retrieve CDSs fasta file for each decomposed orthogroup
+# REQUIRES: conda_envs/possvm_env.yml
+bash scripts/23_extract_orthogroup_cdss.sh
+
+# remove two species with a lot of stop codons
+sed -Ei '/Sglo/,+1d' 09_orthogroup_alignments_withoutSgloAmar/*fna
+sed -Ei '/Amar/,+1d' 09_orthogroup_alignments_withoutSgloAmar/*fna
+
+# generate a table with genes per each decomposed orthogroup
+for i in 09_orthogroup_alignments/*fna; do OG="$(basename ${i%.*})"; GENES="$(grep ">" $i | sed -E 's/^>//' | tr '\n' ',' | sed -E 's/,$//')"; echo -e $OG$'\t'$GENES; done > 09_orthogroup_alignments/decomposed_orthogroups.tsv
+
+# select decomposed orthogroups to keep for alignments (i.e., orthogroups that do not contain Dmrt, Sox and Fox genes)
+grep -h ">" 05_family_phylogeny/*ALL.faa | grep -v OUT | sed -E 's/^>//' | grep -v -f - 09_orthogroup_alignments/decomposed_orthogroups.tsv | awk -F "\t" '{print $1}' > 09_orthogroup_alignments/decomposed_orthogroups_tokeep.ls
+
+sed -Ei 's/TAG$//; s/TGA$//; s/TAA$//' 09_orthogroup_alignments/*fna
+
+# remove Amar and Sglo
+sed -Ei '/Amar/,+1d' 09_orthogroup_alignments_withoutSgloAmar/*fna
+sed -Ei '/Sglo/,+1d' 09_orthogroup_alignments_withoutSgloAmar/*fna
+
+# align and trim orthogorups
+bash scripts/24_align_trim_orthogroups.sh
