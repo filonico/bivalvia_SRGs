@@ -184,3 +184,25 @@ sed -Ei '/Sglo/,+1d' 09_orthogroup_alignments_withoutSgloAmar/*fna
 
 # align and trim orthogorups
 bash scripts/24_align_trim_orthogroups.sh
+
+
+###########################################
+#     SRG decomposition and alignment     #
+###########################################
+
+mkdir 10_SRG_decomposition
+
+# run disco on SRG trees
+# REQUIRES: conda_envs/disco_env.yml
+bash scripts/24_run_disco_SRGs.sh
+
+mkdir 11_SRG_alignments
+
+# retrieve CDSs fasta file for each decomposed orthogroup
+# REQUIRES: conda_envs/disco_env.yml
+bash scripts/25_extract_SRG_cdss.sh
+
+# generate a table with genes per each decomposed orthogroup
+for i in 11_SRG_alignments/*fna; do OG="$(basename ${i%.*})"; GENES="$(grep ">" $i | sed -E 's/^>//' | tr '\n' ',' | sed -E 's/,$//')"; echo -e $OG$'\t'$GENES; done > 11_SRG_alignments/decomposed_orthogroups.tsv
+
+sed -Ei 's/TAG$//; s/TGA$//; s/TAA$//' 11_SRG_alignments/*fna

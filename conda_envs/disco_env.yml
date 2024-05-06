@@ -8,6 +8,7 @@ dependencies:
   - bzip2=1.0.8=h5eee18b_5
   - ca-certificates=2024.3.11=h06a4308_0
   - expat=2.5.0=h6a678d5_0
+  - gotree=0.4.5=h9ee0642_0
   - ld_impl_linux-64=2.38=h1181459_1
   - libffi=3.4.4=h6a678d5_0
   - libgcc-ng=11.2.0=h1234567_1
@@ -15,7 +16,7 @@ dependencies:
   - libstdcxx-ng=11.2.0=h1234567_1
   - libuuid=1.41.5=h5eee18b_0
   - ncurses=6.4=h6a678d5_0
-  - openssl=3.0.13=h7f8727e_0
+  - openssl=3.0.13=h7f8727e_1
   - pip=23.3.1=py312h06a4308_0
   - python=3.12.2=h996f2a0_0
   - readline=8.2=h5eee18b_0
