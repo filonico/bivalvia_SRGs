@@ -183,6 +183,7 @@ sed -Ei '/Amar/,+1d' 09_orthogroup_alignments_withoutSgloAmar/*fna
 sed -Ei '/Sglo/,+1d' 09_orthogroup_alignments_withoutSgloAmar/*fna
 
 # align and trim orthogorups
+# REQUIRES: conda_envs/alignments_env.yml
 bash scripts/24_align_trim_orthogroups.sh
 
 
@@ -194,15 +195,42 @@ mkdir 10_SRG_decomposition
 
 # run disco on SRG trees
 # REQUIRES: conda_envs/disco_env.yml
-bash scripts/24_run_disco_SRGs.sh
+bash scripts/25_run_disco_SRGs.sh
 
 mkdir 11_SRG_alignments
 
 # retrieve CDSs fasta file for each decomposed orthogroup
 # REQUIRES: conda_envs/disco_env.yml
-bash scripts/25_extract_SRG_cdss.sh
+bash scripts/26_extract_SRG_cdss.sh
 
 # generate a table with genes per each decomposed orthogroup
 for i in 11_SRG_alignments/*fna; do OG="$(basename ${i%.*})"; GENES="$(grep ">" $i | sed -E 's/^>//' | tr '\n' ',' | sed -E 's/,$//')"; echo -e $OG$'\t'$GENES; done > 11_SRG_alignments/decomposed_orthogroups.tsv
 
 sed -Ei 's/TAG$//; s/TGA$//; s/TAA$//' 11_SRG_alignments/*fna
+
+# align and trim orthogorups
+# REQUIRES: conda_envs/alignments_env.yml
+bash scripts/27_align_trim_SRGs.sh
+
+
+###################################################
+#     Model selection on orthogroups and SRGs     #
+###################################################
+
+# run ModelFinder (from IQTREE) on decomposed orthogroups and SRGs
+# REQUIRES: conda_envs/phylogeny_env.yml
+bash scripts/28_modelSelection.sh
+
+
+#############################################################
+#     Compute the distribution of amino acid divergence     #
+#############################################################
+
+mkdir 13_distribution_divergence
+
+# create a file ith the selected substitution model per each orthogroup
+grep Best 12_model_selection/*log | sed -E 's/^.+\///; s/\.log.+: /\t/; s/\+.+$//; s/ .+$//; 1i alignment\tmodel' > 13_distribution_divergence/models_perOrthogroup.tsv
+
+# substitute model names to match names accepted by dist.ml in the subsequent R script
+python3 scripts/29_ReDictio.py 13_distribution_divergence/models_perOrthogroup.tsv 00_input/aa_subst_models.tsv new
+mv 13_distribution_divergence/models_perOrthogroup.tsv_replaced 13_distribution_divergence/models_perOrthogroup_Rformatted.tsv

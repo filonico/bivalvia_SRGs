@@ -24,3 +24,6 @@ tmp.fna
 00_input/consideration_on_dmrt1L.txt
 05b_family_phylogeny_dmrt_onlyBivalves/*
 12_model_selection/*
+09_orthogroup_alignments.tar.gz
+09_orthogroup_alignments_withoutSgloAmar_automatedTrim/*
+13_distribution_divergence/*

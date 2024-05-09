@@ -26,10 +26,10 @@ while read i; do
 	echo -e $"\t"Trimming with TrimAl...
 
 	# trim amino acid alignemnt
-	trimal -in "$ALN_OUT".aa_ali.fasta -out "$TRIM_OUT".faa -automated1 -resoverlap 0.5 -seqoverlap 50 2>> "$LOG_OUT"
+	trimal -in "$ALN_OUT".aa_ali.fasta -out "$TRIM_OUT".faa -gt 0.4 -resoverlap 0.5 -seqoverlap 50 2>> "$LOG_OUT"
 
 	# trim nucleotide alignment
-	trimal -in "$ALN_OUT".aa_ali.fasta -backtrans "$OUT_DIR""$j".fna -out "$TRIM_OUT".fna -automated1 -resoverlap 0.5 -seqoverlap 50 2>> "$LOG_OUT"
+	trimal -in "$ALN_OUT".aa_ali.fasta -backtrans "$OUT_DIR""$j".fna -out "$TRIM_OUT".fna -gt 0.4 -resoverlap 0.5 -seqoverlap 50 2>> "$LOG_OUT"
 
 	# check if after trimming the number of species is still greater than of equal to 16 (half); else, remove the trimmed file and keep track
 	NUM_SP="$(grep -c ">" "$TRIM_OUT".fna)"
