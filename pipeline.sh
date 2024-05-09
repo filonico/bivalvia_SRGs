@@ -226,7 +226,7 @@ bash scripts/28_modelSelection.sh
 #     Compute the distribution of amino acid divergence     #
 #############################################################
 
-mkdir 13_distribution_divergence
+mkdir -p 13_distribution_divergence/01_input_alignments
 
 # create a file ith the selected substitution model per each orthogroup
 grep Best 12_model_selection/*log | sed -E 's/^.+\///; s/\.log.+: /\t/; s/\+.+$//; s/ .+$//; 1i alignment\tmodel' > 13_distribution_divergence/models_perOrthogroup.tsv
@@ -234,3 +234,7 @@ grep Best 12_model_selection/*log | sed -E 's/^.+\///; s/\.log.+: /\t/; s/\+.+$/
 # substitute model names to match names accepted by dist.ml in the subsequent R script
 python3 scripts/29_ReDictio.py 13_distribution_divergence/models_perOrthogroup.tsv 00_input/aa_subst_models.tsv new
 mv 13_distribution_divergence/models_perOrthogroup.tsv_replaced 13_distribution_divergence/models_perOrthogroup_Rformatted.tsv
+
+# prepare directory with symlinks to alignments
+bash scripts/30_prepare_R_directory.sh 2> /dev/null
+sed -E '/disco/ s/^/13_distribution_divergence\/01_input_alignments\//' 13_distribution_divergence/models_perOrthogroup_Rformatted.tsv
