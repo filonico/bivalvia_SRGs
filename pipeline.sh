@@ -238,3 +238,21 @@ mv 13_distribution_divergence/models_perOrthogroup.tsv_replaced 13_distribution_
 # prepare directory with symlinks to alignments
 bash scripts/30_prepare_R_directory.sh 2> /dev/null
 sed -E '/disco/ s/^/13_distribution_divergence\/01_input_alignments\//' 13_distribution_divergence/models_perOrthogroup_Rformatted.tsv
+
+# plot the distribution of amino acid divergence
+# REQUIRES: conda_envs/R_env.yml
+Rscript scripts/31_plot_distribution_divergence.R
+
+
+##############################
+#     Selection analysis     #
+##############################
+
+mkdir -p 14_selection_analysis/01_input
+
+# infer ML trees on nucleotide alignments of SRGs
+# REQUIRES: conda_envs/phylogeny_env.yml
+bash scripts/32_compute_MLtrees_SRGs.sh
+
+# prepare busted input
+bash scripts/33_prepare_hyphy_files.sh
