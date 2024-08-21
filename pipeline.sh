@@ -266,14 +266,15 @@ bash scripts/34_run_busted.sh
 #     Plot results     #
 ########################
 
-# figure 2
+# figure 2: compilation
 mkdir 06_possvm_orthology/01_plot_occurrence
-
 if [[ -f 06_possvm_orthology/01_plot_occurrence/possvm_orthology_all_withOUT.tsv ]]; then rm -f 06_possvm_orthology/01_plot_occurrence/possvm_orthology_all.tsv; fi; for i in 06_possvm_orthology/*.ortholog_groups.csv; do GENE="$(basename $i | sed -E 's/_.+$//')"; tail -n +2 $i | sed -E "s%OG%"$GENE"_OG%" | awk -F "\t" '{print $1"\t"$2"\t"$4}' | sed -E 's/_[^\t]+//' >> 06_possvm_orthology/01_plot_occurrence/possvm_orthology_all_withOUT.tsv; done
-
 scripts/35_plot_occurrence.R
 
-# figure 3
+# figure 3: diversity
 mkdir 13_distribution_divergence/02_plot_diversity/
-
 Rscript scripts/36_plot_diversity.R
+
+# supp fig S1-3: SRG trees
+mkdir 06_possvm_orthology/02_plot_trees
+Rscript scripts/37_plot_trees.R
