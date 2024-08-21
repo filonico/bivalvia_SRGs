@@ -241,7 +241,7 @@ sed -E '/disco/ s/^/13_distribution_divergence\/01_input_alignments\//' 13_distr
 
 # plot the distribution of amino acid divergence
 # REQUIRES: conda_envs/R_env.yml
-Rscript scripts/31_plot_distribution_divergence.R
+Rscript scripts/31_compute_divergence.R
 
 
 ##############################
@@ -256,3 +256,24 @@ bash scripts/32_compute_MLtrees_SRGs.sh
 
 # prepare busted input
 bash scripts/33_prepare_hyphy_files.sh
+
+# run BUSTED
+# REQUIRES: conda_envs/selection_env.yml
+bash scripts/34_run_busted.sh
+
+
+########################
+#     Plot results     #
+########################
+
+# figure 2
+mkdir 06_possvm_orthology/01_plot_occurrence
+
+if [[ -f 06_possvm_orthology/01_plot_occurrence/possvm_orthology_all_withOUT.tsv ]]; then rm -f 06_possvm_orthology/01_plot_occurrence/possvm_orthology_all.tsv; fi; for i in 06_possvm_orthology/*.ortholog_groups.csv; do GENE="$(basename $i | sed -E 's/_.+$//')"; tail -n +2 $i | sed -E "s%OG%"$GENE"_OG%" | awk -F "\t" '{print $1"\t"$2"\t"$4}' | sed -E 's/_[^\t]+//' >> 06_possvm_orthology/01_plot_occurrence/possvm_orthology_all_withOUT.tsv; done
+
+scripts/35_plot_occurrence.R
+
+# figure 3
+mkdir 13_distribution_divergence/02_plot_diversity/
+
+Rscript scripts/36_plot_diversity.R

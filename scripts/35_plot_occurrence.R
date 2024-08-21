@@ -1,6 +1,32 @@
+#!/usr/bin/env Rscript
+
 library(tidyr)
 library(ggplot2)
 library(ggtree)
+
+######################
+#     READ INPUT     #
+######################
+
+# occurrence matrix
+occurrence_data <- "06_possvm_orthology/01_plot_occurrence/possvm_orthology_all_withOUT.tsv"
+
+# trees
+speciesTree_data <- read.tree(file = "00_input/species_tree_ALL.nwk")
+dmrtTree_data <- read.tree(text = "(Dmrt-1L,(Dmrt-3,(Dmrt-2,Dmrt-4/5)));")
+soxTree_data <- read.tree(text = "((Sox-OG0/NA,Sox-OG1/NA),(Sox-H,(Sox-D,(Sox-B1/2,(Sox-C,(Sox-F,Sox-E))))));") %>%
+  ape::drop.tip(c("soxOG1", "soxOG0"))
+foxTree_data <- read.tree(text = "(Fox-OG2/NA,((Fox-O,Fox-P),(Fox-J2/3,(((Fox-OG13/NA,Fox-N2/3),(Fox-OG16/NA,Fox-N1/4)),((Fox-K,Fox-J1),((Fox-OG15/NA,(Fox-Q2,Fox-OG28/NA)),(Fox-G,(Fox-L2,((Fox-L1,Fox-C),((Fox-F,Fox-H),((Fox-E,Fox-D),(Fox-OG39/NA,(Fox-B,Fox-A)))))))))))));") %>%
+  ape::drop.tip("foxK")
+
+
+############################
+#     OUTPUT FILENAMES     #
+############################
+
+occurrence_matrix_withOutgroups <- "06_possvm_orthology/01_plot_occurrence/occurrence_matrix_withOutgroups.tsv"
+SRGs_occurrence_panel <- "06_possvm_orthology/01_plot_occurrence/SRGs_occurrence_panel.pdf"
+
 
 #####################
 #     FUNCTIONS     #
@@ -68,10 +94,15 @@ plotOccurrence <- function(occurrence_matrix, species_order, speciesNames_toPlot
     #          ymin = c(-Inf, 30.5), ymax = c(7.5, Inf), 
     #          geom = "rect", alpha = 0.2) +
      
-    # annotate bivalves
+    # # annotate bivalves
+    # annotate(xmin = -Inf, xmax = Inf,
+    #          ymin = 10.5, ymax = Inf,
+    #          geom = "rect", fill = "#324542", alpha = 0.1) +
+    
+    # annotate outgroups
     annotate(xmin = -Inf, xmax = Inf,
-             ymin = 10.5, ymax = Inf,
-             geom = "rect", alpha = 0.1) +
+             ymin = -Inf, ymax = 10.5,
+             geom = "rect", fill = "#324542", alpha = 0.1) +
     
     
     geom_point(aes(size = ifelse(count==0, NA, count)), shape = 21, stroke = 0.9) +
@@ -96,17 +127,17 @@ plotOccurrence <- function(occurrence_matrix, species_order, speciesNames_toPlot
                           # breaks = c(1,seq(4,16,4)),
                           guide = "none") +
     
-    scale_fill_gradient2(low = "#0a9396",
-                         mid = "#ee9b00",
+    scale_fill_gradient2(low = "#00b0b4",
+                         mid = "#ffae00",
                          midpoint = 8,
-                         high = "#bb3e03",
+                         high = "#ca0244",
                          name = stringr::str_wrap("Number of genes", width = 8),
                          breaks = c(1,6,11,16),
                          limits = c(1,16)) +
-    scale_colour_gradient2(low = "#0a9396",
-                           mid = "#ee9b00",
+    scale_colour_gradient2(low = "#00b0b4",
+                           mid = "#ffae00",
                            midpoint = 8,
-                           high = "#bb3e03",
+                           high = "#ca0244",
                            name = stringr::str_wrap("Number of genes", width = 8),
                            breaks = c(1,6,11,16),
                            limits = c(1,16)) +
@@ -126,9 +157,9 @@ plotOccurrence <- function(occurrence_matrix, species_order, speciesNames_toPlot
 }
 
 
-#######################
-#     ACTUAL CODE     #
-#######################
+###################################
+#     GENERATE MATRIX TO PLOT     #
+###################################
 
 # plot SRG occurrence with also outgroups
 species_order_withOUT <- as.factor(c("Hsap", "Dmel", "Cele",
@@ -145,8 +176,8 @@ gene_order <- as.factor(c("Dmrt-1L", "Dmrt-3", "Dmrt-2", "Dmrt-4/5", "dmrt5",
                           "Sox-H", "Sox-D", "Sox-B1/2", "Sox-C", "Sox-F", "Sox-E",   
                           "foxZ", "Fox-OG2/NA", "Fox-O", "Fox-P", "Fox-J2/3", "Fox-OG13/NA", "Fox-N2/3", "Fox-OG16/NA", "Fox-N1/4", "Fox-J1", "Fox-OG15/NA", "Fox-Q2", "Fox-OG28/NA", "Fox-G", "Fox-L2", "Fox-L1", "Fox-C", "Fox-F", "Fox-H", "Fox-E", "Fox-D", "Fox-OG39/NA", "Fox-B", "Fox-A"))
 
-occurrence_matrix_withOUT <- compute_occurrenceMatrix("06_possvm_orthology/01_plot_occurrence/possvm_orthology_all_withOUT.tsv",
-                                                      species_order_withOUT)
+occurrence_matrix_withOUT <- compute_occurrenceMatrix(occurrence_data, species_order_withOUT)
+
 # remove dmrt-1l from Cele
 occurrence_matrix_withOUT["3","Dmrt-1L"] <- 0
 
@@ -167,6 +198,11 @@ occurrence_matrix_withOUT <- occurrence_matrix_withOUT %>%
   dplyr::mutate(sum = rowSums(dplyr::across(c("Sox-B11", "Sox-B1"))), .keep = "unused")
 names(occurrence_matrix_withOUT)[36] <- "Sox-B1/2"
 
+
+############################
+#     PLOT OCCURRENCES     #
+############################
+
 plot_withOUT <- plotOccurrence(occurrence_matrix_withOUT, species_order_withOUT, species_fullNames, gene_order)
 
 plot_withOUT
@@ -178,25 +214,18 @@ legend <- ggpubr::get_legend(plot_withOUT)
 plot_withOUT <- plot_withOUT + guides(colour = "none", fill = "none")
 
 
-ggsave("06_possvm_orthology/01_plot_occurrence/SRGs_occurrence.png",
-       plot = plot_withOUT, device = "png",
-       dpi = 300, height = 10, width = 8, units = ("in"), bg = 'transparent')
+######################
+#     PLOT TREES     #
+######################
 
-ggsave("06_possvm_orthology/01_plot_occurrence/SRGs_occurrence.pdf",
-       plot = plot_withOUT, device = "pdf",
-       dpi = 300, height = 10, width = 8, units = ("in"), bg = 'transparent')
-
-
-# load species tree
-speciesTree_data <- read.tree("00_input/species_tree_ALL.nwk")
+# species tree
 speciesTree_plot <- ggtree(speciesTree_data) +
   # geom_tiplab(angle = 45, offset = 1, size = 2) +
   ggpubr::theme_transparent() 
 speciesTree_plot
 
 
-# load gene trees
-dmrtTree_data <- read.tree("06_possvm_orthology/01_plot_occurrence/dmrt_tree_essential.txt")
+# gene trees
 dmrtTree_plot <- ggtree(dmrtTree_data) +
   # geom_tiplab() +
   coord_flip() +
@@ -205,8 +234,6 @@ dmrtTree_plot <- ggtree(dmrtTree_data) +
 
 dmrtTree_plot
 
-soxTree_data <- read.tree("06_possvm_orthology/01_plot_occurrence/sox_tree_essential.txt") %>%
-  ape::drop.tip(c("soxOG1", "soxOG0"))
 soxTree_plot <- ggtree(soxTree_data) +
   # geom_tiplab() +
   coord_flip() +
@@ -215,8 +242,6 @@ soxTree_plot <- ggtree(soxTree_data) +
 
 soxTree_plot
 
-foxTree_data <- read.tree("06_possvm_orthology/01_plot_occurrence/fox_tree_essential.txt") %>%
-  ape::drop.tip("foxK")
 foxTree_plot <- ggtree(foxTree_data) +
   # geom_tiplab() +
   coord_flip() +
@@ -224,6 +249,10 @@ foxTree_plot <- ggtree(foxTree_data) +
   theme(plot.margin = unit(c(0, 0, 0, 0), "points"))
 
 foxTree_plot
+
+######################
+#     PLOT PANEL     #
+######################
 
 # plot panel
 empty_plot <- ggplot() + theme_void()
@@ -250,10 +279,14 @@ panel_full <- ggpubr::ggarrange(panel_speciesTree, plot_withOUT, legend, panel_g
 
 panel_full
 
-ggsave("06_possvm_orthology/01_plot_occurrence/SRGs_occurrence_panel.png",
-       plot = panel_full, device = "png",
-       dpi = 300, height = 12, width = 9, units = ("in"), bg = 'transparent')
 
-ggsave("06_possvm_orthology/01_plot_occurrence/SRGs_occurrence_panel.pdf",
+########################
+#     SAVE OUTPUTS     #
+########################
+
+write.table(occurrence_matrix_withOUT[,-c(34,35)], file = occurrence_matrix_withOutgroups,
+            quote = FALSE, sep = "\t", row.names = FALSE)
+
+ggsave(SRGs_occurrence_panel,
        plot = panel_full, device = "pdf",
        dpi = 300, height = 12, width = 9, units = ("in"), bg = 'transparent')
