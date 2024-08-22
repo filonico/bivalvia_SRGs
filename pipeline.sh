@@ -237,7 +237,7 @@ mv 13_distribution_divergence/models_perOrthogroup.tsv_replaced 13_distribution_
 
 # prepare directory with symlinks to alignments
 bash scripts/30_prepare_R_directory.sh 2> /dev/null
-sed -E '/disco/ s/^/13_distribution_divergence\/01_input_alignments\//' 13_distribution_divergence/models_perOrthogroup_Rformatted.tsv
+sed -Ei '/disco/ s/^/13_distribution_divergence\/01_input_alignments\//' 13_distribution_divergence/models_perOrthogroup_Rformatted.tsv
 
 # plot the distribution of amino acid divergence
 # REQUIRES: conda_envs/R_env.yml

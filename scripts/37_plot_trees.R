@@ -11,6 +11,10 @@ library(ggplot2)
 plot.tree <- function(input_filename, output_filename, output_height, output_width) {
   
   tree <- read.tree(file = input_filename)
+
+  tree$tip.label <- ifelse(grepl("Hsap|Cele|Dmel", tree$tip.label),
+                           paste0("*", tree$tip.label),
+                           tree$tip.label)
   
   tree.plot <- ggtree(tree, size = 0.2) +
     
@@ -43,13 +47,13 @@ plot.tree <- function(input_filename, output_filename, output_height, output_wid
 #####################
 
 dmrt.tree <- plot.tree("06_possvm_orthology/dmrt_ALL_reduced_aligned_trim04.faa.treefile.ortholog_groups.newick",
-                       "06_possvm_orthology/02_plot_trees/dmrt_tree.pdf",
+                       "06_possvm_orthology/02_plot_trees/supp_fig_S1.pdf",
                        12, 9)
 
 sox.tree <- plot.tree("06_possvm_orthology/sox_ALL_reduced_aligned_trim04.faa_rooted.treefile.ortholog_groups.newick",
-                      "06_possvm_orthology/02_plot_trees/sox_tree.pdf",
+                      "06_possvm_orthology/02_plot_trees/supp_fig_S2.pdf",
                       24, 12)
 
 fox.tree <- plot.tree("06_possvm_orthology/fox_ALL_reduced_aligned_trim04.faa_rooted.treefile.ortholog_groups.newick",
-                      "06_possvm_orthology/02_plot_trees/fox_tree.pdf",
+                      "06_possvm_orthology/02_plot_trees/supp_fig_S3.pdf",
                       60, 15)

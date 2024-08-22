@@ -183,13 +183,14 @@ joined_data <- left_join(diversity_data, gene_conversion, by = join_by(gene == V
 
 joined_data
 
-joined_data[nrow(joined_data) + 1,] <- list(NA, NA, NA, "dmrt5", NA)
-joined_data[nrow(joined_data) + 1,] <- list(NA, NA, NA, "foxZ", NA)
+joined_data[nrow(joined_data) + 1,] <- list(NA, NA, NA, NA, NA, "dmrt5", NA)
+joined_data[nrow(joined_data) + 1,] <- list(NA, NA, NA, NA, NA, "foxZ", NA)
 
 # remove one Sox-B1/2 gene
 joined_data <- joined_data[-6,]
 
 joined_data$quant <- as.factor(joined_data$quant)
+joined_data$median <- as.numeric(joined_data$median)
 
 
 #######################################
