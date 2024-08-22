@@ -1,5 +1,3 @@
-#!/usr/bin/env Rscript
-
 library(tidyr)
 library(dplyr)
 library(ggplot2)
@@ -23,9 +21,12 @@ diversity_file <- "13_distribution_divergence/distance_median_values.tsv"
 # gene names conversion tables
 file_paths <- list.files(path = "./10_SRG_decomposition/", pattern = "*conversion.tsv", full.names = TRUE)
 
-# occurrence table
-occurrence_data <- read.table("06_possvm_orthology/01_plot_occurrence/occurrence_matrix_withOutgroups.tsv",
-                              header = TRUE, sep = "\t", check.names = FALSE)
+# # occurrence table
+# occurrence_data <- read.table("occurrence_matrix_withOutgroups.tsv",
+#                               header = TRUE, sep = "\t", check.names = FALSE)
+
+# 200 random trees
+random_trees_table <- read.table("12_model_selection/01_random_trees_forR.tsv", header = FALSE, sep = "\t")
 
 
 ############################
@@ -34,6 +35,22 @@ occurrence_data <- read.table("06_possvm_orthology/01_plot_occurrence/occurrence
 
 diversity_panel <- "13_distribution_divergence/02_plot_diversity/diversity_panel.pdf"
 
+correlation_panel <- "13_distribution_divergence/02_plot_diversity/correlations.pdf"
+
+
+#####################
+#     FUNCTIONS     #
+#####################
+
+median_patristic_distance <- function(tree) {
+  
+  # compute pairwise tip-to-tip distances
+  dist <- adephylo::distTips(tree, tips = "all", method = "patristic")
+  
+  dist_list <- dist[1:length(dist)]
+  
+  return(median(dist_list))
+}
 
 ##########################
 #     PLOT GENE TREE     #
@@ -159,38 +176,38 @@ gene_conversion <- gene_conversion %>%
 gene_conversion
 
 # rename genes
-diversity_data <- diversity_data %>%
+diversity_data_SRGs <- diversity_data %>%
   filter(stringr::str_detect(gene, stringr::regex("dmrt|sox|fox", ignore_case = TRUE))) %>%
   dplyr::mutate(gene = stringr::str_extract(gene, "[^/]+$")) %>%
   dplyr::mutate(gene = stringr::str_extract(gene, "^[^_]+_[^_]+_[^_]+"))
 
-diversity_data
+diversity_data_SRGs
 
 # define species to keep
 species_toKeep <- c("Sbro","Airc","Apec","Amar","Cflu","Cvir","Cpli","Csin","Dpol","Hbia","Lorb","Mchi","Cgig","Mmar","Mner","Mmer","Pyes","Mmod","Mare","Mgal","Oedu","Pgen","Pmax","Pvir","Ppur","Poku","Pmar","Pcor","Pstr","Rdec","Rphi","Sglo","Scon","Sgra","Tgra","Tsqu")
 
-# get counts of genes
-gene_counts <- occurrence_data %>%
-  filter(species %in% species_toKeep) %>%
-  pivot_longer(cols = names(occurrence_data[,-1]), names_to = "gene") %>%
-  aggregate(value ~ gene, FUN = sum)
+# # get counts of genes
+# gene_counts <- occurrence_data %>%
+#   filter(species %in% species_toKeep) %>%
+#   pivot_longer(cols = names(occurrence_data[,-1]), names_to = "gene") %>%
+#   aggregate(value ~ gene, FUN = sum)
 
 # create a joined dataset
-joined_data <- left_join(diversity_data, gene_conversion, by = join_by(gene == V1)) %>%
+joined_data_SRGs <- left_join(diversity_data_SRGs, gene_conversion, by = join_by(gene == V1)) %>%
   drop_na() %>%
-  left_join(setNames(gene_counts, c("gene", "sum")), by = join_by(V2 == gene)) %>%
+  # left_join(setNames(gene_counts, c("gene", "sum")), by = join_by(V2 == gene)) %>%
   rename(gene_names = V2, disco_genes = gene)
 
-joined_data
+joined_data_SRGs
 
-joined_data[nrow(joined_data) + 1,] <- list(NA, NA, NA, NA, NA, "dmrt5", NA)
-joined_data[nrow(joined_data) + 1,] <- list(NA, NA, NA, NA, NA, "foxZ", NA)
+joined_data_SRGs$quant <- as.factor(joined_data_SRGs$quant)
+joined_data_SRGs$median <- as.numeric(joined_data_SRGs$median)
+
+joined_data_SRGs[nrow(joined_data_SRGs) + 1,] <- list(NA, NA, NA, NA, NA, "dmrt5")
+joined_data_SRGs[nrow(joined_data_SRGs) + 1,] <- list(NA, NA, NA, NA, NA, "foxZ")
 
 # remove one Sox-B1/2 gene
-joined_data <- joined_data[-6,]
-
-joined_data$quant <- as.factor(joined_data$quant)
-joined_data$median <- as.numeric(joined_data$median)
+joined_data_SRGs <- joined_data_SRGs[-6,]
 
 
 #######################################
@@ -202,11 +219,11 @@ gene_order <- as.factor(c("Dmrt-1L", "Dmrt-3", "Dmrt-2", "Dmrt-4/5", "dmrt5",
                           "Sox-H", "Sox-D", "Sox-B1/2", "Sox-C", "Sox-F", "Sox-E",
                           "foxZ", "Fox-OG2/NA", "Fox-O", "Fox-P", "Fox-J2/3", "Fox-OG13/NA", "Fox-N2/3", "Fox-OG16/NA", "Fox-N1/4", "Fox-J1", "Fox-OG15/NA", "Fox-Q2", "Fox-OG28/NA", "Fox-G", "Fox-L2", "Fox-L1", "Fox-C", "Fox-F", "Fox-E", "Fox-D", "Fox-OG39/NA", "Fox-B", "Fox-A"))
 
-gene_order_toplot <- factor(joined_data$gene_names,
+gene_order_toplot <- factor(joined_data_SRGs$gene_names,
                             levels = gene_order)
 
 # plot median diversity (remove one Fox-B1/2, which is a duplicate)
-plot_points <- joined_data %>%
+plot_points <- joined_data_SRGs %>%
   # filter(stringr::str_detect(gene_names, "Sox")) %>%
   
   ggplot(aes(y = median, x = gene_order_toplot, colour = quant, fill = quant)) +
@@ -214,7 +231,7 @@ plot_points <- joined_data %>%
   geom_segment(aes(y = -Inf, x = gene_order_toplot, yend = median, xend = gene_order_toplot),
                col = "#706d73", alpha = 0.3, linewidth = 0.8) +
   
-  geom_point(aes(size = sum),
+  geom_point(aes(size = species),
              shape = 21, stroke = 1.5) +
   
   geom_text(aes(y = median, x = gene_order_toplot), label = gene_order_toplot,
@@ -245,8 +262,8 @@ plot_points <- joined_data %>%
                     guide = "none") +
   
   scale_size_continuous(range = c(5, 17),
-                        breaks = c(17, 74),
-                        name = "Quantiles Number of genes") +
+                        breaks = c(min(joined_data_SRGs$species, na.rm = TRUE), max(joined_data_SRGs$species, na.rm = TRUE)),
+                        name = "Quantiles Number of species") +
   
   # guides(colour = guide_legend(title = "Quantiles")) +
   
@@ -289,6 +306,62 @@ final_panel <- ggpubr::ggarrange(ggpubr::ggarrange(plot_density, plot_points,
 final_panel
 
 
+######################################################
+#     COMPUTE PAIRWISE DISTANCES IN RANDOM TRESS     #
+######################################################
+
+random_trees <- read.tree(text = random_trees_table$V2, keep.multi = TRUE, tree.names = random_trees_table$V1)
+
+patristic_distance <- stack(lapply(random_trees, function(x) median_patristic_distance(x)))
+names(patristic_distance) <- c("branch", "gene")
+
+
+#############################
+#     PLOT CORRELATIONS     #
+#############################
+
+labeller <- c("length" = "B) Alignment length",
+              "species" = "C) Number of species",
+              "branch" = "A) Tip-to-tip distances of\n200 random trees")
+
+correlation_plots <- diversity_data %>%
+  drop_na() %>%
+  filter(species >= 17) %>%
+  mutate(gene = stringr::str_remove(gene, "13_distribution_divergence/01_input_alignments/")) %>%
+  full_join(patristic_distance, by = "gene") %>%
+  
+  select(c(length, species, median, branch)) %>%
+  pivot_longer(cols = -c(median), names_to = "statistics") %>%
+  
+  
+  ggplot(aes(x = median, y = value)) +
+  
+  geom_jitter(shape = 16, col = "grey90", height = 0.5, width = 0.5) +
+  
+  geom_smooth(method = "lm", linewidth = 0.8, col = "#818181", fill = alpha("#818181", 0.3)) +
+  
+  ggpubr::stat_cor(method = "pearson", size = 4) +
+  
+  scale_x_continuous(limits = c(0, 5), breaks = seq(0, 5, 1)) +
+  
+  facet_wrap(~statistics, scales = "free", labeller = as_labeller(labeller)) +
+  
+  xlab("Median amino acid divergence") +
+  ylab("") +
+  
+  theme_minimal() +
+  theme(aspect.ratio = 1,
+        strip.text = element_text(face = "bold", hjust = 0),
+        panel.grid.minor.y = element_blank(),
+        panel.grid.minor.x = element_blank(),
+        axis.line = element_line(linewidth = 0.5),
+        axis.text.y = element_text(size = 8),
+        axis.title = element_text(size = 8, face = "bold"),
+        strip.placement = "outside",
+        legend.position = "none")
+
+correlation_plots
+
 ########################
 #     SAVE OUTPUTS     #
 ########################
@@ -296,4 +369,9 @@ final_panel
 ggsave(diversity_panel,
        plot = final_panel, device = "pdf",
        dpi = 300, height = 9, width = 12, units = ("in"), bg = 'transparent')
+
+ggsave(correlation_panel,
+       plot = correlation_plots, device = "pdf",
+       dpi = 300, height = 5, width = 12, units = ("in"), bg = 'transparent')
+
 
