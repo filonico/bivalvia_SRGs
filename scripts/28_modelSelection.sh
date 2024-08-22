@@ -31,3 +31,6 @@ for i in $(find 11_SRG_alignments/*trim.faa 09_orthogroup_alignments_withoutSglo
 done
 
 iqtree2 -S 12_model_selection/01_random_trees -m TESTNEW --mset $MODELS -T AUTO
+
+grep AA 12_model_selection/01_random_trees.iqtree | awk -F " " '{print $2}' > 12_model_selection/01_random_trees.ls
+paste 12_model_selection/01_random_trees.ls 12_model_selection/01_random_trees.treefile > 12_model_selection/01_random_trees_forR.tsv
