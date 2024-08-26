@@ -35,7 +35,7 @@ random_trees_table <- read.table("12_model_selection/01_random_trees_forR.tsv", 
 
 diversity_panel <- "13_distribution_divergence/02_plot_diversity/diversity_panel.pdf"
 
-correlation_panel <- "13_distribution_divergence/02_plot_diversity/correlations.pdf"
+correlation_panel <- "13_distribution_divergence/02_plot_diversity/correlations.png"
 
 
 #####################
@@ -207,7 +207,7 @@ joined_data_SRGs[nrow(joined_data_SRGs) + 1,] <- list(NA, NA, NA, NA, NA, "dmrt5
 joined_data_SRGs[nrow(joined_data_SRGs) + 1,] <- list(NA, NA, NA, NA, NA, "foxZ")
 
 # remove one Sox-B1/2 gene
-joined_data_SRGs <- joined_data_SRGs[-6,]
+joined_data_SRGs <- joined_data_SRGs[-4,]
 
 
 #######################################
@@ -269,7 +269,8 @@ plot_points <- joined_data_SRGs %>%
   
   theme_minimal() +
   theme(axis.title.y = element_blank(),
-        axis.text.y = element_text(size = 8),
+        axis.text.y = element_blank(),
+        axis.line.y = element_blank(),
         axis.text.x = element_blank(),
         panel.grid.major.x = element_blank(),
         panel.grid.minor.x = element_blank(),
@@ -323,21 +324,25 @@ names(patristic_distance) <- c("branch", "gene")
 labeller <- c("length" = "B) Alignment length",
               "species" = "C) Number of species",
               "branch" = "A) Tip-to-tip distances of\n200 random trees")
-
-correlation_plots <- diversity_data %>%
+tibble_to_plot <- diversity_data %>%
   drop_na() %>%
   filter(species >= 17) %>%
   mutate(gene = stringr::str_remove(gene, "13_distribution_divergence/01_input_alignments/")) %>%
   full_join(patristic_distance, by = "gene") %>%
+  mutate(color = case_when(
+    grepl("dmrt|sox|fox", gene) ~ "0",
+    TRUE ~ "1")) %>%
+  select(c(length, species, median, branch, color)) %>%
+  pivot_longer(cols = -c(color, median), names_to = "statistics")
   
-  select(c(length, species, median, branch)) %>%
-  pivot_longer(cols = -c(median), names_to = "statistics") %>%
   
+correlation_plots <- ggplot(tibble_to_plot, aes(x = median, y = value)) +
   
-  ggplot(aes(x = median, y = value)) +
+  geom_jitter(data = filter(tibble_to_plot, color == "1"), col = "grey90", shape = 16, height = 0.5, width = 0.5) +
   
-  geom_jitter(shape = 16, col = "grey90", height = 0.5, width = 0.5) +
+  geom_point(data = filter(tibble_to_plot, color == "0"), col = alpha("black", 0.6), shape = 16) +
   
+  ggnewscale::new_scale_color() +
   geom_smooth(method = "lm", linewidth = 0.8, col = "#818181", fill = alpha("#818181", 0.3)) +
   
   ggpubr::stat_cor(method = "pearson", size = 4) +
@@ -373,5 +378,3 @@ ggsave(diversity_panel,
 ggsave(correlation_panel,
        plot = correlation_plots, device = "pdf",
        dpi = 300, height = 5, width = 12, units = ("in"), bg = 'transparent')
-
-
