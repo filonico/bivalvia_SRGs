@@ -1,0 +1,51 @@
+#!/bin/bash
+
+if [ -f 11_SRG_alignments/discarded_orthogroups_after_trimming.ls ]; then
+	rm -f 11_SRG_alignments/discarded_orthogroups_after_trimming.ls
+fi
+
+if [ -f 11_SRG_alignments/align_trim_orthogroups.log ]; then
+	rm -f 11_SRG_alignments/align_trim_orthogroups.log
+fi
+	
+
+while read i; do
+	
+	j="$(echo $i | awk -F " " '{print $1}')"
+		
+	OUT_DIR="11_SRG_alignments/"
+	ALN_OUT=""$OUT_DIR""$j"_aligned"
+	TRIM_OUT=""$ALN_OUT"_trim"
+	LOG_OUT=""$TRIM_OUT".log"
+	
+	echo -e Dealing with "$j"...$"\n"$"\t"Aligning with CLustalW...
+	
+	# align nucleotide sequences on the basis of amino acid alignemnt with CLustalW
+	translatorx -i "$OUT_DIR""$j".fna -o "$ALN_OUT" -p C -t T 2> "$LOG_OUT"
+
+	echo -e $"\t"Trimming with TrimAl...
+
+	# trim amino acid alignemnt
+	trimal -in "$ALN_OUT".aa_ali.fasta -out "$TRIM_OUT".faa -gt 0.4 -resoverlap 0.5 -seqoverlap 50 2>> "$LOG_OUT"
+
+	# trim nucleotide alignment
+	trimal -in "$ALN_OUT".aa_ali.fasta -backtrans "$OUT_DIR""$j".fna -out "$TRIM_OUT".fna -gt 0.4 -resoverlap 0.5 -seqoverlap 50 2>> "$LOG_OUT"
+
+	# check if after trimming the number of species is still greater than of equal to 9 (half); else, remove the trimmed file and keep track
+	NUM_SP="$(grep -c ">" "$TRIM_OUT".fna)"
+
+	echo -e $"\t"$NUM_SP survived after trimming...
+
+	if [ "$NUM_SP" -lt 9 ]; then
+
+		echo "$j" >> "$OUT_DIR"discarded_orthogroups_after_trimming.ls
+		
+		rm -f "$TRIM_OUT"*
+
+		echo -e $"\t"Orthogroup removed...
+
+	fi
+
+	echo -e DONE$"\n"
+
+done <11_SRG_alignments/decomposed_orthogroups.tsv | tee -a 11_SRG_alignments/align_trim_orthogroups.log

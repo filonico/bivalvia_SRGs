@@ -1,0 +1,1 @@
+DMRT C1 genes have not been recovered by hmmsearch because they only posses a DMRT-like domain (PF15791), which is a C-terminal domain found on eukaryotic proteins for doublesex-and mab-3-related transcription factors C1 and C2. This is not the DM DNA-binding region. The family is all disorder and low-complexity.
