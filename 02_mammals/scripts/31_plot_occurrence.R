@@ -16,7 +16,8 @@ occurrence_data <- "06_possvm_orthology/01_plot_occurrence/possvm_orthology_all_
 speciesTree_data <- read.tree(file = "00_input/species_tree_ALL.nwk")
 dmrtTree_data <- read.tree(text = "(Dmrt-B1,((Dmrt-2,Dmrt-C2),(Dmrt-3,(Dmrt-1,(Dmrt-A1,Dmrt-A2)))));")
 soxTree_data <- read.tree(text = "(Sox-18,(Sox-17,(Sox-7,((Sox-8,(Sox-9,Sox-10)),((Sox-30,(Sox-5,(Sox-13,Sox-6))),((Sox-4,(Sox-12,Sox-11)),(Sox-15,((Sox-3,Sry),(Sox-1,(Sox-2,(Sox-14,Sox-21)))))))))));")
-foxTree_data <- read.tree(text = "(Fox-M1,(((Fox-O6,(Fox-O3/O3B,(Fox-O1,Fox-O4))),(((Fox-J3,Fox-J2),(Fox-J1,(Fox-K2,Fox-K1))),((Fox-P3,(Fox-P1,(Fox-P4,Fox-P2))),((Fox-N3,Fox-N2),(Fox-N1,(Fox-OG59/NA,Fox-R1)))))),((Fox-H1,(Fox-Q1,(Fox-F2,Fox-F1))),((((Fox-OG21/NA,Fox-L2),(Fox-I3,(Fox-I2,Fox-I1))),(Fox-L3,(Fox-L1,(Fox-S1,(Fox-C1,Fox-C2))))),(Fox-G1,(((Fox-B2,Fox-B1),(Hnf-3b/Fox-A2,(Hnf-3a/Fox-A1,Hnf-3g/Fox-A3))),((Fox-E3,Fox-E1),(Fox-D4,(Fox-D3,(Fox-D1,Fox-D2))))))))));")
+foxTree_data <- read.tree(text = "(Fox-M1,(((Fox-O6,(Fox-O3/O3B,(Fox-O1,Fox-O4))),(((Fox-J3,Fox-J2),(Fox-J1,(Fox-K2,Fox-K1))),((Fox-P3,(Fox-P1,(Fox-P4,Fox-P2))),((Fox-N3,Fox-N2),(Fox-N1,(Fox-OG59/NA,Fox-R1)))))),((Fox-H1,(Fox-Q1,(Fox-F2,Fox-F1))),((((Fox-OG21/NA,Fox-L2),(Fox-I3,(Fox-I2,Fox-I1))),(Fox-L3,(Fox-L1,(Fox-S1,(Fox-C1,Fox-C2))))),(Fox-G1,(((Fox-B2,Fox-B1),(Hnf-3b/Fox-A2,(Hnf-3a/Fox-A1,Hnf-3g/Fox-A3))),((Fox-E3,Fox-E1),(Fox-D4,(Fox-D3,(Fox-D1,Fox-D2))))))))));") %>%
+	ape::drop.tip(c("Fox-OG59/NA", "Fox-OG21/NA", "Fox-K2"))
 
 
 ############################
