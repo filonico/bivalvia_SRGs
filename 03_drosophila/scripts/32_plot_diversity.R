@@ -234,7 +234,7 @@ plot_points <- joined_data %>%
   
   theme_minimal() +
   theme(axis.title.y = element_blank(),
-	axis.line.y = elemebt_blank(),
+	axis.line.y = element_blank(),
         axis.text.y = element_blank(),
         axis.text.x = element_blank(),
         panel.grid.major.x = element_blank(),
