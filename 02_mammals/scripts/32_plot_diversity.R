@@ -30,6 +30,8 @@ occurrence_data <- read.table("06_possvm_orthology/01_plot_occurrence/occurrence
 #     OUTPUT FILENAMES     #
 ############################
 
+distance_median_values_quant <- "13_distribution_divergence/distance_median_values_quant.tsv"
+
 diversity_panel <- "13_distribution_divergence/02_plot_diversity/diversity_panel.pdf"
 
 
@@ -151,12 +153,12 @@ gene_conversion <- gene_conversion %>%
 gene_conversion
 
 # rename genes
-diversity_data <- diversity_data %>%
+diversity_data_SRGs <- diversity_data %>%
   filter(stringr::str_detect(gene, stringr::regex("dmrt|sox|fox", ignore_case = TRUE))) %>%
   dplyr::mutate(gene = stringr::str_extract(gene, "[^/]+$")) %>%
   dplyr::mutate(gene = stringr::str_extract(gene, "^[^_]+_[^_]+_[^_]+"))
 
-diversity_data
+diversity_data_SRGs
 
 # define species to keep
 species_toKeep <- c("Amel", "Bbub", "Bmus", "Casi", "Cdid", "Cdro", "Cimi", "Clup", "Cpor", "Csim", "Dnov", "Drot", "Emax", "Equa", "Hamp", "Hsap", "Lcat", "Mang", "Mdom", "Mjav", "Mmus", "Oafe", "Oana", "Opri", "Pafr", "Pgig", "Ptig", "Rfer", "Scar", "Shar", "Tman", "Ttru")
@@ -168,7 +170,7 @@ gene_counts <- occurrence_data %>%
   aggregate(value ~ gene, FUN = sum)
 
 # create a joined dataset
-joined_data <- left_join(diversity_data, gene_conversion, by = join_by(gene == V1)) %>%
+joined_data <- left_join(diversity_data_SRGs, gene_conversion, by = join_by(gene == V1)) %>%
   drop_na() %>%
   left_join(setNames(gene_counts, c("gene", "sum")), by = join_by(V2 == gene)) %>%
   rename(gene_names = V2, disco_genes = gene)
@@ -233,7 +235,8 @@ plot_points <- joined_data %>%
   
   theme_minimal() +
   theme(axis.title.y = element_blank(),
-        axis.text.y = element_text(size = 8),
+	axis.line.y = element_blank(),
+        axis.text.y = element_blank(),
         axis.text.x = element_blank(),
         panel.grid.major.x = element_blank(),
         panel.grid.minor.x = element_blank(),
@@ -273,6 +276,8 @@ final_panel
 ########################
 #     SAVE OUTPUTS     #
 ########################
+
+write.table(diversity_data, distance_median_values_quant, quote = FALSE, sep = "\t", row.names = FALSE)
 
 ggsave(diversity_panel,
        plot = final_panel, device = "pdf",

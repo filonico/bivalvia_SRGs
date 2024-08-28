@@ -33,6 +33,8 @@ random_trees_table <- read.table("12_model_selection/01_random_trees_forR.tsv", 
 #     OUTPUT FILENAMES     #
 ############################
 
+distance_median_values_quant <- "13_distribution_divergence/distance_median_values_quant.tsv"
+
 diversity_panel <- "13_distribution_divergence/02_plot_diversity/diversity_panel.pdf"
 
 correlation_panel <- "13_distribution_divergence/02_plot_diversity/correlations.png"
@@ -370,6 +372,8 @@ correlation_plots
 ########################
 #     SAVE OUTPUTS     #
 ########################
+
+write.table(diversity_data, distance_median_values_quant, quote = FALSE, sep = "\t", row.names = FALSE)
 
 ggsave(diversity_panel,
        plot = final_panel, device = "pdf",
