@@ -16,7 +16,7 @@ speciesTree_data <- read.tree(file = "00_input/species_tree_ALL.nwk")
 dmrtTree_data <- read.tree(text = "(Dmrt-1L,(Dmrt-3,(Dmrt-2,Dmrt-4/5)));")
 soxTree_data <- read.tree(text = "((Sox-OG0/NA,Sox-OG1/NA),(Sox-H,(Sox-D,(Sox-B1/2,(Sox-C,(Sox-F,Sox-E))))));") %>%
   ape::drop.tip(c("soxOG1", "soxOG0"))
-foxTree_data <- read.tree(text = "(Fox-OG2/NA,((Fox-O,Fox-P),(Fox-J2/3,(((Fox-OG13/NA,Fox-N2/3),(Fox-OG16/NA,Fox-N1/4)),((Fox-K,Fox-J1),((Fox-OG15/NA,(Fox-Q2,Fox-OG28/NA)),(Fox-G,(Fox-L2,((Fox-L1,Fox-C),((Fox-F,Fox-H),((Fox-E,Fox-D),(Fox-OG39/NA,(Fox-B,Fox-A)))))))))))));") %>%
+foxTree_data <- read.tree(text = "(Fox-M,((Fox-O,Fox-P),(Fox-J2/3,(((Fox-OG13/NA,Fox-N2/3),(Fox-OG16/NA,Fox-N1/4)),((Fox-K,Fox-J1),((Fox-OG15/NA,(Fox-Q2,Fox-OG28/NA)),(Fox-G,(Fox-L2,((Fox-L1,Fox-C),((Fox-F,Fox-H),((Fox-E,Fox-D),(Fox-AB,(Fox-B,Fox-A)))))))))))));") %>%
   ape::drop.tip("foxK")
 
 
@@ -49,6 +49,8 @@ compute_occurrenceMatrix <- function(possvm_orthology_file, species_order) {
     dplyr::arrange(factor(species, levels = species_order))
   
   # rename headers
+  names(gene_occurrence_filter) <- sub("fox_OG2:NA", "Fox-M", colnames(gene_occurrence_filter))
+  names(gene_occurrence_filter) <- sub("fox_OG39:NA", "Fox-AB", colnames(gene_occurrence_filter))
   names(gene_occurrence_filter) <- sub(":NA", "ogNA", colnames(gene_occurrence_filter))
   names(gene_occurrence_filter) <- sub("OG.+:", "", colnames(gene_occurrence_filter))
   names(gene_occurrence_filter) <- sub("_fkh.+/", "_", colnames(gene_occurrence_filter))
@@ -174,7 +176,7 @@ species_fullNames <- as.factor(c("H. sapiens", "D. melanogaster", "C. elegans",
 
 gene_order <- as.factor(c("Dmrt-1L", "Dmrt-3", "Dmrt-2", "Dmrt-4/5", "dmrt5",
                           "Sox-H", "Sox-D", "Sox-B1/2", "Sox-C", "Sox-F", "Sox-E",   
-                          "foxZ", "Fox-OG2/NA", "Fox-O", "Fox-P", "Fox-J2/3", "Fox-OG13/NA", "Fox-N2/3", "Fox-OG16/NA", "Fox-N1/4", "Fox-J1", "Fox-OG15/NA", "Fox-Q2", "Fox-OG28/NA", "Fox-G", "Fox-L2", "Fox-L1", "Fox-C", "Fox-F", "Fox-H", "Fox-E", "Fox-D", "Fox-OG39/NA", "Fox-B", "Fox-A"))
+                          "foxZ", "Fox-M", "Fox-O", "Fox-P", "Fox-J2/3", "Fox-OG13/NA", "Fox-N2/3", "Fox-OG16/NA", "Fox-N1/4", "Fox-J1", "Fox-OG15/NA", "Fox-Q2", "Fox-OG28/NA", "Fox-G", "Fox-L2", "Fox-L1", "Fox-C", "Fox-F", "Fox-H", "Fox-E", "Fox-D", "Fox-AB", "Fox-B", "Fox-A"))
 
 occurrence_matrix_withOUT <- compute_occurrenceMatrix(occurrence_data, species_order_withOUT)
 
