@@ -57,3 +57,11 @@ sox.tree <- plot.tree("06_possvm_orthology/sox_ALL_reduced_aligned_trim04.faa_ro
 fox.tree <- plot.tree("06_possvm_orthology/fox_ALL_reduced_aligned_trim04.faa_rooted.treefile.ortholog_groups.newick",
                       "06_possvm_orthology/02_plot_trees/supp_fig_S3.pdf",
                       60, 15)
+
+dmrt.onlyBivalves.tree <- plot.tree("05b_family_phylogeny_dmrt_onlyBivalves/dmrt_ALL_allBivalves_reduced_aligned_trim04.faa.rotted.treefile",
+                                    "05b_family_phylogeny_dmrt_onlyBivalves/supp_fig_S11.pdf",
+                                    9, 9)
+
+soxB1_soxB2.tree <- plot.tree("05c_family_phylogeny_soxB12_onlyBivalves/soxB12_aligned_trim04.faa.rooted.treefile",
+			      "05c_family_phylogeny_soxB12_onlyBivalves/supp_fig_S12.pdf",
+			      7, 7)
