@@ -65,3 +65,11 @@ dmrt.onlyBivalves.tree <- plot.tree("05b_family_phylogeny_dmrt_onlyBivalves/dmrt
 soxB1_soxB2.tree <- plot.tree("05c_family_phylogeny_soxB12_onlyBivalves/soxB12_aligned_trim04.faa.rooted.treefile",
 			      "05c_family_phylogeny_soxB12_onlyBivalves/supp_fig_S12.pdf",
 			      7, 7)
+
+foxM.tree <- plot.tree("05d_family_phylogey_foxMOP/foxMOP_aligned_trim04.faa.rooted.treefile",
+                       "05d_family_phylogey_foxMOP/supp_fig_S13.pdf",
+                       10, 7)
+
+foxY.tree <- plot.tree("05e_family_phylogeny_foxYZ/foxYZ_aligned_trim04.faa.rooted.treefile",
+                       "05e_family_phylogeny_foxYZ/supp_fig_S14.pdf",
+                       35, 7)

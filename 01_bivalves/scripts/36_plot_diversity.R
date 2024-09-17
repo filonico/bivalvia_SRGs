@@ -12,7 +12,7 @@ library(ggtree)
 dmrtTree_data <- read.tree(text = "(Dmrt-1L,(Dmrt-3,(Dmrt-2,Dmrt-4/5)));")
 soxTree_data <- read.tree(text = "((Sox-OG0/NA,Sox-OG1/NA),(Sox-H,(Sox-D,(Sox-B1/2,(Sox-C,(Sox-F,Sox-E))))));") %>%
   ape::drop.tip(c("soxOG1", "soxOG0"))
-foxTree_data <- read.tree(text = "(Fox-OG2/NA,((Fox-O,Fox-P),(Fox-J2/3,(((Fox-OG13/NA,Fox-N2/3),(Fox-OG16/NA,Fox-N1/4)),((Fox-K,Fox-J1),((Fox-OG15/NA,(Fox-Q2,Fox-OG28/NA)),(Fox-G,(Fox-L2,((Fox-L1,Fox-C),((Fox-F,Fox-H),((Fox-E,Fox-D),(Fox-OG39/NA,(Fox-B,Fox-A)))))))))))));") %>%
+foxTree_data <- read.tree(text = "(Fox-M,((Fox-O,Fox-P),(Fox-J2/3,(((Fox-OG13/NA,Fox-N2/3),(Fox-OG16/NA,Fox-N1/4)),((Fox-K,Fox-J1),((Fox-Q2b,(Fox-Q2,Fox-Q2c)),(Fox-G,(Fox-L2,((Fox-L1,Fox-C),((Fox-F,Fox-H),((Fox-E,Fox-D),(Fox-AB,(Fox-B,Fox-A)))))))))))));") %>%
   ape::drop.tip("foxK")
 
 # amino acid diversity file
@@ -169,7 +169,7 @@ gene_conversion <- gene_conversion %>%
          V2 = stringr::str_replace_all(V2, c("dmrt" = "Dmrt", "sox" = "Sox", "fox" = "Fox",
                                              "mab-23" = "Dmrt-1L", "2-3" = "2/3", "1-4" = "1/4", "Dmrt-5" = "Dmrt-4/5", "Sox-B1" = "Sox-B1/2",
                                              "Fox-J3" = "Fox-J2/3", "Fox-M" = "OG2/NA",
-                                             "og" = "/")),
+                                             "og" = "/", "OG39/NA" = "Fox-AB", "OG2/NA" = "Fox-M", "OG15/NA" = "Fox-Q2b", "OG28/NA" = "Fox-Q2c")),
          V2 = ifelse(stringr::str_detect(V1, stringr::regex("sox", ignore_case = TRUE)),
                      stringr::str_replace(V2, "OG", "Sox-OG"),
                      ifelse(stringr::str_detect(V1, stringr::regex("Fox", ignore_case = TRUE)),
@@ -219,7 +219,7 @@ joined_data_SRGs <- joined_data_SRGs[-4,]
 # set gene order to plot
 gene_order <- as.factor(c("Dmrt-1L", "Dmrt-3", "Dmrt-2", "Dmrt-4/5", "dmrt5",
                           "Sox-H", "Sox-D", "Sox-B1/2", "Sox-C", "Sox-F", "Sox-E",
-                          "foxZ", "Fox-OG2/NA", "Fox-O", "Fox-P", "Fox-J2/3", "Fox-OG13/NA", "Fox-N2/3", "Fox-OG16/NA", "Fox-N1/4", "Fox-J1", "Fox-OG15/NA", "Fox-Q2", "Fox-OG28/NA", "Fox-G", "Fox-L2", "Fox-L1", "Fox-C", "Fox-F", "Fox-E", "Fox-D", "Fox-OG39/NA", "Fox-B", "Fox-A"))
+                          "foxZ", "Fox-M", "Fox-O", "Fox-P", "Fox-J2/3", "Fox-OG13/NA", "Fox-N2/3", "Fox-OG16/NA", "Fox-N1/4", "Fox-J1", "Fox-Q2b", "Fox-Q2", "Fox-Q2c", "Fox-G", "Fox-L2", "Fox-L1", "Fox-C", "Fox-F", "Fox-E", "Fox-D", "Fox-AB", "Fox-B", "Fox-A"))
 
 gene_order_toplot <- factor(joined_data_SRGs$gene_names,
                             levels = gene_order)
