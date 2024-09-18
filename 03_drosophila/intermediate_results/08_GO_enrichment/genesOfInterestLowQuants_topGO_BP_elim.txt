@@ -1,0 +1,501 @@
+GO.ID	Term	Annotated	Significant	Expected	classicFisher
+GO:0002181	cytoplasmic translation	138	80	7.87	< 1e-30
+GO:0046718	viral entry into host cell	33	18	1.88	6.8e-13
+GO:0030866	cortical actin cytoskeleton organization	62	20	3.54	2.2e-09
+GO:0032482	Rab protein signal transduction	41	15	2.34	2.9e-09
+GO:0050821	protein stabilization	65	17	3.71	8.2e-08
+GO:0000278	mitotic cell cycle	507	74	28.93	1.6e-07
+GO:0045879	negative regulation of smoothened signal...	47	14	2.68	2.0e-07
+GO:0031623	receptor internalization	19	9	1.08	3.3e-07
+GO:0048488	synaptic vesicle endocytosis	36	12	2.05	3.8e-07
+GO:0000387	spliceosomal snRNP assembly	25	10	1.43	5.1e-07
+GO:0000398	mRNA splicing, via spliceosome	266	47	15.18	6.1e-07
+GO:0022618	ribonucleoprotein complex assembly	147	44	8.39	7.2e-07
+GO:0007269	neurotransmitter secretion	92	23	5.25	1.6e-06
+GO:0000281	mitotic cytokinesis	62	18	3.54	1.9e-06
+GO:0006886	intracellular protein transport	393	54	22.42	2.1e-06
+GO:0008360	regulation of cell shape	65	17	3.71	2.9e-06
+GO:0032436	positive regulation of proteasomal ubiqu...	58	14	3.31	3.3e-06
+GO:0007298	border follicle cell migration	110	20	6.28	3.4e-06
+GO:0042274	ribosomal small subunit biogenesis	93	23	5.31	5.7e-06
+GO:0035317	imaginal disc-derived wing hair organiza...	42	14	2.4	6.9e-06
+GO:0000028	ribosomal small subunit assembly	15	7	0.86	8.2e-06
+GO:0008355	olfactory learning	33	10	1.88	9.5e-06
+GO:0007528	neuromuscular junction development	152	27	8.67	2.0e-05
+GO:0022409	positive regulation of cell-cell adhesio...	23	8	1.31	2.4e-05
+GO:0070936	protein K48-linked ubiquitination	23	8	1.31	2.4e-05
+GO:0051491	positive regulation of filopodium assemb...	23	8	1.31	2.4e-05
+GO:0007395	dorsal closure, spreading of leading edg...	8	5	0.46	2.9e-05
+GO:0001732	formation of cytoplasmic translation ini...	18	7	1.03	3.5e-05
+GO:1901800	positive regulation of proteasomal prote...	71	20	4.05	3.7e-05
+GO:0070979	protein K11-linked ubiquitination	19	7	1.08	5.2e-05
+GO:0031629	synaptic vesicle fusion to presynaptic a...	9	5	0.51	6.2e-05
+GO:0046664	dorsal closure, amnioserosa morphology c...	9	5	0.51	6.2e-05
+GO:0032956	regulation of actin cytoskeleton organiz...	111	23	6.33	6.5e-05
+GO:0072659	protein localization to plasma membrane	70	19	3.99	6.8e-05
+GO:0045995	regulation of embryonic development	63	15	3.59	8.2e-05
+GO:0007349	cellularization	99	20	5.65	8.4e-05
+GO:0035159	regulation of tube length, open tracheal...	27	8	1.54	9.0e-05
+GO:0045880	positive regulation of smoothened signal...	42	10	2.4	9.5e-05
+GO:0009826	unidimensional cell growth	21	7	1.2	0.00011
+GO:0043066	negative regulation of apoptotic process	172	23	9.81	0.00011
+GO:0007265	Ras protein signal transduction	165	36	9.41	0.00012
+GO:0007212	dopamine receptor signaling pathway	10	5	0.57	0.00012
+GO:0007030	Golgi organization	98	16	5.59	0.00012
+GO:2000114	regulation of establishment of cell pola...	6	4	0.34	0.00014
+GO:0006616	SRP-dependent cotranslational protein ta...	6	4	0.34	0.00014
+GO:0035099	hemocyte migration	22	7	1.26	0.00015
+GO:0050905	neuromuscular process	22	7	1.26	0.00015
+GO:0050807	regulation of synapse organization	147	25	8.39	0.00017
+GO:0042052	rhabdomere development	37	9	2.11	0.00018
+GO:0070925	organelle assembly	473	64	26.99	0.00020
+GO:0019722	calcium-mediated signaling	38	9	2.17	0.00022
+GO:0060079	excitatory postsynaptic potential	17	6	0.97	0.00024
+GO:0008103	oocyte microtubule cytoskeleton polariza...	17	6	0.97	0.00024
+GO:0022416	chaeta development	74	13	4.22	0.00025
+GO:0007409	axonogenesis	304	37	17.34	0.00026
+GO:0033365	protein localization to organelle	371	44	21.17	0.00026
+GO:0048477	oogenesis	548	73	31.26	0.00026
+GO:0099173	postsynapse organization	39	9	2.23	0.00027
+GO:0007605	sensory perception of sound	66	12	3.77	0.00031
+GO:0002183	cytoplasmic translational initiation	25	11	1.43	0.00031
+GO:0006414	translational elongation	48	10	2.74	0.00031
+GO:0032456	endocytic recycling	48	13	2.74	0.00032
+GO:1905475	regulation of protein localization to me...	26	10	1.48	0.00033
+GO:0030334	regulation of cell migration	137	23	7.82	0.00033
+GO:0032435	negative regulation of proteasomal ubiqu...	12	5	0.68	0.00034
+GO:0007035	vacuolar acidification	18	6	1.03	0.00035
+GO:0033554	cellular response to stress	744	80	42.45	0.00042
+GO:0006446	regulation of translational initiation	33	8	1.88	0.00042
+GO:0090263	positive regulation of canonical Wnt sig...	50	10	2.85	0.00044
+GO:0007389	pattern specification process	472	60	26.93	0.00050
+GO:0007303	cytoplasmic transport, nurse cell to ooc...	13	5	0.74	0.00052
+GO:0000902	cell morphogenesis	540	74	30.81	0.00059
+GO:2001135	regulation of endocytic recycling	8	4	0.46	0.00061
+GO:0045451	pole plasm oskar mRNA localization	43	11	2.45	0.00063
+GO:0034314	Arp2/3 complex-mediated actin nucleation	20	6	1.14	0.00065
+GO:1902600	proton transmembrane transport	92	14	5.25	0.00067
+GO:0007416	synapse assembly	147	24	8.39	0.00069
+GO:0016060	metarhodopsin inactivation	4	3	0.23	0.00071
+GO:0035278	miRNA-mediated gene silencing by inhibit...	4	3	0.23	0.00071
+GO:0097753	membrane bending	4	3	0.23	0.00071
+GO:0032486	Rap protein signal transduction	4	3	0.23	0.00071
+GO:1903292	protein localization to Golgi membrane	4	3	0.23	0.00071
+GO:1903078	positive regulation of protein localizat...	14	5	0.8	0.00077
+GO:0070534	protein K63-linked ubiquitination	14	5	0.8	0.00077
+GO:0010507	negative regulation of autophagy	36	8	2.05	0.00078
+GO:0043523	regulation of neuron apoptotic process	36	8	2.05	0.00078
+GO:0010628	positive regulation of gene expression	275	35	15.69	0.00086
+GO:0006334	nucleosome assembly	21	6	1.2	0.00087
+GO:0043001	Golgi to plasma membrane protein transpo...	21	6	1.2	0.00087
+GO:0008582	regulation of synaptic assembly at neuro...	84	13	4.79	0.00088
+GO:0045595	regulation of cell differentiation	324	36	18.49	0.00101
+GO:0010592	positive regulation of lamellipodium ass...	9	4	0.51	0.00105
+GO:1990182	exosomal secretion	9	4	0.51	0.00105
+GO:1905168	positive regulation of double-strand bre...	15	5	0.86	0.00111
+GO:0001737	establishment of imaginal disc-derived w...	22	6	1.26	0.00114
+GO:0051495	positive regulation of cytoskeleton orga...	47	9	2.68	0.00117
+GO:0048814	regulation of dendrite morphogenesis	30	7	1.71	0.00122
+GO:0043161	proteasome-mediated ubiquitin-dependent ...	264	41	15.06	0.00129
+GO:0000226	microtubule cytoskeleton organization	382	47	21.79	0.00130
+GO:0048010	vascular endothelial growth factor recep...	39	8	2.23	0.00136
+GO:0030048	actin filament-based movement	39	8	2.23	0.00136
+GO:0030335	positive regulation of cell migration	88	13	5.02	0.00137
+GO:0016236	macroautophagy	144	18	8.22	0.00138
+GO:0006906	vesicle fusion	67	15	3.82	0.00139
+GO:0006887	exocytosis	106	21	6.05	0.00146
+GO:0030010	establishment of cell polarity	58	15	3.31	0.00149
+GO:0034332	adherens junction organization	31	7	1.77	0.00150
+GO:0002028	regulation of sodium ion transport	16	5	0.91	0.00153
+GO:0033044	regulation of chromosome organization	100	14	5.71	0.00155
+GO:1904951	positive regulation of establishment of ...	64	16	3.65	0.00158
+GO:0007291	sperm individualization	49	9	2.8	0.00159
+GO:0051489	regulation of filopodium assembly	33	12	1.88	0.00160
+GO:0031334	positive regulation of protein-containin...	40	8	2.28	0.00162
+GO:0006888	endoplasmic reticulum to Golgi vesicle-m...	79	12	4.51	0.00163
+GO:0008356	asymmetric cell division	93	15	5.31	0.00165
+GO:0061883	clathrin-dependent endocytosis involved ...	5	3	0.29	0.00169
+GO:0006538	glutamate catabolic process	5	3	0.29	0.00169
+GO:0007630	jump response	5	3	0.29	0.00169
+GO:0009987	cellular process	8110	570	462.7	0.00171
+GO:0006892	post-Golgi vesicle-mediated transport	53	13	3.02	0.00175
+GO:0007033	vacuole organization	77	14	4.39	0.00183
+GO:0008285	negative regulation of cell population p...	91	13	5.19	0.00188
+GO:0140694	non-membrane-bounded organelle assembly	244	35	13.92	0.00205
+GO:0044093	positive regulation of molecular functio...	286	40	16.32	0.00205
+GO:0048138	germ-line cyst encapsulation	17	5	0.97	0.00207
+GO:0031440	regulation of mRNA 3'-end processing	17	5	0.97	0.00207
+GO:0061057	peptidoglycan recognition protein signal...	61	10	3.48	0.00218
+GO:0035088	establishment or maintenance of apical/b...	33	7	1.88	0.00221
+GO:0034605	cellular response to heat	33	7	1.88	0.00221
+GO:0032507	maintenance of protein location in cell	25	6	1.43	0.00234
+GO:0050714	positive regulation of protein secretion	25	6	1.43	0.00234
+GO:0060627	regulation of vesicle-mediated transport	155	25	8.84	0.00239
+GO:0048707	instar larval or pupal morphogenesis	403	53	22.99	0.00243
+GO:0030307	positive regulation of cell growth	62	10	3.54	0.00247
+GO:0071560	cellular response to transforming growth...	11	4	0.63	0.00251
+GO:0051647	nucleus localization	43	8	2.45	0.00263
+GO:0032388	positive regulation of intracellular tra...	43	8	2.45	0.00263
+GO:0018105	peptidyl-serine phosphorylation	73	11	4.16	0.00268
+GO:0030031	cell projection assembly	238	36	13.58	0.00273
+GO:0033227	dsRNA transport	26	6	1.48	0.00290
+GO:0000470	maturation of LSU-rRNA	26	6	1.48	0.00290
+GO:0048489	synaptic vesicle transport	26	6	1.48	0.00290
+GO:0033157	regulation of intracellular protein tran...	44	8	2.51	0.00306
+GO:0090090	negative regulation of canonical Wnt sig...	44	8	2.51	0.00306
+GO:0002168	instar larval development	64	10	3.65	0.00315
+GO:0042391	regulation of membrane potential	103	18	5.88	0.00315
+GO:0031204	post-translational protein targeting to ...	6	3	0.34	0.00325
+GO:0035313	wound healing, spreading of epidermal ce...	6	3	0.34	0.00325
+GO:0000056	ribosomal small subunit export from nucl...	6	3	0.34	0.00325
+GO:0000083	regulation of transcription involved in ...	2	2	0.11	0.00325
+GO:0031036	myosin II filament assembly	2	2	0.11	0.00325
+GO:2001272	positive regulation of cysteine-type end...	2	2	0.11	0.00325
+GO:0002032	desensitization of G protein-coupled rec...	2	2	0.11	0.00325
+GO:0046663	dorsal closure, leading edge cell differ...	2	2	0.11	0.00325
+GO:0010623	programmed cell death involved in cell d...	86	12	4.91	0.00338
+GO:0006402	mRNA catabolic process	112	16	6.39	0.00343
+GO:0007444	imaginal disc development	514	61	29.33	0.00344
+GO:0030011	maintenance of cell polarity	19	5	1.08	0.00354
+GO:0007368	determination of left/right symmetry	19	5	1.08	0.00354
+GO:0006900	vesicle budding from membrane	27	6	1.54	0.00355
+GO:0046329	negative regulation of JNK cascade	27	6	1.54	0.00355
+GO:0032527	protein exit from endoplasmic reticulum	12	4	0.68	0.00359
+GO:0008090	retrograde axonal transport	12	4	0.68	0.00359
+GO:0006301	postreplication repair	12	4	0.68	0.00359
+GO:0140374	antiviral innate immune response	12	4	0.68	0.00359
+GO:0006470	protein dephosphorylation	121	15	6.9	0.00363
+GO:0007051	spindle organization	145	17	8.27	0.00366
+GO:0030718	germ-line stem cell population maintenan...	75	14	4.28	0.00390
+GO:0007552	metamorphosis	423	54	24.13	0.00394
+GO:0051960	regulation of nervous system development	196	21	11.18	0.00395
+GO:0031396	regulation of protein ubiquitination	53	11	3.02	0.00397
+GO:0007411	axon guidance	235	24	13.41	0.00400
+GO:0007435	salivary gland morphogenesis	77	11	4.39	0.00409
+GO:0016192	vesicle-mediated transport	618	90	35.26	0.00414
+GO:0009612	response to mechanical stimulus	37	7	2.11	0.00437
+GO:0045752	positive regulation of Toll signaling pa...	20	5	1.14	0.00450
+GO:0032387	negative regulation of intracellular tra...	20	5	1.14	0.00450
+GO:0030727	germarium-derived female germ-line cyst ...	20	5	1.14	0.00450
+GO:0031647	regulation of protein stability	103	24	5.88	0.00450
+GO:0002064	epithelial cell development	314	43	17.91	0.00454
+GO:0050953	sensory perception of light stimulus	57	9	3.25	0.00464
+GO:0009411	response to UV	47	8	2.68	0.00467
+GO:0008344	adult locomotory behavior	73	13	4.16	0.00477
+GO:0048024	regulation of mRNA splicing, via spliceo...	96	15	5.48	0.00477
+GO:0043410	positive regulation of MAPK cascade	87	14	4.96	0.00484
+GO:0042063	gliogenesis	90	12	5.13	0.00492
+GO:0002009	morphogenesis of an epithelium	557	70	31.78	0.00492
+GO:0033363	secretory granule organization	13	4	0.74	0.00496
+GO:0042797	tRNA transcription by RNA polymerase III	13	4	0.74	0.00496
+GO:0033120	positive regulation of RNA splicing	13	4	0.74	0.00496
+GO:2000765	regulation of cytoplasmic translation	13	4	0.74	0.00496
+GO:0090303	positive regulation of wound healing	13	4	0.74	0.00496
+GO:0051222	positive regulation of protein transport	54	12	3.08	0.00498
+GO:0007476	imaginal disc-derived wing morphogenesis	246	35	14.03	0.00502
+GO:0009896	positive regulation of catabolic process	213	40	12.15	0.00504
+GO:0051017	actin filament bundle assembly	38	7	2.17	0.00510
+GO:0007520	myoblast fusion	38	7	2.17	0.00510
+GO:0036099	female germ-line stem cell population ma...	29	6	1.65	0.00518
+GO:0016476	regulation of embryonic cell shape	29	6	1.65	0.00518
+GO:0050777	negative regulation of immune response	58	9	3.31	0.00522
+GO:0030032	lamellipodium assembly	23	10	1.31	0.00528
+GO:0043068	positive regulation of programmed cell d...	114	14	6.5	0.00529
+GO:0007309	oocyte axis specification	109	21	6.22	0.00530
+GO:0035148	tube formation	48	8	2.74	0.00533
+GO:0010591	regulation of lamellipodium assembly	16	7	0.91	0.00535
+GO:0003002	regionalization	432	49	24.65	0.00538
+GO:0001745	compound eye morphogenesis	278	38	15.86	0.00543
+GO:0001845	phagolysosome assembly	7	3	0.4	0.00544
+GO:1904668	positive regulation of ubiquitin protein...	7	3	0.4	0.00544
+GO:0051012	microtubule sliding	7	3	0.4	0.00544
+GO:0021955	central nervous system neuron axonogenes...	7	3	0.4	0.00544
+GO:0075522	IRES-dependent viral translational initi...	7	3	0.4	0.00544
+GO:0048172	regulation of short-term neuronal synapt...	7	3	0.4	0.00544
+GO:0070646	protein modification by small protein re...	69	10	3.94	0.00547
+GO:0030431	sleep	80	11	4.56	0.00550
+GO:0008283	cell population proliferation	357	42	20.37	0.00554
+GO:0009791	post-embryonic development	590	74	33.66	0.00554
+GO:0030042	actin filament depolymerization	21	5	1.2	0.00564
+GO:0010770	positive regulation of cell morphogenesi...	21	5	1.2	0.00564
+GO:0007010	cytoskeleton organization	663	95	37.83	0.00566
+GO:0030097	hemopoiesis	115	19	6.56	0.00595
+GO:1903322	positive regulation of protein modificat...	37	9	2.11	0.00604
+GO:0016567	protein ubiquitination	258	41	14.72	0.00605
+GO:0042067	establishment of ommatidial planar polar...	49	8	2.8	0.00606
+GO:1903313	positive regulation of mRNA metabolic pr...	49	8	2.8	0.00606
+GO:0035330	regulation of hippo signaling	70	10	3.99	0.00607
+GO:0046928	regulation of neurotransmitter secretion	30	6	1.71	0.00616
+GO:0046716	muscle cell cellular homeostasis	30	6	1.71	0.00616
+GO:0045787	positive regulation of cell cycle	93	12	5.31	0.00641
+GO:0032147	activation of protein kinase activity	14	4	0.8	0.00663
+GO:0016082	synaptic vesicle priming	14	4	0.8	0.00663
+GO:0140861	DNA repair-dependent chromatin remodelin...	14	4	0.8	0.00663
+GO:0051168	nuclear export	100	15	5.71	0.00674
+GO:1902905	positive regulation of supramolecular fi...	40	7	2.28	0.00683
+GO:0030239	myofibril assembly	40	7	2.28	0.00683
+GO:0046843	dorsal appendage formation	50	8	2.85	0.00687
+GO:0030837	negative regulation of actin filament po...	22	5	1.26	0.00696
+GO:0043122	regulation of I-kappaB kinase/NF-kappaB ...	22	5	1.26	0.00696
+GO:0008089	anterograde axonal transport	22	5	1.26	0.00696
+GO:0015986	proton motive force-driven ATP synthesis	22	5	1.26	0.00696
+GO:0048569	post-embryonic animal organ development	433	54	24.7	0.00712
+GO:0032869	cellular response to insulin stimulus	83	11	4.74	0.00727
+GO:0000381	regulation of alternative mRNA splicing,...	83	11	4.74	0.00727
+GO:0006360	transcription by RNA polymerase I	31	6	1.77	0.00728
+GO:0007465	R7 cell fate commitment	31	6	1.77	0.00728
+GO:0051052	regulation of DNA metabolic process	122	18	6.96	0.00730
+GO:0010508	positive regulation of autophagy	61	9	3.48	0.00731
+GO:0061077	chaperone-mediated protein folding	61	9	3.48	0.00731
+GO:0007420	brain development	143	16	8.16	0.00741
+GO:0042273	ribosomal large subunit biogenesis	67	13	3.82	0.00753
+GO:0007267	cell-cell signaling	521	74	29.72	0.00763
+GO:0007422	peripheral nervous system development	51	8	2.91	0.00775
+GO:0045807	positive regulation of endocytosis	41	7	2.34	0.00784
+GO:0043406	positive regulation of MAP kinase activi...	8	3	0.46	0.00834
+GO:0042752	regulation of circadian rhythm	108	13	6.16	0.00834
+GO:0009887	animal organ morphogenesis	716	84	40.85	0.00839
+GO:0001654	eye development	366	49	20.88	0.00847
+GO:0033209	tumor necrosis factor-mediated signaling...	23	5	1.31	0.00848
+GO:0007317	regulation of pole plasm oskar mRNA loca...	23	5	1.31	0.00848
+GO:0000165	MAPK cascade	183	31	10.44	0.00849
+GO:0035017	cuticle pattern formation	32	6	1.83	0.00854
+GO:0046328	regulation of JNK cascade	69	13	3.94	0.00861
+GO:0051092	positive regulation of NF-kappaB transcr...	15	4	0.86	0.00864
+GO:0051125	regulation of actin nucleation	15	4	0.86	0.00864
+GO:0001667	ameboidal-type cell migration	186	30	10.61	0.00921
+GO:0006942	regulation of striated muscle contractio...	3	2	0.17	0.00938
+GO:0150013	negative regulation of neuron projection...	3	2	0.17	0.00938
+GO:0035494	SNARE complex disassembly	3	2	0.17	0.00938
+GO:1990386	mitotic cleavage furrow ingression	3	2	0.17	0.00938
+GO:0048081	positive regulation of cuticle pigmentat...	3	2	0.17	0.00938
+GO:0071073	positive regulation of phospholipid bios...	3	2	0.17	0.00938
+GO:0045213	neurotransmitter receptor metabolic proc...	3	2	0.17	0.00938
+GO:0045200	establishment of neuroblast polarity	3	2	0.17	0.00938
+GO:2001171	positive regulation of ATP biosynthetic ...	3	2	0.17	0.00938
+GO:1990120	messenger ribonucleoprotein complex asse...	3	2	0.17	0.00938
+GO:0070481	nuclear-transcribed mRNA catabolic proce...	3	2	0.17	0.00938
+GO:0007202	activation of phospholipase C activity	3	2	0.17	0.00938
+GO:0046598	positive regulation of viral entry into ...	3	2	0.17	0.00938
+GO:1990592	protein K69-linked ufmylation	3	2	0.17	0.00938
+GO:1903475	mitotic actomyosin contractile ring asse...	3	2	0.17	0.00938
+GO:0005992	trehalose biosynthetic process	3	2	0.17	0.00938
+GO:0140673	co-transcriptional chromatin reassembly	3	2	0.17	0.00938
+GO:0003331	positive regulation of extracellular mat...	3	2	0.17	0.00938
+GO:0051726	regulation of cell cycle	376	38	21.45	0.00960
+GO:0031401	positive regulation of protein modificat...	124	25	7.07	0.00965
+GO:0050795	regulation of behavior	98	12	5.59	0.00967
+GO:0008154	actin polymerization or depolymerization	71	14	4.05	0.00971
+GO:0007029	endoplasmic reticulum organization	53	8	3.02	0.00976
+GO:0000086	G2/M transition of mitotic cell cycle	53	8	3.02	0.00976
+GO:2000112	regulation of cellular macromolecule bio...	227	30	12.95	0.00978
+GO:0016197	endosomal transport	136	24	7.76	0.00988
+GO:0019991	septate junction assembly	33	6	1.88	0.00995
+GO:1900425	negative regulation of defense response ...	33	6	1.88	0.00995
+GO:0034765	regulation of ion transmembrane transpor...	64	9	3.65	0.00999
+GO:0045727	positive regulation of translation	64	9	3.65	0.00999
+GO:0016358	dendrite development	154	21	8.79	0.01017
+GO:0031589	cell-substrate adhesion	43	7	2.45	0.01018
+GO:0016322	neuron remodeling	43	7	2.45	0.01018
+GO:0045931	positive regulation of mitotic cell cycl...	43	7	2.45	0.01018
+GO:0072499	photoreceptor cell axon guidance	24	5	1.37	0.01022
+GO:0030029	actin filament-based process	312	56	17.8	0.01041
+GO:0048666	neuron development	608	69	34.69	0.01054
+GO:0000956	nuclear-transcribed mRNA catabolic proce...	79	12	4.51	0.01055
+GO:0002684	positive regulation of immune system pro...	136	15	7.76	0.01061
+GO:0006417	regulation of translation	216	29	12.32	0.01090
+GO:1902414	protein localization to cell junction	16	4	0.91	0.01101
+GO:0048132	female germ-line stem cell asymmetric di...	16	4	0.91	0.01101
+GO:0070593	dendrite self-avoidance	16	4	0.91	0.01101
+GO:0001764	neuron migration	16	4	0.91	0.01101
+GO:0030041	actin filament polymerization	66	12	3.77	0.01116
+GO:0045184	establishment of protein localization	621	84	35.43	0.01127
+GO:0008104	protein localization	919	120	52.43	0.01141
+GO:0030036	actin cytoskeleton organization	298	53	17	0.01144
+GO:0008347	glial cell migration	34	6	1.94	0.01151
+GO:0010033	response to organic substance	627	65	35.77	0.01164
+GO:0104004	cellular response to environmental stimu...	93	14	5.31	0.01172
+GO:0071214	cellular response to abiotic stimulus	93	14	5.31	0.01172
+GO:0007098	centrosome cycle	77	10	4.39	0.01176
+GO:0007392	initiation of dorsal closure	11	5	0.63	0.01188
+GO:0006897	endocytosis	237	38	13.52	0.01189
+GO:0046959	habituation	9	3	0.51	0.01198
+GO:0009642	response to light intensity	9	3	0.51	0.01198
+GO:1904801	positive regulation of neuron remodeling	9	3	0.51	0.01198
+GO:0007394	dorsal closure, elongation of leading ed...	9	3	0.51	0.01198
+GO:0036296	response to increased oxygen levels	9	3	0.51	0.01198
+GO:0006734	NADH metabolic process	9	3	0.51	0.01198
+GO:0048140	male germ-line cyst encapsulation	9	3	0.51	0.01198
+GO:0070861	regulation of protein exit from endoplas...	9	3	0.51	0.01198
+GO:0001173	DNA-templated transcriptional start site...	9	3	0.51	0.01198
+GO:0001174	transcriptional start site selection at ...	9	3	0.51	0.01198
+GO:1903431	positive regulation of cell maturation	9	3	0.51	0.01198
+GO:0014042	positive regulation of neuron maturation	9	3	0.51	0.01198
+GO:0007601	visual perception	55	8	3.14	0.01215
+GO:0051962	positive regulation of nervous system de...	101	12	5.76	0.01216
+GO:0001934	positive regulation of protein phosphory...	78	15	4.45	0.01277
+GO:0048589	developmental growth	340	42	19.4	0.01280
+GO:0051090	regulation of DNA-binding transcription ...	50	10	2.85	0.01293
+GO:0022603	regulation of anatomical structure morph...	206	36	11.75	0.01293
+GO:0009628	response to abiotic stimulus	455	53	25.96	0.01297
+GO:0070727	cellular macromolecule localization	958	126	54.66	0.01298
+GO:0042551	neuron maturation	45	7	2.57	0.01300
+GO:0009725	response to hormone	174	22	9.93	0.01317
+GO:0032874	positive regulation of stress-activated ...	35	6	2	0.01324
+GO:0007455	eye-antennal disc morphogenesis	35	6	2	0.01324
+GO:0070304	positive regulation of stress-activated ...	35	6	2	0.01324
+GO:0034502	protein localization to chromosome	35	6	2	0.01324
+GO:0010632	regulation of epithelial cell migration	67	9	3.82	0.01334
+GO:0050778	positive regulation of immune response	127	14	7.25	0.01335
+GO:0060446	branching involved in open tracheal syst...	56	8	3.19	0.01349
+GO:0061842	microtubule organizing center localizati...	17	4	0.97	0.01376
+GO:0051642	centrosome localization	17	4	0.97	0.01376
+GO:0035293	chitin-based larval cuticle pattern form...	17	4	0.97	0.01376
+GO:0007426	tracheal outgrowth, open tracheal system	17	4	0.97	0.01376
+GO:0007629	flight behavior	17	4	0.97	0.01376
+GO:0120031	plasma membrane bounded cell projection ...	227	33	12.95	0.01379
+GO:0035220	wing disc development	340	46	19.4	0.01383
+GO:0030182	neuron differentiation	780	89	44.5	0.01396
+GO:0007034	vacuolar transport	79	10	4.51	0.01396
+GO:0031398	positive regulation of protein ubiquitin...	33	8	1.88	0.01415
+GO:0044837	actomyosin contractile ring organization	29	7	1.65	0.01422
+GO:2000377	regulation of reactive oxygen species me...	26	5	1.48	0.01440
+GO:0045197	establishment or maintenance of epitheli...	26	5	1.48	0.01440
+GO:0007430	terminal branching, open tracheal system	26	5	1.48	0.01440
+GO:0045500	sevenless signaling pathway	26	5	1.48	0.01440
+GO:0070252	actin-mediated cell contraction	26	5	1.48	0.01440
+GO:0040029	epigenetic regulation of gene expression	154	16	8.79	0.01456
+GO:0008064	regulation of actin polymerization or de...	58	11	3.31	0.01472
+GO:0043067	regulation of programmed cell death	332	44	18.94	0.01491
+GO:0016579	protein deubiquitination	57	8	3.25	0.01493
+GO:0007015	actin filament organization	173	34	9.87	0.01510
+GO:0072384	organelle transport along microtubule	36	6	2.05	0.01515
+GO:0006413	translational initiation	77	22	4.39	0.01533
+GO:0030707	ovarian follicle cell development	282	39	16.09	0.01547
+GO:1903047	mitotic cell cycle process	371	49	21.17	0.01561
+GO:0000904	cell morphogenesis involved in different...	443	55	25.27	0.01573
+GO:0016072	rRNA metabolic process	196	23	11.18	0.01595
+GO:0006367	transcription initiation at RNA polymera...	69	9	3.94	0.01600
+GO:0060271	cilium assembly	169	17	9.64	0.01618
+GO:1903900	regulation of viral life cycle	13	5	0.74	0.01626
+GO:0050792	regulation of viral process	13	5	0.74	0.01626
+GO:1905037	autophagosome organization	47	7	2.68	0.01635
+GO:0060628	regulation of ER to Golgi vesicle-mediat...	10	3	0.57	0.01640
+GO:0010803	regulation of tumor necrosis factor-medi...	10	3	0.57	0.01640
+GO:0048525	negative regulation of viral process	10	3	0.57	0.01640
+GO:1904799	regulation of neuron remodeling	10	3	0.57	0.01640
+GO:0001959	regulation of cytokine-mediated signalin...	10	3	0.57	0.01640
+GO:0045751	negative regulation of Toll signaling pa...	10	3	0.57	0.01640
+GO:0000338	protein deneddylation	10	3	0.57	0.01640
+GO:0097720	calcineurin-mediated signaling	10	3	0.57	0.01640
+GO:0048142	germarium-derived cystoblast division	10	3	0.57	0.01640
+GO:0060759	regulation of response to cytokine stimu...	10	3	0.57	0.01640
+GO:1903429	regulation of cell maturation	10	3	0.57	0.01640
+GO:0014041	regulation of neuron maturation	10	3	0.57	0.01640
+GO:0031023	microtubule organizing center organizati...	81	10	4.62	0.01646
+GO:0048754	branching morphogenesis of an epithelial...	58	8	3.31	0.01648
+GO:0051091	positive regulation of DNA-binding trans...	33	8	1.88	0.01661
+GO:0016482	cytosolic transport	83	14	4.74	0.01674
+GO:0030832	regulation of actin filament length	59	11	3.37	0.01675
+GO:0030834	regulation of actin filament depolymeriz...	18	4	1.03	0.01691
+GO:0071168	protein localization to chromatin	18	4	1.03	0.01691
+GO:0032970	regulation of actin filament-based proce...	115	25	6.56	0.01708
+GO:0017148	negative regulation of translation	98	14	5.59	0.01720
+GO:0007097	nuclear migration	37	6	2.11	0.01723
+GO:0006974	cellular response to DNA damage stimulus	332	36	18.94	0.01730
+GO:0090068	positive regulation of cell cycle proces...	70	9	3.99	0.01746
+GO:2001020	regulation of response to DNA damage sti...	63	12	3.59	0.01760
+GO:0198738	cell-cell signaling by wnt	151	25	8.61	0.01787
+GO:0043903	regulation of biological process involve...	7	4	0.4	0.01795
+GO:0046596	regulation of viral entry into host cell	7	4	0.4	0.01795
+GO:0052372	modulation by symbiont of entry into hos...	7	4	0.4	0.01795
+GO:0060623	regulation of chromosome condensation	4	2	0.23	0.01805
+GO:0051591	response to cAMP	4	2	0.23	0.01805
+GO:0003400	regulation of COPII vesicle coating	4	2	0.23	0.01805
+GO:0010560	positive regulation of glycoprotein bios...	4	2	0.23	0.01805
+GO:0032291	axon ensheathment in central nervous sys...	4	2	0.23	0.01805
+GO:0048611	embryonic ectodermal digestive tract dev...	4	2	0.23	0.01805
+GO:0048613	embryonic ectodermal digestive tract mor...	4	2	0.23	0.01805
+GO:0048615	embryonic anterior midgut (ectodermal) m...	4	2	0.23	0.01805
+GO:0051639	actin filament network formation	4	2	0.23	0.01805
+GO:0016062	adaptation of rhodopsin mediated signali...	4	2	0.23	0.01805
+GO:0060050	positive regulation of protein glycosyla...	4	2	0.23	0.01805
+GO:0036367	light adaption	4	2	0.23	0.01805
+GO:0035193	larval central nervous system remodeling	4	2	0.23	0.01805
+GO:1905806	regulation of synapse pruning	4	2	0.23	0.01805
+GO:1905808	positive regulation of synapse pruning	4	2	0.23	0.01805
+GO:0043525	positive regulation of neuron apoptotic ...	4	2	0.23	0.01805
+GO:0006116	NADH oxidation	4	2	0.23	0.01805
+GO:0007496	anterior midgut development	4	2	0.23	0.01805
+GO:0150146	cell junction disassembly	4	2	0.23	0.01805
+GO:1903901	negative regulation of viral life cycle	4	2	0.23	0.01805
+GO:0007441	anterior midgut (ectodermal) morphogenes...	4	2	0.23	0.01805
+GO:1903020	positive regulation of glycoprotein meta...	4	2	0.23	0.01805
+GO:1903003	positive regulation of protein deubiquit...	4	2	0.23	0.01805
+GO:0002031	G protein-coupled receptor internalizati...	4	2	0.23	0.01805
+GO:0071468	cellular response to acidic pH	4	2	0.23	0.01805
+GO:0090173	regulation of synaptonemal complex assem...	4	2	0.23	0.01805
+GO:0060269	centripetally migrating follicle cell mi...	4	2	0.23	0.01805
+GO:0090113	regulation of ER to Golgi vesicle-mediat...	4	2	0.23	0.01805
+GO:0060289	compartment boundary maintenance	4	2	0.23	0.01805
+GO:0010447	response to acidic pH	4	2	0.23	0.01805
+GO:1901216	positive regulation of neuron death	4	2	0.23	0.01805
+GO:1990845	adaptive thermogenesis	4	2	0.23	0.01805
+GO:0046597	negative regulation of viral entry into ...	4	2	0.23	0.01805
+GO:0000244	spliceosomal tri-snRNP complex assembly	4	2	0.23	0.01805
+GO:1905088	positive regulation of synaptonemal comp...	4	2	0.23	0.01805
+GO:0048210	Golgi vesicle fusion to target membrane	4	2	0.23	0.01805
+GO:0098883	synapse pruning	4	2	0.23	0.01805
+GO:0009059	macromolecule biosynthetic process	2038	212	116.27	0.01813
+GO:0061138	morphogenesis of a branching epithelium	59	8	3.37	0.01815
+GO:0035006	melanization defense response	48	7	2.74	0.01823
+GO:1903008	organelle disassembly	48	7	2.74	0.01823
+GO:2000241	regulation of reproductive process	118	16	6.73	0.01830
+GO:0010608	post-transcriptional regulation of gene ...	278	33	15.86	0.01847
+GO:0048699	generation of neurons	852	93	48.61	0.01885
+GO:0030100	regulation of endocytosis	69	12	3.94	0.01900
+GO:0048588	developmental cell growth	71	9	4.05	0.01903
+GO:0010631	epithelial cell migration	171	28	9.76	0.01924
+GO:0009953	dorsal/ventral pattern formation	133	14	7.59	0.01934
+GO:0012501	programmed cell death	453	57	25.84	0.01941
+GO:0007346	regulation of mitotic cell cycle	186	18	10.61	0.01951
+GO:0008543	fibroblast growth factor receptor signal...	38	6	2.17	0.01951
+GO:0044344	cellular response to fibroblast growth f...	38	6	2.17	0.01951
+GO:1903688	positive regulation of border follicle c...	38	6	2.17	0.01951
+GO:0000288	nuclear-transcribed mRNA catabolic proce...	38	6	2.17	0.01951
+GO:0071774	response to fibroblast growth factor	38	6	2.17	0.01951
+GO:0016318	ommatidial rotation	28	5	1.6	0.01960
+GO:0008363	larval chitin-based cuticle development	28	5	1.6	0.01960
+GO:0008293	torso signaling pathway	28	5	1.6	0.01960
+GO:0010941	regulation of cell death	335	44	19.11	0.01971
+GO:0048469	cell maturation	159	28	9.07	0.01981
+GO:2000113	negative regulation of cellular macromol...	100	14	5.71	0.01986
+GO:0001763	morphogenesis of a branching structure	60	8	3.42	0.01993
+GO:0022604	regulation of cell morphogenesis	98	25	5.59	0.01999
+GO:0006915	apoptotic process	382	45	21.79	0.02035
+GO:0051247	positive regulation of protein metabolic...	305	57	17.4	0.02036
+GO:0006911	phagocytosis, engulfment	19	4	1.08	0.02048
+GO:0047496	vesicle transport along microtubule	19	4	1.08	0.02048
+GO:0007294	germarium-derived oocyte fate determinat...	19	4	1.08	0.02048
+GO:0031145	anaphase-promoting complex-dependent cat...	19	4	1.08	0.02048
+GO:0021700	developmental maturation	195	31	11.13	0.02063
+GO:0001738	morphogenesis of a polarized epithelium	99	17	5.65	0.02077
+GO:0051240	positive regulation of multicellular org...	191	20	10.9	0.02092
+GO:0051301	cell division	357	50	20.37	0.02095
+GO:0090132	epithelium migration	172	28	9.81	0.02105
+GO:1902850	microtubule cytoskeleton organization in...	109	12	6.22	0.02123
+GO:0034976	response to endoplasmic reticulum stress	109	12	6.22	0.02123
+GO:0071902	positive regulation of protein serine/th...	19	6	1.08	0.02137
+GO:0051124	synaptic assembly at neuromuscular junct...	113	18	6.45	0.02141
+GO:0051881	regulation of mitochondrial membrane pot...	11	3	0.63	0.02161
+GO:1903706	regulation of hemopoiesis	11	3	0.63	0.02161
+GO:0038061	NIK/NF-kappaB signaling	11	3	0.63	0.02161
+GO:0043652	engulfment of apoptotic cell	11	3	0.63	0.02161
+GO:0060439	trachea morphogenesis	11	3	0.63	0.02161
+GO:0006896	Golgi to vacuole transport	11	3	0.63	0.02161
+GO:0090254	cell elongation involved in imaginal dis...	11	3	0.63	0.02161
+GO:0048542	lymph gland development	61	8	3.48	0.02183
+GO:0071695	anatomical structure maturation	160	28	9.13	0.02190
+GO:0010634	positive regulation of epithelial cell m...	39	6	2.23	0.02198
+GO:0035331	negative regulation of hippo signaling	39	6	2.23	0.02198
+GO:0045824	negative regulation of innate immune res...	39	6	2.23	0.02198

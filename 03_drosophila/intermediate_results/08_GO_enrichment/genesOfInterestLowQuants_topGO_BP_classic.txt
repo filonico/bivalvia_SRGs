@@ -1,0 +1,501 @@
+GO.ID	Term	Annotated	Significant	Expected	classicFisher
+GO:0002181	cytoplasmic translation	138	80	7.87	< 1e-30
+GO:0006412	translation	504	114	28.75	< 1e-30
+GO:0044085	cellular component biogenesis	1546	208	88.2	< 1e-30
+GO:0009987	cellular process	8110	570	462.7	< 1e-30
+GO:0043043	peptide biosynthetic process	549	114	31.32	< 1e-30
+GO:0043604	amide biosynthetic process	607	116	34.63	< 1e-30
+GO:0022607	cellular component assembly	1327	180	75.71	< 1e-30
+GO:0071840	cellular component organization or bioge...	3225	317	184	< 1e-30
+GO:0006518	peptide metabolic process	638	115	36.4	2.9e-30
+GO:0034645	cellular macromolecule biosynthetic proc...	721	123	41.14	4.6e-30
+GO:0044260	cellular macromolecule metabolic process	1666	201	95.05	1.8e-28
+GO:0043603	cellular amide metabolic process	742	118	42.33	6.1e-26
+GO:0016043	cellular component organization	3046	292	173.78	6.8e-26
+GO:0051641	cellular localization	1338	169	76.34	1.4e-25
+GO:0010467	gene expression	2621	260	149.54	2.2e-24
+GO:0019538	protein metabolic process	2565	255	146.34	6.7e-24
+GO:0022613	ribonucleoprotein complex biogenesis	356	73	20.31	1.4e-22
+GO:1901566	organonitrogen compound biosynthetic pro...	1080	139	61.62	1.9e-21
+GO:0009059	macromolecule biosynthetic process	2038	212	116.27	2.0e-21
+GO:0044271	cellular nitrogen compound biosynthetic ...	2095	215	119.53	5.1e-21
+GO:0071826	ribonucleoprotein complex subunit organi...	152	45	8.67	6.4e-21
+GO:0022618	ribonucleoprotein complex assembly	147	44	8.39	1.1e-20
+GO:0070727	cellular macromolecule localization	958	126	54.66	3.8e-20
+GO:0032502	developmental process	2931	268	167.22	9.1e-20
+GO:0043933	protein-containing complex organization	684	101	39.02	1.1e-19
+GO:0051649	establishment of localization in cell	919	121	52.43	2.3e-19
+GO:0044237	cellular metabolic process	4937	387	281.67	3.3e-19
+GO:0065003	protein-containing complex assembly	599	92	34.17	4.4e-19
+GO:0048856	anatomical structure development	2673	249	152.5	4.8e-19
+GO:0008104	protein localization	919	120	52.43	6.8e-19
+GO:0065007	biological regulation	4791	376	273.34	2.7e-18
+GO:0050789	regulation of biological process	4364	351	248.98	3.9e-18
+GO:0034641	cellular nitrogen compound metabolic pro...	3103	274	177.03	4.6e-18
+GO:0006996	organelle organization	1777	184	101.38	6.5e-18
+GO:1901564	organonitrogen compound metabolic proces...	3152	276	179.83	1.0e-17
+GO:0007010	cytoskeleton organization	663	95	37.83	1.3e-17
+GO:0009653	anatomical structure morphogenesis	1504	163	85.81	1.5e-17
+GO:0043170	macromolecule metabolic process	4498	356	256.62	2.9e-17
+GO:0016192	vesicle-mediated transport	618	90	35.26	3.8e-17
+GO:0046907	intracellular transport	792	105	45.19	5.7e-17
+GO:0007275	multicellular organism development	2229	212	127.17	1.3e-16
+GO:0051668	localization within membrane	252	52	14.38	1.9e-16
+GO:0033036	macromolecule localization	1168	134	66.64	3.0e-16
+GO:0048731	system development	1516	160	86.49	4.2e-16
+GO:0050794	regulation of cellular process	3956	320	225.7	5.3e-16
+GO:0051247	positive regulation of protein metabolic...	305	57	17.4	7.1e-16
+GO:0048513	animal organ development	1250	139	71.32	9.9e-16
+GO:0044249	cellular biosynthetic process	2569	230	146.57	4.4e-15
+GO:1901576	organic substance biosynthetic process	2615	233	149.19	4.5e-15
+GO:0007154	cell communication	2038	194	116.27	5.2e-15
+GO:0030154	cell differentiation	1729	172	98.64	6.8e-15
+GO:0048518	positive regulation of biological proces...	1972	189	112.51	7.2e-15
+GO:0030029	actin filament-based process	312	56	17.8	8.1e-15
+GO:0009058	biosynthetic process	2644	234	150.85	8.4e-15
+GO:0023052	signaling	1992	190	113.65	9.7e-15
+GO:0048869	cellular developmental process	1738	172	99.16	1.1e-14
+GO:0044000	movement in host	33	18	1.88	1.5e-14
+GO:0044409	entry into host	33	18	1.88	1.5e-14
+GO:0046718	viral entry into host cell	33	18	1.88	1.5e-14
+GO:0051701	biological process involved in interacti...	33	18	1.88	1.5e-14
+GO:0051128	regulation of cellular component organiz...	803	100	45.81	2.4e-14
+GO:0007049	cell cycle	828	102	47.24	2.5e-14
+GO:0048468	cell development	1340	142	76.45	2.5e-14
+GO:0000278	mitotic cell cycle	507	74	28.93	3.0e-14
+GO:0065008	regulation of biological quality	1345	142	76.74	3.5e-14
+GO:0045184	establishment of protein localization	621	84	35.43	3.9e-14
+GO:0051179	localization	2465	220	140.64	4.0e-14
+GO:0035556	intracellular signal transduction	738	94	42.1	4.1e-14
+GO:0009888	tissue development	997	115	56.88	4.6e-14
+GO:0030036	actin cytoskeleton organization	298	53	17	6.6e-14
+GO:0016032	viral process	67	24	3.82	8.6e-14
+GO:0060429	epithelium development	910	107	51.92	1.2e-13
+GO:0007267	cell-cell signaling	521	74	29.72	1.3e-13
+GO:0140352	export from cell	249	47	14.21	1.9e-13
+GO:0044403	biological process involved in symbiotic...	42	19	2.4	2.3e-13
+GO:0007163	establishment or maintenance of cell pol...	197	41	11.24	2.5e-13
+GO:0072657	protein localization to membrane	206	42	11.75	2.6e-13
+GO:0048522	positive regulation of cellular process	1758	169	100.3	3.1e-13
+GO:0019058	viral life cycle	48	20	2.74	3.6e-13
+GO:0007264	small GTPase mediated signal transductio...	185	39	10.55	6.3e-13
+GO:0048523	negative regulation of cellular process	1354	139	77.25	6.5e-13
+GO:0034330	cell junction organization	366	58	20.88	7.1e-13
+GO:0000902	cell morphogenesis	540	74	30.81	8.1e-13
+GO:0006807	nitrogen compound metabolic process	4893	363	279.16	9.4e-13
+GO:0051716	cellular response to stimulus	2311	205	131.85	1.0e-12
+GO:0032940	secretion by cell	233	44	13.29	1.2e-12
+GO:0051234	establishment of localization	2137	193	121.92	1.3e-12
+GO:0007265	Ras protein signal transduction	165	36	9.41	1.7e-12
+GO:0006397	mRNA processing	333	54	19	1.8e-12
+GO:0061136	regulation of proteasomal protein catabo...	89	26	5.08	1.9e-12
+GO:0032501	multicellular organismal process	3347	270	190.96	2.3e-12
+GO:0051049	regulation of transport	408	61	23.28	2.4e-12
+GO:0000375	RNA splicing, via transesterification re...	266	47	15.18	2.4e-12
+GO:0000377	RNA splicing, via transesterification re...	266	47	15.18	2.4e-12
+GO:0000398	mRNA splicing, via spliceosome	266	47	15.18	2.4e-12
+GO:0007165	signal transduction	1785	168	101.84	2.4e-12
+GO:0016071	mRNA metabolic process	432	63	24.65	3.1e-12
+GO:0032879	regulation of localization	557	74	31.78	3.8e-12
+GO:0048477	oogenesis	548	73	31.26	4.8e-12
+GO:0008152	metabolic process	5920	417	337.75	4.8e-12
+GO:0042176	regulation of protein catabolic process	124	30	7.07	7.8e-12
+GO:0006810	transport	2061	185	117.59	8.9e-12
+GO:0008380	RNA splicing	296	49	16.89	9.5e-12
+GO:0015031	protein transport	570	74	32.52	1.2e-11
+GO:0030865	cortical cytoskeleton organization	69	22	3.94	1.4e-11
+GO:0007281	germ cell development	667	82	38.05	1.5e-11
+GO:0009896	positive regulation of catabolic process	213	40	12.15	1.5e-11
+GO:0048583	regulation of response to stimulus	1126	118	64.24	1.6e-11
+GO:0051246	regulation of protein metabolic process	656	81	37.43	1.6e-11
+GO:0009894	regulation of catabolic process	362	55	20.65	1.6e-11
+GO:0046903	secretion	253	44	14.43	2.1e-11
+GO:0048519	negative regulation of biological proces...	1658	156	94.59	2.2e-11
+GO:0050808	synapse organization	293	48	16.72	2.3e-11
+GO:0070647	protein modification by small protein co...	348	53	19.85	3.5e-11
+GO:0016477	cell migration	361	54	20.6	4.6e-11
+GO:0007399	nervous system development	1161	119	66.24	5.4e-11
+GO:1903050	regulation of proteolysis involved in pr...	102	26	5.82	5.6e-11
+GO:0070925	organelle assembly	473	64	26.99	5.8e-11
+GO:0010646	regulation of cell communication	1030	109	58.76	6.2e-11
+GO:0023051	regulation of signaling	1030	109	58.76	6.2e-11
+GO:0009791	post-embryonic development	590	74	33.66	6.3e-11
+GO:0060341	regulation of cellular localization	233	41	13.29	7.2e-11
+GO:0009966	regulation of signal transduction	890	98	50.78	7.7e-11
+GO:0010604	positive regulation of macromolecule met...	1021	108	58.25	8.0e-11
+GO:0071705	nitrogen compound transport	778	89	44.39	9.0e-11
+GO:0009887	animal organ morphogenesis	716	84	40.85	9.2e-11
+GO:0050793	regulation of developmental process	741	86	42.28	9.3e-11
+GO:0030866	cortical actin cytoskeleton organization	62	20	3.54	9.4e-11
+GO:0044238	primary metabolic process	5248	375	299.41	9.9e-11
+GO:0030182	neuron differentiation	780	89	44.5	1.0e-10
+GO:0048729	tissue morphogenesis	573	72	32.69	1.1e-10
+GO:0007292	female gamete generation	597	74	34.06	1.1e-10
+GO:0009893	positive regulation of metabolic process	1121	115	63.96	1.2e-10
+GO:0022604	regulation of cell morphogenesis	98	25	5.59	1.3e-10
+GO:0007015	actin filament organization	173	34	9.87	1.5e-10
+GO:0006413	translational initiation	77	22	4.39	1.6e-10
+GO:0002009	morphogenesis of an epithelium	557	70	31.78	2.0e-10
+GO:0045732	positive regulation of protein catabolic...	93	24	5.31	2.4e-10
+GO:0048870	cell motility	421	58	24.02	2.4e-10
+GO:0007423	sensory organ development	456	61	26.02	2.7e-10
+GO:0032446	protein modification by small protein co...	284	45	16.2	3.1e-10
+GO:0022412	cellular process involved in reproductio...	798	89	45.53	3.4e-10
+GO:0050896	response to stimulus	3131	248	178.63	3.4e-10
+GO:0071704	organic substance metabolic process	5581	391	318.41	3.9e-10
+GO:0048699	generation of neurons	852	93	48.61	4.1e-10
+GO:0022008	neurogenesis	924	98	52.72	6.3e-10
+GO:0032880	regulation of protein localization	174	33	9.93	7.4e-10
+GO:0006396	RNA processing	659	77	37.6	7.5e-10
+GO:0007017	microtubule-based process	516	65	29.44	8.7e-10
+GO:0019222	regulation of metabolic process	2463	204	140.52	8.9e-10
+GO:0097435	supramolecular fiber organization	273	43	15.58	9.4e-10
+GO:0007269	neurotransmitter secretion	92	23	5.25	1.1e-09
+GO:0099643	signal release from synapse	92	23	5.25	1.1e-09
+GO:0006886	intracellular protein transport	393	54	22.42	1.2e-09
+GO:0042254	ribosome biogenesis	255	41	14.55	1.3e-09
+GO:0022603	regulation of anatomical structure morph...	206	36	11.75	1.3e-09
+GO:0042274	ribosomal small subunit biogenesis	93	23	5.31	1.4e-09
+GO:1901800	positive regulation of proteasomal prote...	71	20	4.05	1.4e-09
+GO:0016567	protein ubiquitination	258	41	14.72	1.8e-09
+GO:0051173	positive regulation of nitrogen compound...	931	97	53.12	2.0e-09
+GO:0044265	cellular macromolecule catabolic process	527	65	30.07	2.1e-09
+GO:0002165	instar larval or pupal development	504	63	28.75	2.2e-09
+GO:0031647	regulation of protein stability	103	24	5.88	2.3e-09
+GO:0003006	developmental process involved in reprod...	856	91	48.84	2.6e-09
+GO:0051301	cell division	357	50	20.37	2.6e-09
+GO:0007389	pattern specification process	472	60	26.93	2.9e-09
+GO:0032482	Rab protein signal transduction	41	15	2.34	2.9e-09
+GO:0030855	epithelial cell differentiation	371	51	21.17	3.4e-09
+GO:0030030	cell projection organization	732	81	41.76	3.5e-09
+GO:0043161	proteasome-mediated ubiquitin-dependent ...	264	41	15.06	3.6e-09
+GO:0023061	signal release	131	27	7.47	4.1e-09
+GO:0007276	gamete generation	864	91	49.29	4.1e-09
+GO:0045862	positive regulation of proteolysis	123	26	7.02	4.5e-09
+GO:0008589	regulation of smoothened signaling pathw...	83	21	4.74	4.7e-09
+GO:1990778	protein localization to cell periphery	83	21	4.74	4.7e-09
+GO:0032970	regulation of actin filament-based proce...	115	25	6.56	4.9e-09
+GO:0048609	multicellular organismal reproductive pr...	881	92	50.26	5.1e-09
+GO:0000281	mitotic cytokinesis	62	18	3.54	5.6e-09
+GO:0006897	endocytosis	237	38	13.52	5.6e-09
+GO:0032434	regulation of proteasomal ubiquitin-depe...	69	19	3.94	5.6e-09
+GO:0010498	proteasomal protein catabolic process	290	43	16.55	6.3e-09
+GO:0007224	smoothened signaling pathway	92	22	5.25	6.3e-09
+GO:0048193	Golgi vesicle transport	170	31	9.7	6.6e-09
+GO:0072659	protein localization to plasma membrane	70	19	3.99	7.2e-09
+GO:0048707	instar larval or pupal morphogenesis	403	53	22.99	7.9e-09
+GO:1905114	cell surface receptor signaling pathway ...	162	30	9.24	7.9e-09
+GO:0031329	regulation of cellular catabolic process	303	44	17.29	8.0e-09
+GO:0009886	post-embryonic animal morphogenesis	415	54	23.68	8.3e-09
+GO:1903052	positive regulation of proteolysis invol...	78	20	4.45	8.5e-09
+GO:0009057	macromolecule catabolic process	646	73	36.86	9.4e-09
+GO:0120036	plasma membrane bounded cell projection ...	711	78	40.56	1.0e-08
+GO:0012501	programmed cell death	453	57	25.84	1.1e-08
+GO:0001505	regulation of neurotransmitter levels	111	24	6.33	1.1e-08
+GO:0044248	cellular catabolic process	1032	102	58.88	1.3e-08
+GO:0007166	cell surface receptor signaling pathway	742	80	42.33	1.5e-08
+GO:0099536	synaptic signaling	321	45	18.31	1.6e-08
+GO:0007552	metamorphosis	423	54	24.13	1.6e-08
+GO:0033554	cellular response to stress	744	80	42.45	1.6e-08
+GO:0001654	eye development	366	49	20.88	1.7e-08
+GO:0048880	sensory system development	366	49	20.88	1.7e-08
+GO:0150063	visual system development	366	49	20.88	1.7e-08
+GO:0036211	protein modification process	1305	121	74.45	1.9e-08
+GO:0098876	vesicle-mediated transport to the plasma...	74	19	4.22	2.0e-08
+GO:0048666	neuron development	608	69	34.69	2.1e-08
+GO:0099537	trans-synaptic signaling	313	44	17.86	2.2e-08
+GO:0031401	positive regulation of protein modificat...	124	25	7.07	2.4e-08
+GO:0030163	protein catabolic process	440	55	25.1	2.5e-08
+GO:1903047	mitotic cell cycle process	371	49	21.17	2.6e-08
+GO:0060255	regulation of macromolecule metabolic pr...	2220	182	126.66	2.8e-08
+GO:0007444	imaginal disc development	514	61	29.33	2.9e-08
+GO:0000904	cell morphogenesis involved in different...	443	55	25.27	3.2e-08
+GO:0008219	cell death	467	57	26.64	3.2e-08
+GO:0035220	wing disc development	340	46	19.4	3.4e-08
+GO:0007268	chemical synaptic transmission	307	43	17.52	3.5e-08
+GO:0098916	anterograde trans-synaptic signaling	307	43	17.52	3.5e-08
+GO:0048569	post-embryonic animal organ development	433	54	24.7	3.6e-08
+GO:0044419	biological process involved in interspec...	518	61	29.55	3.9e-08
+GO:0000165	MAPK cascade	183	31	10.44	4.0e-08
+GO:0035317	imaginal disc-derived wing hair organiza...	42	14	2.4	4.0e-08
+GO:0046847	filopodium assembly	42	14	2.4	4.0e-08
+GO:0002183	cytoplasmic translational initiation	25	11	1.43	4.1e-08
+GO:0061640	cytoskeleton-dependent cytokinesis	102	22	5.82	4.8e-08
+GO:0032956	regulation of actin cytoskeleton organiz...	111	23	6.33	5.2e-08
+GO:0035315	hair cell differentiation	43	14	2.45	5.6e-08
+GO:0035316	non-sensory hair organization	43	14	2.45	5.6e-08
+GO:2000058	regulation of ubiquitin-dependent protei...	79	19	4.51	6.2e-08
+GO:0019941	modification-dependent protein catabolic...	370	48	21.11	6.4e-08
+GO:0030031	cell projection assembly	238	36	13.58	6.6e-08
+GO:0002064	epithelial cell development	314	43	17.91	6.8e-08
+GO:0031323	regulation of cellular metabolic process	2016	167	115.02	6.9e-08
+GO:0022402	cell cycle process	627	69	35.77	7.2e-08
+GO:0048469	cell maturation	159	28	9.07	7.8e-08
+GO:0008360	regulation of cell shape	65	17	3.71	8.2e-08
+GO:0050821	protein stabilization	65	17	3.71	8.2e-08
+GO:0070201	regulation of establishment of protein l...	105	22	5.99	8.3e-08
+GO:0048646	anatomical structure formation involved ...	492	58	28.07	8.3e-08
+GO:0031331	positive regulation of cellular cataboli...	179	30	10.21	8.4e-08
+GO:0007560	imaginal disc morphogenesis	362	47	20.65	8.6e-08
+GO:0048563	post-embryonic animal organ morphogenesi...	362	47	20.65	8.6e-08
+GO:0071695	anatomical structure maturation	160	28	9.13	8.9e-08
+GO:0006836	neurotransmitter transport	123	24	7.02	9.0e-08
+GO:0016050	vesicle organization	151	27	8.61	9.6e-08
+GO:0007528	neuromuscular junction development	152	27	8.67	1.1e-07
+GO:0044093	positive regulation of molecular functio...	286	40	16.32	1.1e-07
+GO:0043632	modification-dependent macromolecule cat...	377	48	21.51	1.2e-07
+GO:0051489	regulation of filopodium assembly	33	12	1.88	1.3e-07
+GO:0043067	regulation of programmed cell death	332	44	18.94	1.3e-07
+GO:0032989	cellular component morphogenesis	536	61	30.58	1.4e-07
+GO:0030162	regulation of proteolysis	224	34	12.78	1.4e-07
+GO:0035295	tube development	664	71	37.88	1.4e-07
+GO:0031325	positive regulation of cellular metaboli...	944	92	53.86	1.5e-07
+GO:0022414	reproductive process	1167	108	66.58	1.5e-07
+GO:0061024	membrane organization	357	46	20.37	1.5e-07
+GO:0010941	regulation of cell death	335	44	19.11	1.6e-07
+GO:0016070	RNA metabolic process	1996	164	113.88	1.7e-07
+GO:0021700	developmental maturation	195	31	11.13	1.8e-07
+GO:0000209	protein polyubiquitination	101	21	5.76	1.9e-07
+GO:0051603	proteolysis involved in protein cataboli...	407	50	23.22	1.9e-07
+GO:0060562	epithelial tube morphogenesis	431	52	24.59	1.9e-07
+GO:0045879	negative regulation of smoothened signal...	47	14	2.68	2.0e-07
+GO:0030032	lamellipodium assembly	23	10	1.31	2.0e-07
+GO:0001667	ameboidal-type cell migration	186	30	10.61	2.0e-07
+GO:0035239	tube morphogenesis	481	56	27.44	2.2e-07
+GO:0030707	ovarian follicle cell development	282	39	16.09	2.2e-07
+GO:0006914	autophagy	261	37	14.89	2.4e-07
+GO:0061919	process utilizing autophagic mechanism	261	37	14.89	2.4e-07
+GO:2000026	regulation of multicellular organismal d...	273	38	15.58	2.6e-07
+GO:0034329	cell junction assembly	209	32	11.92	2.7e-07
+GO:0007308	oocyte construction	112	22	6.39	2.7e-07
+GO:0035120	post-embryonic appendage morphogenesis	285	39	16.26	2.9e-07
+GO:0006139	nucleobase-containing compound metabolic...	2591	201	147.82	3.0e-07
+GO:0090304	nucleic acid metabolic process	2278	181	129.97	3.2e-07
+GO:0007297	ovarian follicle cell migration	122	23	6.96	3.2e-07
+GO:0009968	negative regulation of signal transducti...	438	52	24.99	3.2e-07
+GO:0031623	receptor internalization	19	9	1.08	3.3e-07
+GO:0051239	regulation of multicellular organismal p...	601	65	34.29	3.4e-07
+GO:0033043	regulation of organelle organization	415	50	23.68	3.5e-07
+GO:0032504	multicellular organism reproduction	1018	96	58.08	3.5e-07
+GO:0009056	catabolic process	1274	114	72.69	3.7e-07
+GO:0010631	epithelial cell migration	171	28	9.76	3.8e-07
+GO:0048488	synaptic vesicle endocytosis	36	12	2.05	3.8e-07
+GO:0140238	presynaptic endocytosis	36	12	2.05	3.8e-07
+GO:0040007	growth	428	51	24.42	3.8e-07
+GO:0140694	non-membrane-bounded organelle assembly	244	35	13.92	3.8e-07
+GO:1904951	positive regulation of establishment of ...	64	16	3.65	3.9e-07
+GO:0031344	regulation of cell projection organizati...	192	30	10.95	4.1e-07
+GO:0051171	regulation of nitrogen compound metaboli...	1977	161	112.79	4.2e-07
+GO:0051640	organelle localization	245	35	13.98	4.2e-07
+GO:0001745	compound eye morphogenesis	278	38	15.86	4.2e-07
+GO:1903829	positive regulation of protein localizat...	97	20	5.53	4.2e-07
+GO:0007472	wing disc morphogenesis	256	36	14.61	4.2e-07
+GO:0010256	endomembrane system organization	256	36	14.61	4.2e-07
+GO:0090132	epithelium migration	172	28	9.81	4.2e-07
+GO:0048749	compound eye development	335	43	19.11	4.3e-07
+GO:0048599	oocyte development	124	23	7.07	4.3e-07
+GO:0000226	microtubule cytoskeleton organization	382	47	21.79	4.4e-07
+GO:0009913	epidermal cell differentiation	57	15	3.25	4.4e-07
+GO:0006887	exocytosis	106	21	6.05	4.4e-07
+GO:0048737	imaginal disc-derived appendage developm...	301	40	17.17	4.4e-07
+GO:0009628	response to abiotic stimulus	455	53	25.96	4.6e-07
+GO:0007476	imaginal disc-derived wing morphogenesis	246	35	14.03	4.6e-07
+GO:0000387	spliceosomal snRNP assembly	25	10	1.43	5.1e-07
+GO:0097581	lamellipodium organization	25	10	1.43	5.1e-07
+GO:0040011	locomotion	457	53	26.07	5.2e-07
+GO:0050803	regulation of synapse structure or activ...	174	28	9.93	5.4e-07
+GO:0030010	establishment of cell polarity	58	15	3.31	5.6e-07
+GO:0080090	regulation of primary metabolic process	2018	163	115.13	5.8e-07
+GO:0007349	cellularization	99	20	5.65	6.0e-07
+GO:0120031	plasma membrane bounded cell projection ...	227	33	12.95	6.0e-07
+GO:0016197	endosomal transport	136	24	7.76	6.4e-07
+GO:0048736	appendage development	306	40	17.46	6.8e-07
+GO:0048667	cell morphogenesis involved in neuron di...	400	48	22.82	6.9e-07
+GO:0000910	cytokinesis	118	22	6.73	7.1e-07
+GO:0035114	imaginal disc-derived appendage morphoge...	295	39	16.83	7.1e-07
+GO:0048592	eye morphogenesis	295	39	16.83	7.1e-07
+GO:0090596	sensory organ morphogenesis	295	39	16.83	7.1e-07
+GO:0007309	oocyte axis specification	109	21	6.22	7.2e-07
+GO:0006511	ubiquitin-dependent protein catabolic pr...	365	45	20.82	7.3e-07
+GO:0050807	regulation of synapse organization	147	25	8.39	7.7e-07
+GO:1905475	regulation of protein localization to me...	26	10	1.48	7.8e-07
+GO:0010648	negative regulation of cell communicatio...	465	53	26.53	9.0e-07
+GO:0006725	cellular aromatic compound metabolic pro...	2725	207	155.47	9.3e-07
+GO:2000145	regulation of cell motility	139	24	7.93	9.6e-07
+GO:0023057	negative regulation of signaling	466	53	26.59	9.6e-07
+GO:0099504	synaptic vesicle cycle	102	20	5.82	9.8e-07
+GO:0071310	cellular response to organic substance	405	48	23.11	9.9e-07
+GO:0048812	neuron projection morphogenesis	406	48	23.16	1.1e-06
+GO:0035107	appendage morphogenesis	300	39	17.12	1.1e-06
+GO:0090130	tissue migration	180	28	10.27	1.1e-06
+GO:0043408	regulation of MAPK cascade	160	26	9.13	1.1e-06
+GO:0099003	vesicle-mediated transport in synapse	103	20	5.88	1.2e-06
+GO:0007028	cytoplasm organization	69	16	3.94	1.2e-06
+GO:0048585	negative regulation of response to stimu...	494	55	28.18	1.2e-06
+GO:0006950	response to stress	1392	120	79.42	1.2e-06
+GO:0120039	plasma membrane bounded cell projection ...	408	48	23.28	1.2e-06
+GO:0198738	cell-cell signaling by wnt	151	25	8.61	1.3e-06
+GO:0048858	cell projection morphogenesis	410	48	23.39	1.4e-06
+GO:0046483	heterocycle metabolic process	2676	203	152.67	1.4e-06
+GO:0009994	oocyte differentiation	142	24	8.1	1.4e-06
+GO:0071702	organic substance transport	994	92	56.71	1.5e-06
+GO:0010033	response to organic substance	627	65	35.77	1.5e-06
+GO:0048589	developmental growth	340	42	19.4	1.6e-06
+GO:0010647	positive regulation of cell communicatio...	462	52	26.36	1.7e-06
+GO:0009790	embryo development	538	58	30.69	1.7e-06
+GO:0045995	regulation of embryonic development	63	15	3.59	1.8e-06
+GO:0023056	positive regulation of signaling	463	52	26.42	1.8e-06
+GO:0032456	endocytic recycling	48	13	2.74	1.8e-06
+GO:0080135	regulation of cellular response to stres...	164	26	9.36	1.8e-06
+GO:0031175	neuron projection development	465	52	26.53	2.0e-06
+GO:0016055	Wnt signaling pathway	145	24	8.27	2.1e-06
+GO:0060627	regulation of vesicle-mediated transport	155	25	8.84	2.1e-06
+GO:0044087	regulation of cellular component biogene...	308	39	17.57	2.1e-06
+GO:0002376	immune system process	504	55	28.75	2.2e-06
+GO:0040012	regulation of locomotion	176	27	10.04	2.2e-06
+GO:0043412	macromolecule modification	1425	121	81.3	2.4e-06
+GO:0019953	sexual reproduction	1005	92	57.34	2.4e-06
+GO:0036465	synaptic vesicle recycling	42	12	2.4	2.4e-06
+GO:0006915	apoptotic process	382	45	21.79	2.6e-06
+GO:0008544	epidermis development	73	16	4.16	2.6e-06
+GO:0032990	cell part morphogenesis	419	48	23.91	2.6e-06
+GO:0030334	regulation of cell migration	137	23	7.82	2.7e-06
+GO:0007416	synapse assembly	147	24	8.39	2.7e-06
+GO:0003002	regionalization	432	49	24.65	2.7e-06
+GO:0033365	protein localization to organelle	371	44	21.17	2.8e-06
+GO:0030111	regulation of Wnt signaling pathway	109	20	6.22	2.9e-06
+GO:0032436	positive regulation of proteasomal ubiqu...	58	14	3.31	3.3e-06
+GO:0051130	positive regulation of cellular componen...	302	38	17.23	3.3e-06
+GO:0007298	border follicle cell migration	110	20	6.28	3.4e-06
+GO:0006906	vesicle fusion	67	15	3.82	4.0e-06
+GO:1901360	organic cyclic compound metabolic proces...	2799	208	159.69	4.5e-06
+GO:0048584	positive regulation of response to stimu...	568	59	32.41	4.5e-06
+GO:0051656	establishment of organelle localization	184	27	10.5	5.3e-06
+GO:0008283	cell population proliferation	357	42	20.37	5.8e-06
+GO:0090174	organelle membrane fusion	69	15	3.94	5.9e-06
+GO:0042981	regulation of apoptotic process	286	36	16.32	6.0e-06
+GO:0006892	post-Golgi vesicle-mediated transport	53	13	3.02	6.0e-06
+GO:0010628	positive regulation of gene expression	275	35	15.69	6.3e-06
+GO:0061025	membrane fusion	78	16	4.45	6.5e-06
+GO:0008306	associative learning	46	12	2.62	6.9e-06
+GO:0060491	regulation of cell projection assembly	54	13	3.08	7.5e-06
+GO:0120032	regulation of plasma membrane bounded ce...	54	13	3.08	7.5e-06
+GO:0000028	ribosomal small subunit assembly	15	7	0.86	8.2e-06
+GO:0061564	axon development	326	39	18.6	8.4e-06
+GO:0080134	regulation of response to stress	375	43	21.39	8.6e-06
+GO:0019094	pole plasm mRNA localization	47	12	2.68	8.8e-06
+GO:0008355	olfactory learning	33	10	1.88	9.5e-06
+GO:0042255	ribosome assembly	40	11	2.28	9.6e-06
+GO:0007409	axonogenesis	304	37	17.34	9.7e-06
+GO:0051650	establishment of vesicle localization	72	15	4.11	1.0e-05
+GO:0007316	pole plasm RNA localization	48	12	2.74	1.1e-05
+GO:2000060	positive regulation of ubiquitin-depende...	64	14	3.65	1.1e-05
+GO:0002520	immune system development	129	21	7.36	1.2e-05
+GO:0048534	hematopoietic or lymphoid organ developm...	129	21	7.36	1.2e-05
+GO:0009605	response to external stimulus	1016	90	57.97	1.2e-05
+GO:0099500	vesicle fusion to plasma membrane	11	6	0.63	1.2e-05
+GO:0007391	dorsal closure	91	17	5.19	1.3e-05
+GO:0010591	regulation of lamellipodium assembly	16	7	0.91	1.4e-05
+GO:2000112	regulation of cellular macromolecule bio...	227	30	12.95	1.4e-05
+GO:0009967	positive regulation of signal transducti...	420	46	23.96	1.4e-05
+GO:0006417	regulation of translation	216	29	12.32	1.4e-05
+GO:0060810	intracellular mRNA localization involved...	57	13	3.25	1.4e-05
+GO:0032386	regulation of intracellular transport	92	17	5.25	1.5e-05
+GO:0051050	positive regulation of transport	196	27	11.18	1.7e-05
+GO:0042391	regulation of membrane potential	103	18	5.88	1.8e-05
+GO:0060828	regulation of canonical Wnt signaling pa...	94	17	5.36	2.0e-05
+GO:0043085	positive regulation of catalytic activit...	220	29	12.55	2.0e-05
+GO:0051648	vesicle localization	76	15	4.34	2.0e-05
+GO:0045451	pole plasm oskar mRNA localization	43	11	2.45	2.0e-05
+GO:1902903	regulation of supramolecular fiber organ...	114	19	6.5	2.2e-05
+GO:0051493	regulation of cytoskeleton organization	177	25	10.1	2.3e-05
+GO:0043254	regulation of protein-containing complex...	105	18	5.99	2.4e-05
+GO:0000003	reproduction	1314	109	74.97	2.4e-05
+GO:0022409	positive regulation of cell-cell adhesio...	23	8	1.31	2.4e-05
+GO:0051491	positive regulation of filopodium assemb...	23	8	1.31	2.4e-05
+GO:0070936	protein K48-linked ubiquitination	23	8	1.31	2.4e-05
+GO:0010562	positive regulation of phosphorus metabo...	115	19	6.56	2.5e-05
+GO:0030097	hemopoiesis	115	19	6.56	2.5e-05
+GO:0045937	positive regulation of phosphate metabol...	115	19	6.56	2.5e-05
+GO:0010468	regulation of gene expression	1786	140	101.9	2.5e-05
+GO:1903311	regulation of mRNA metabolic process	167	24	9.53	2.5e-05
+GO:0016049	cell growth	168	24	9.58	2.8e-05
+GO:0001934	positive regulation of protein phosphory...	78	15	4.45	2.8e-05
+GO:0007314	oocyte anterior/posterior axis specifica...	78	15	4.45	2.8e-05
+GO:0007395	dorsal closure, spreading of leading edg...	8	5	0.46	2.9e-05
+GO:0046530	photoreceptor cell differentiation	213	28	12.15	2.9e-05
+GO:0051403	stress-activated MAPK cascade	88	16	5.02	3.2e-05
+GO:0045785	positive regulation of cell adhesion	45	11	2.57	3.3e-05
+GO:0009719	response to endogenous stimulus	321	37	18.31	3.3e-05
+GO:0001754	eye photoreceptor cell differentiation	192	26	10.95	3.4e-05
+GO:0006403	RNA localization	192	26	10.95	3.4e-05
+GO:1902531	regulation of intracellular signal trans...	422	45	24.08	3.4e-05
+GO:0001732	formation of cytoplasmic translation ini...	18	7	1.03	3.5e-05
+GO:1902743	regulation of lamellipodium organization	18	7	1.03	3.5e-05
+GO:0031098	stress-activated protein kinase signalin...	89	16	5.08	3.7e-05
+GO:0043069	negative regulation of programmed cell d...	182	25	10.38	3.7e-05
+GO:0006898	receptor-mediated endocytosis	71	14	4.05	3.9e-05
+GO:0008154	actin polymerization or depolymerization	71	14	4.05	3.9e-05
+GO:0001738	morphogenesis of a polarized epithelium	99	17	5.65	3.9e-05
+GO:0051222	positive regulation of protein transport	54	12	3.08	4.0e-05
+GO:0050684	regulation of mRNA processing	109	18	6.22	4.0e-05
+GO:0001751	compound eye photoreceptor cell differen...	183	25	10.44	4.1e-05
+GO:0060548	negative regulation of cell death	183	25	10.44	4.1e-05
+GO:0001736	establishment of planar polarity	90	16	5.13	4.3e-05
+GO:0007164	establishment of tissue polarity	90	16	5.13	4.3e-05
+GO:0051223	regulation of protein transport	90	16	5.13	4.3e-05
+GO:0007315	pole plasm assembly	63	13	3.59	4.4e-05
+GO:0007626	locomotory behavior	162	23	9.24	4.5e-05
+GO:0007254	JNK cascade	81	15	4.62	4.5e-05
+GO:0008358	maternal determination of anterior/poste...	81	15	4.62	4.5e-05
+GO:0120035	regulation of plasma membrane bounded ce...	173	24	9.87	4.5e-05
+GO:0008298	intracellular mRNA localization	72	14	4.11	4.6e-05
+GO:0032872	regulation of stress-activated MAPK casc...	72	14	4.11	4.6e-05
+GO:0045860	positive regulation of protein kinase ac...	39	10	2.23	4.8e-05
+GO:0060811	intracellular mRNA localization involved...	55	12	3.14	4.9e-05
+GO:0010608	post-transcriptional regulation of gene ...	278	33	15.86	4.9e-05
+GO:0016331	morphogenesis of embryonic epithelium	111	18	6.33	5.2e-05
+GO:0060070	canonical Wnt signaling pathway	111	18	6.33	5.2e-05
+GO:0110053	regulation of actin filament organizatio...	82	15	4.68	5.2e-05
+GO:0070979	protein K11-linked ubiquitination	19	7	1.08	5.2e-05
+GO:0070302	regulation of stress-activated protein k...	73	14	4.16	5.4e-05
+GO:0042221	response to chemical	1279	105	72.97	5.4e-05
+GO:0048284	organelle fusion	92	16	5.25	5.6e-05
+GO:0050877	nervous system process	550	54	31.38	5.7e-05
+GO:0070887	cellular response to chemical stimulus	592	57	33.78	6.1e-05
+GO:0031629	synaptic vesicle fusion to presynaptic a...	9	5	0.51	6.2e-05
+GO:0046664	dorsal closure, amnioserosa morphology c...	9	5	0.51	6.2e-05
+GO:1901565	organonitrogen compound catabolic proces...	621	59	35.43	6.5e-05
+GO:0009798	axis specification	177	24	10.1	6.6e-05
+GO:0051124	synaptic assembly at neuromuscular junct...	113	18	6.45	6.6e-05
+GO:0007610	behavior	527	52	30.07	6.8e-05
+GO:0009880	embryonic pattern specification	189	25	10.78	7.0e-05
+GO:0030718	germ-line stem cell population maintenan...	75	14	4.28	7.3e-05
+GO:0035282	segmentation	213	27	12.15	7.7e-05
+GO:0007612	learning	58	12	3.31	8.5e-05
+GO:0007351	tripartite regional subdivision	105	17	5.99	8.5e-05
+GO:0008595	anterior/posterior axis specification, e...	105	17	5.99	8.5e-05
+GO:0042273	ribosomal large subunit biogenesis	67	13	3.82	8.7e-05
+GO:0035159	regulation of tube length, open tracheal...	27	8	1.54	9.0e-05
+GO:0045595	regulation of cell differentiation	324	36	18.49	9.0e-05
+GO:0007018	microtubule-based movement	215	27	12.27	9.1e-05
+GO:0045880	positive regulation of smoothened signal...	42	10	2.4	9.5e-05
+GO:0019827	stem cell population maintenance	106	17	6.05	9.6e-05
+GO:0098727	maintenance of cell number	106	17	6.05	9.6e-05
+GO:0007033	vacuole organization	77	14	4.39	9.9e-05
+GO:0002682	regulation of immune system process	276	32	15.75	1.0e-04
+GO:0044089	positive regulation of cellular componen...	149	21	8.5	0.00011
+GO:0009826	unidimensional cell growth	21	7	1.2	0.00011
+GO:0045216	cell-cell junction organization	78	14	4.45	0.00011
+GO:0043066	negative regulation of apoptotic process	172	23	9.81	0.00011
+GO:0007611	learning or memory	139	20	7.93	0.00012
+GO:0001700	embryonic development via the syncytial ...	150	21	8.56	0.00012
+GO:0007212	dopamine receptor signaling pathway	10	5	0.57	0.00012
+GO:0031330	negative regulation of cellular cataboli...	69	13	3.94	0.00012
+GO:0046328	regulation of JNK cascade	69	13	3.94	0.00012
+GO:0071495	cellular response to endogenous stimulus	291	33	16.6	0.00012
+GO:0007030	Golgi organization	98	16	5.59	0.00012
+GO:0050890	cognition	140	20	7.99	0.00013
+GO:0050776	regulation of immune response	232	28	13.24	0.00014
+GO:0031399	regulation of protein modification proce...	244	29	13.92	0.00014
+GO:0031346	positive regulation of cell projection o...	89	15	5.08	0.00014
