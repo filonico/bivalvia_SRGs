@@ -228,8 +228,27 @@ Rscript scripts/31_plot_occurrence.R
 
 # figure 4A: diversity
 mkdir 13_distribution_divergence/02_plot_diversity/
-Rscript scripts/36_plot_diversity.R
+Rscript scripts/32_plot_diversity.R
 
 # supp fig S1-3: SRG trees
 mkdir 06_possvm_orthology/02_plot_trees
-Rscript scripts/37_plot_trees.R
+Rscript scripts/33_plot_trees.R
+
+
+#########################
+#     GO enrichment     #
+#########################
+
+# create a tsv table with one gene per orthogroup
+bash scripts/34_get_genes_GOannoation.sh
+
+# NOTE THAT HERE IT IS NECESSARY TO MANUALLY UPLOAD THE "genes_for_GOannotation.faa" TO THE OMA WEB SERVER, IN ORDER TO OBTIAN THE GO ANNOTATION
+# RESULTS OF THE GO ANNOTATION CAN BE FOUND IN intermediate_results/09_GO_enrichment/geneUniverse_GOannotation.tsv.gz
+
+# get the files with the list of genes of interest (genes from the upper quantiles) 
+# REQUIRES: conda_envs/possvm_env.yml
+bash scripts/35_get_set_geneOfInterests.sh
+
+# perform GO enrichment
+Rscript scripts/36_topgGO_enrichment.R 14_GO_enrichment/geneUniverse_GOannotation.tsv 14_GO_enrichment/genesOfInterest1quants_GOannotation.tsv 14_GO_enrichment/genesOfInterest1quants_
+Rscript scripts/36_topgGO_enrichment.R 14_GO_enrichment/geneUniverse_GOannotation.tsv 14_GO_enrichment/genesOfInterest2quants_GOannotation.tsv 14_GO_enrichment/genesOfInterest2quants_

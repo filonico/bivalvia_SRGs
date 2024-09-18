@@ -1,0 +1,501 @@
+GO.ID	Term	Annotated	Significant	Expected	classicFisher
+GO:0050829	defense response to Gram-negative bacter...	66	13	1.97	6.1e-08
+GO:0007342	fusion of sperm to egg plasma membrane i...	25	8	0.75	4.1e-07
+GO:0001580	detection of chemical stimulus involved ...	29	8	0.87	1.5e-06
+GO:0045087	innate immune response	647	69	19.33	1.6e-06
+GO:0051607	defense response to virus	257	28	7.68	4.9e-06
+GO:0002250	adaptive immune response	342	39	10.22	1.4e-05
+GO:0019221	cytokine-mediated signaling pathway	382	35	11.41	2.6e-05
+GO:0002218	activation of innate immune response	45	8	1.34	4.9e-05
+GO:0050830	defense response to Gram-positive bacter...	87	11	2.6	5.4e-05
+GO:0007339	binding of sperm to zona pellucida	35	7	1.05	6.6e-05
+GO:0002444	myeloid leukocyte mediated immunity	90	13	2.69	8.0e-05
+GO:0061760	antifungal innate immune response	17	5	0.51	0.00011
+GO:0071222	cellular response to lipopolysaccharide	164	15	4.9	0.00012
+GO:0019731	antibacterial humoral response	40	7	1.19	0.00016
+GO:0002825	regulation of T-helper 1 type immune res...	29	6	0.87	0.00018
+GO:0042102	positive regulation of T cell proliferat...	85	10	2.54	0.00022
+GO:0002227	innate immune response in mucosa	11	4	0.33	0.00022
+GO:0038095	Fc-epsilon receptor signaling pathway	5	3	0.15	0.00025
+GO:0045959	negative regulation of complement activa...	5	3	0.15	0.00025
+GO:0035458	cellular response to interferon-beta	21	5	0.63	0.00032
+GO:0042119	neutrophil activation	32	6	0.96	0.00032
+GO:0042742	defense response to bacterium	233	32	6.96	0.00036
+GO:0010466	negative regulation of peptidase activit...	163	14	4.87	0.00039
+GO:0043299	leukocyte degranulation	62	10	1.85	0.00050
+GO:0035455	response to interferon-alpha	14	4	0.42	0.00062
+GO:0048240	sperm capacitation	25	5	0.75	0.00075
+GO:0001914	regulation of T cell mediated cytotoxici...	25	5	0.75	0.00075
+GO:0032760	positive regulation of tumor necrosis fa...	84	9	2.51	0.00089
+GO:0097528	execution phase of necroptosis	2	2	0.06	0.00089
+GO:1903660	negative regulation of complement-depend...	2	2	0.06	0.00089
+GO:0030887	positive regulation of myeloid dendritic...	2	2	0.06	0.00089
+GO:0030101	natural killer cell activation	66	10	1.97	0.00092
+GO:0045071	negative regulation of viral genome repl...	39	6	1.17	0.00097
+GO:0002275	myeloid cell activation involved in immu...	83	11	2.48	0.00097
+GO:0032757	positive regulation of interleukin-8 pro...	54	7	1.61	0.00107
+GO:0002230	positive regulation of defense response ...	27	5	0.81	0.00109
+GO:0051838	cytolysis by host of symbiont cells	8	3	0.24	0.00133
+GO:0097527	necroptotic signaling pathway	8	3	0.24	0.00133
+GO:0048245	eosinophil chemotaxis	17	4	0.51	0.00137
+GO:0072540	T-helper 17 cell lineage commitment	17	4	0.51	0.00137
+GO:0002768	immune response-regulating cell surface ...	177	20	5.29	0.00180
+GO:0002711	positive regulation of T cell mediated i...	44	6	1.31	0.00185
+GO:0002639	positive regulation of immunoglobulin pr...	44	6	1.31	0.00185
+GO:0042267	natural killer cell mediated cytotoxicit...	44	6	1.31	0.00185
+GO:0002830	positive regulation of type 2 immune res...	14	5	0.42	0.00192
+GO:0032722	positive regulation of chemokine product...	60	7	1.79	0.00199
+GO:0046596	regulation of viral entry into host cell	31	5	0.93	0.00208
+GO:0032731	positive regulation of interleukin-1 bet...	46	6	1.37	0.00234
+GO:0050727	regulation of inflammatory response	300	21	8.96	0.00247
+GO:0001819	positive regulation of cytokine producti...	402	37	12.01	0.00251
+GO:0006955	immune response	1297	120	38.75	0.00270
+GO:0006924	activation-induced cell death of T cells	10	3	0.3	0.00272
+GO:1901731	positive regulation of platelet aggregat...	10	3	0.3	0.00272
+GO:2000551	regulation of T-helper 2 cell cytokine p...	10	3	0.3	0.00272
+GO:0002717	positive regulation of natural killer ce...	21	4	0.63	0.00314
+GO:0002251	organ or tissue specific immune response	22	7	0.66	0.00357
+GO:0001774	microglial cell activation	35	5	1.05	0.00360
+GO:0140632	inflammasome complex assembly	35	5	1.05	0.00360
+GO:0007343	egg activation	11	3	0.33	0.00365
+GO:0035723	interleukin-15-mediated signaling pathwa...	11	3	0.33	0.00365
+GO:0031341	regulation of cell killing	71	12	2.12	0.00420
+GO:0060337	type I interferon signaling pathway	52	6	1.55	0.00438
+GO:0032740	positive regulation of interleukin-17 pr...	23	4	0.69	0.00443
+GO:0043032	positive regulation of macrophage activa...	23	4	0.69	0.00443
+GO:1903555	regulation of tumor necrosis factor supe...	137	15	4.09	0.00448
+GO:0032649	regulation of interferon-gamma productio...	88	8	2.63	0.00475
+GO:0150079	negative regulation of neuroinflammatory...	12	3	0.36	0.00476
+GO:0009609	response to symbiotic bacterium	4	2	0.12	0.00513
+GO:0048006	antigen processing and presentation, end...	4	2	0.12	0.00513
+GO:0002429	immune response-activating cell surface ...	164	14	4.9	0.00518
+GO:0006953	acute-phase response	38	5	1.14	0.00518
+GO:0070498	interleukin-1-mediated signaling pathway	24	4	0.72	0.00519
+GO:0002694	regulation of leukocyte activation	456	39	13.62	0.00521
+GO:0030888	regulation of B cell proliferation	54	6	1.61	0.00528
+GO:0051293	establishment of spindle localization	54	6	1.61	0.00528
+GO:0031349	positive regulation of defense response	240	23	7.17	0.00568
+GO:0002323	natural killer cell activation involved ...	13	3	0.39	0.00606
+GO:0032197	transposition, RNA-mediated	13	3	0.39	0.00606
+GO:0060046	regulation of acrosome reaction	13	3	0.39	0.00606
+GO:0072683	T cell extravasation	13	3	0.39	0.00606
+GO:0045576	mast cell activation	54	8	1.61	0.00632
+GO:0050778	positive regulation of immune response	419	47	12.52	0.00677
+GO:0070269	pyroptosis	26	4	0.78	0.00697
+GO:0140374	antiviral innate immune response	41	5	1.22	0.00719
+GO:0043306	positive regulation of mast cell degranu...	14	3	0.42	0.00754
+GO:0006957	complement activation, alternative pathw...	14	3	0.42	0.00754
+GO:0050855	regulation of B cell receptor signaling ...	14	3	0.42	0.00754
+GO:0023035	CD40 signaling pathway	14	3	0.42	0.00754
+GO:1903027	regulation of opsonization	14	3	0.42	0.00754
+GO:0001912	positive regulation of leukocyte mediate...	42	5	1.25	0.00797
+GO:0031295	T cell costimulation	27	4	0.81	0.00800
+GO:0002765	immune response-inhibiting signal transd...	5	2	0.15	0.00839
+GO:0045630	positive regulation of T-helper 2 cell d...	5	2	0.15	0.00839
+GO:0098586	cellular response to virus	78	7	2.33	0.00864
+GO:0097696	receptor signaling pathway via STAT	139	10	4.15	0.00889
+GO:0071346	cellular response to interferon-gamma	98	8	2.93	0.00900
+GO:0019884	antigen processing and presentation of e...	28	4	0.84	0.00911
+GO:0002710	negative regulation of T cell mediated i...	15	3	0.45	0.00922
+GO:0043031	negative regulation of macrophage activa...	15	3	0.45	0.00922
+GO:0030593	neutrophil chemotaxis	80	7	2.39	0.00988
+GO:0006956	complement activation	47	9	1.4	0.00998
+GO:0043303	mast cell degranulation	43	7	1.28	0.01012
+GO:0032729	positive regulation of interferon-gamma ...	62	6	1.85	0.01030
+GO:0002446	neutrophil mediated immunity	29	4	0.87	0.01033
+GO:0050729	positive regulation of inflammatory resp...	122	9	3.64	0.01092
+GO:0046597	negative regulation of viral entry into ...	16	3	0.48	0.01110
+GO:0002279	mast cell activation involved in immune ...	44	7	1.31	0.01141
+GO:2000352	negative regulation of endothelial cell ...	30	4	0.9	0.01164
+GO:0032743	positive regulation of interleukin-2 pro...	30	4	0.9	0.01164
+GO:1900225	regulation of NLRP3 inflammasome complex...	30	4	0.9	0.01164
+GO:1904892	regulation of receptor signaling pathway...	83	7	2.48	0.01197
+GO:0051250	negative regulation of lymphocyte activa...	124	9	3.7	0.01206
+GO:0043313	regulation of neutrophil degranulation	6	2	0.18	0.01233
+GO:0106300	protein-DNA covalent cross-linking repai...	6	2	0.18	0.01233
+GO:0060545	positive regulation of necroptotic proce...	6	2	0.18	0.01233
+GO:0002826	negative regulation of T-helper 1 type i...	6	2	0.18	0.01233
+GO:0033141	positive regulation of peptidyl-serine p...	6	2	0.18	0.01233
+GO:0060332	positive regulation of response to inter...	6	2	0.18	0.01233
+GO:0060335	positive regulation of interferon-gamma-...	6	2	0.18	0.01233
+GO:0048007	antigen processing and presentation, exo...	6	2	0.18	0.01233
+GO:2000659	regulation of interleukin-1-mediated sig...	6	2	0.18	0.01233
+GO:0045341	MHC class I biosynthetic process	6	2	0.18	0.01233
+GO:0045343	regulation of MHC class I biosynthetic p...	6	2	0.18	0.01233
+GO:0050832	defense response to fungus	48	9	1.43	0.01262
+GO:0032720	negative regulation of tumor necrosis fa...	47	5	1.4	0.01273
+GO:0034113	heterotypic cell-cell adhesion	47	5	1.4	0.01273
+GO:0002886	regulation of myeloid leukocyte mediated...	45	7	1.34	0.01280
+GO:0010921	regulation of phosphatase activity	65	6	1.94	0.01285
+GO:0043330	response to exogenous dsRNA	31	4	0.93	0.01306
+GO:0002888	positive regulation of myeloid leukocyte...	17	3	0.51	0.01318
+GO:0042110	T cell activation	432	31	12.91	0.01328
+GO:0002703	regulation of leukocyte mediated immunit...	186	25	5.56	0.01358
+GO:0002720	positive regulation of cytokine producti...	66	6	1.97	0.01379
+GO:0045089	positive regulation of innate immune res...	113	16	3.38	0.01390
+GO:0032680	regulation of tumor necrosis factor prod...	133	14	3.97	0.01423
+GO:0032640	tumor necrosis factor production	133	14	3.97	0.01423
+GO:0002448	mast cell mediated immunity	46	7	1.37	0.01430
+GO:0046006	regulation of activated T cell prolifera...	32	4	0.96	0.01458
+GO:0032814	regulation of natural killer cell activa...	32	4	0.96	0.01458
+GO:1903556	negative regulation of tumor necrosis fa...	49	5	1.46	0.01508
+GO:0002827	positive regulation of T-helper 1 type i...	18	3	0.54	0.01548
+GO:0045346	regulation of MHC class II biosynthetic ...	18	3	0.54	0.01548
+GO:0044546	NLRP3 inflammasome complex assembly	33	4	0.99	0.01621
+GO:0070228	regulation of lymphocyte apoptotic proce...	50	5	1.49	0.01635
+GO:0001961	positive regulation of cytokine-mediated...	50	5	1.49	0.01635
+GO:0001781	neutrophil apoptotic process	7	2	0.21	0.01693
+GO:0002372	myeloid dendritic cell cytokine producti...	7	2	0.21	0.01693
+GO:0002733	regulation of myeloid dendritic cell cyt...	7	2	0.21	0.01693
+GO:0002735	positive regulation of myeloid dendritic...	7	2	0.21	0.01693
+GO:0038196	type III interferon signaling pathway	7	2	0.21	0.01693
+GO:0060467	negative regulation of fertilization	7	2	0.21	0.01693
+GO:0060468	prevention of polyspermy	7	2	0.21	0.01693
+GO:0062100	positive regulation of programmed necrot...	7	2	0.21	0.01693
+GO:0071358	cellular response to type III interferon	7	2	0.21	0.01693
+GO:0010940	positive regulation of necrotic cell dea...	7	2	0.21	0.01693
+GO:0002823	negative regulation of adaptive immune r...	39	9	1.17	0.01741
+GO:0002695	negative regulation of leukocyte activat...	148	12	4.42	0.01775
+GO:0050798	activated T cell proliferation	34	4	1.02	0.01795
+GO:0006968	cellular defense response	34	4	1.02	0.01795
+GO:0042832	defense response to protozoan	19	3	0.57	0.01798
+GO:0040019	positive regulation of embryonic develop...	19	3	0.57	0.01798
+GO:0060340	positive regulation of type I interferon...	19	3	0.57	0.01798
+GO:0060333	interferon-gamma-mediated signaling path...	19	3	0.57	0.01798
+GO:0045342	MHC class II biosynthetic process	19	3	0.57	0.01798
+GO:0002697	regulation of immune effector process	308	31	9.2	0.01876
+GO:0051091	positive regulation of DNA-binding trans...	227	13	6.78	0.01910
+GO:0007259	receptor signaling pathway via JAK-STAT	134	9	4	0.01917
+GO:0002286	T cell activation involved in immune res...	94	12	2.81	0.01940
+GO:0002701	negative regulation of production of mol...	35	4	1.05	0.01980
+GO:0032753	positive regulation of interleukin-4 pro...	20	3	0.6	0.02069
+GO:0001916	positive regulation of T cell mediated c...	20	3	0.6	0.02069
+GO:0051092	positive regulation of NF-kappaB transcr...	136	9	4.06	0.02090
+GO:0001959	regulation of cytokine-mediated signalin...	114	8	3.41	0.02094
+GO:0043331	response to dsRNA	36	4	1.08	0.02176
+GO:0002385	mucosal immune response	19	6	0.57	0.02179
+GO:0042796	snRNA transcription by RNA polymerase II...	8	2	0.24	0.02213
+GO:0043312	neutrophil degranulation	8	2	0.24	0.02213
+GO:1903589	positive regulation of blood vessel endo...	8	2	0.24	0.02213
+GO:0006977	DNA damage response, signal transduction...	8	2	0.24	0.02213
+GO:0038110	interleukin-2-mediated signaling pathway	8	2	0.24	0.02213
+GO:0002638	negative regulation of immunoglobulin pr...	8	2	0.24	0.02213
+GO:0032650	regulation of interleukin-1 alpha produc...	8	2	0.24	0.02213
+GO:0035771	interleukin-4-mediated signaling pathway	8	2	0.24	0.02213
+GO:0032610	interleukin-1 alpha production	8	2	0.24	0.02213
+GO:0071352	cellular response to interleukin-2	8	2	0.24	0.02213
+GO:2000553	positive regulation of T-helper 2 cell c...	8	2	0.24	0.02213
+GO:0034342	response to type III interferon	8	2	0.24	0.02213
+GO:0001562	response to protozoan	21	3	0.63	0.02362
+GO:1903901	negative regulation of viral life cycle	21	3	0.63	0.02362
+GO:0035821	modulation of process of another organis...	21	3	0.63	0.02362
+GO:2000106	regulation of leukocyte apoptotic proces...	75	6	2.24	0.02449
+GO:0002820	negative regulation of adaptive immune r...	42	9	1.25	0.02592
+GO:0002691	regulation of cellular extravasation	38	4	1.14	0.02604
+GO:0042100	B cell proliferation	76	9	2.27	0.02608
+GO:0030317	flagellated sperm motility	119	8	3.55	0.02628
+GO:0097722	sperm motility	119	8	3.55	0.02628
+GO:0002726	positive regulation of T cell cytokine p...	22	3	0.66	0.02675
+GO:0042104	positive regulation of activated T cell ...	22	3	0.66	0.02675
+GO:0070661	leukocyte proliferation	273	24	8.16	0.02709
+GO:0060760	positive regulation of response to cytok...	57	5	1.7	0.02732
+GO:0008584	male gonad development	120	8	3.58	0.02746
+GO:0044406	adhesion of symbiont to host	9	2	0.27	0.02789
+GO:0045625	regulation of T-helper 1 cell differenti...	9	2	0.27	0.02789
+GO:0033139	regulation of peptidyl-serine phosphoryl...	9	2	0.27	0.02789
+GO:0061518	microglial cell proliferation	9	2	0.27	0.02789
+GO:0070669	response to interleukin-2	9	2	0.27	0.02789
+GO:0010918	positive regulation of mitochondrial mem...	9	2	0.27	0.02789
+GO:0046546	development of primary male sexual chara...	121	8	3.61	0.02867
+GO:0050909	sensory perception of taste	52	11	1.55	0.02888
+GO:0046425	regulation of receptor signaling pathway...	78	6	2.33	0.02902
+GO:0002274	myeloid leukocyte activation	195	26	5.83	0.02936
+GO:0018003	peptidyl-lysine N6-acetylation	1	1	0.03	0.02987
+GO:0002384	hepatic immune response	1	1	0.03	0.02987
+GO:1905223	epicardium morphogenesis	1	1	0.03	0.02987
+GO:0002450	B cell antigen processing and presentati...	1	1	0.03	0.02987
+GO:0002470	plasmacytoid dendritic cell antigen proc...	1	1	0.03	0.02987
+GO:0072343	pancreatic stellate cell proliferation	1	1	0.03	0.02987
+GO:0010185	regulation of cellular defense response	1	1	0.03	0.02987
+GO:0010186	positive regulation of cellular defense ...	1	1	0.03	0.02987
+GO:0098784	biofilm matrix organization	1	1	0.03	0.02987
+GO:0098786	biofilm matrix disassembly	1	1	0.03	0.02987
+GO:0016068	type I hypersensitivity	1	1	0.03	0.02987
+GO:0035397	helper T cell enhancement of adaptive im...	1	1	0.03	0.02987
+GO:0072139	glomerular parietal epithelial cell diff...	1	1	0.03	0.02987
+GO:0140121	Lewy body formation	1	1	0.03	0.02987
+GO:0140122	regulation of Lewy body formation	1	1	0.03	0.02987
+GO:0140123	negative regulation of Lewy body formati...	1	1	0.03	0.02987
+GO:0030186	melatonin metabolic process	1	1	0.03	0.02987
+GO:0030187	melatonin biosynthetic process	1	1	0.03	0.02987
+GO:0071660	positive regulation of IP-10 production	1	1	0.03	0.02987
+GO:0060097	cytoskeletal rearrangement involved in p...	1	1	0.03	0.02987
+GO:0051041	positive regulation of calcium-independe...	1	1	0.03	0.02987
+GO:2000422	regulation of eosinophil chemotaxis	1	1	0.03	0.02987
+GO:2000424	positive regulation of eosinophil chemot...	1	1	0.03	0.02987
+GO:0032759	positive regulation of TRAIL production	1	1	0.03	0.02987
+GO:0032723	positive regulation of connective tissue...	1	1	0.03	0.02987
+GO:1901251	positive regulation of lung goblet cell ...	1	1	0.03	0.02987
+GO:0032745	positive regulation of interleukin-21 pr...	1	1	0.03	0.02987
+GO:0051977	lysophospholipid transport	1	1	0.03	0.02987
+GO:1901247	negative regulation of lung ciliated cel...	1	1	0.03	0.02987
+GO:1901249	regulation of lung goblet cell different...	1	1	0.03	0.02987
+GO:0070246	natural killer cell apoptotic process	1	1	0.03	0.02987
+GO:0070247	regulation of natural killer cell apopto...	1	1	0.03	0.02987
+GO:1902310	positive regulation of peptidyl-serine d...	1	1	0.03	0.02987
+GO:2000229	regulation of pancreatic stellate cell p...	1	1	0.03	0.02987
+GO:1904784	NLRP1 inflammasome complex assembly	1	1	0.03	0.02987
+GO:2000231	positive regulation of pancreatic stella...	1	1	0.03	0.02987
+GO:0150140	regulation of CD86 production	1	1	0.03	0.02987
+GO:0150142	positive regulation of CD86 production	1	1	0.03	0.02987
+GO:0150143	regulation of CD80 production	1	1	0.03	0.02987
+GO:0150145	positive regulation of CD80 production	1	1	0.03	0.02987
+GO:0032665	regulation of interleukin-21 production	1	1	0.03	0.02987
+GO:0032679	regulation of TRAIL production	1	1	0.03	0.02987
+GO:0032625	interleukin-21 production	1	1	0.03	0.02987
+GO:0032639	TRAIL production	1	1	0.03	0.02987
+GO:0090320	regulation of chylomicron remnant cleara...	1	1	0.03	0.02987
+GO:0090321	positive regulation of chylomicron remna...	1	1	0.03	0.02987
+GO:1900450	negative regulation of glutamate recepto...	1	1	0.03	0.02987
+GO:0120042	negative regulation of macrophage prolif...	1	1	0.03	0.02987
+GO:1903916	regulation of endoplasmic reticulum stre...	1	1	0.03	0.02987
+GO:1903917	positive regulation of endoplasmic retic...	1	1	0.03	0.02987
+GO:0036496	regulation of translational initiation b...	1	1	0.03	0.02987
+GO:0036497	eIF2alpha dephosphorylation in response ...	1	1	0.03	0.02987
+GO:1901625	cellular response to ergosterol	1	1	0.03	0.02987
+GO:0160006	Fc receptor-mediated immune complex endo...	1	1	0.03	0.02987
+GO:0036153	triglyceride acyl-chain remodeling	1	1	0.03	0.02987
+GO:0036155	acylglycerol acyl-chain remodeling	1	1	0.03	0.02987
+GO:0046603	negative regulation of mitotic centrosom...	1	1	0.03	0.02987
+GO:0050902	leukocyte adhesive activation	1	1	0.03	0.02987
+GO:0034156	negative regulation of toll-like recepto...	1	1	0.03	0.02987
+GO:1905151	negative regulation of voltage-gated sod...	1	1	0.03	0.02987
+GO:0038034	signal transduction in absence of ligand	59	5	1.76	0.03114
+GO:0097192	extrinsic apoptotic signaling pathway in...	59	5	1.76	0.03114
+GO:0016064	immunoglobulin mediated immune response	107	10	3.2	0.03212
+GO:0009620	response to fungus	58	9	1.73	0.03229
+GO:0060759	regulation of response to cytokine stimu...	124	8	3.7	0.03251
+GO:0071260	cellular response to mechanical stimulus	60	5	1.79	0.03317
+GO:0050691	regulation of defense response to virus ...	37	7	1.11	0.03360
+GO:0019724	B cell mediated immunity	108	10	3.23	0.03362
+GO:1902563	regulation of neutrophil activation	10	2	0.3	0.03419
+GO:0002430	complement receptor mediated signaling p...	10	2	0.3	0.03419
+GO:0032754	positive regulation of interleukin-5 pro...	10	2	0.3	0.03419
+GO:0010525	regulation of transposition, RNA-mediate...	10	2	0.3	0.03419
+GO:0010526	negative regulation of transposition, RN...	10	2	0.3	0.03419
+GO:0010528	regulation of transposition	10	2	0.3	0.03419
+GO:0010529	negative regulation of transposition	10	2	0.3	0.03419
+GO:0035303	regulation of dephosphorylation	103	7	3.08	0.03462
+GO:0050866	negative regulation of cell activation	165	12	4.93	0.03509
+GO:0010743	regulation of macrophage derived foam ce...	25	3	0.75	0.03742
+GO:0032673	regulation of interleukin-4 production	25	3	0.75	0.03742
+GO:0032633	interleukin-4 production	25	3	0.75	0.03742
+GO:0032755	positive regulation of interleukin-6 pro...	83	6	2.48	0.03773
+GO:0001818	negative regulation of cytokine producti...	225	12	6.72	0.03811
+GO:0060294	cilium movement involved in cell motilit...	128	8	3.82	0.03817
+GO:2000351	regulation of endothelial cell apoptotic...	43	4	1.28	0.03879
+GO:0002705	positive regulation of leukocyte mediate...	113	14	3.38	0.03945
+GO:0002456	T cell mediated immunity	82	13	2.45	0.03948
+GO:0035036	sperm-egg recognition	46	9	1.37	0.03998
+GO:0150078	positive regulation of neuroinflammatory...	11	2	0.33	0.04097
+GO:0097011	cellular response to granulocyte macroph...	11	2	0.33	0.04097
+GO:0097012	response to granulocyte macrophage colon...	11	2	0.33	0.04097
+GO:0002732	positive regulation of dendritic cell cy...	11	2	0.33	0.04097
+GO:0032736	positive regulation of interleukin-13 pr...	11	2	0.33	0.04097
+GO:1901857	positive regulation of cellular respirat...	11	2	0.33	0.04097
+GO:0061517	macrophage proliferation	11	2	0.33	0.04097
+GO:1900226	negative regulation of NLRP3 inflammasom...	11	2	0.33	0.04097
+GO:0051770	positive regulation of nitric-oxide synt...	11	2	0.33	0.04097
+GO:0071354	cellular response to interleukin-6	26	3	0.78	0.04140
+GO:0010922	positive regulation of phosphatase activ...	26	3	0.78	0.04140
+GO:0031640	killing of cells of another organism	64	5	1.91	0.04210
+GO:0061844	antimicrobial humoral immune response me...	64	5	1.91	0.04210
+GO:0030217	T cell differentiation	255	18	7.62	0.04410
+GO:0032653	regulation of interleukin-10 production	45	4	1.34	0.04473
+GO:0032613	interleukin-10 production	45	4	1.34	0.04473
+GO:0001906	cell killing	153	20	4.57	0.04491
+GO:0071887	leukocyte apoptotic process	98	9	2.93	0.04681
+GO:0002699	positive regulation of immune effector p...	208	20	6.21	0.04774
+GO:0045624	positive regulation of T-helper cell dif...	17	4	0.51	0.04786
+GO:0043666	regulation of phosphoprotein phosphatase...	46	4	1.37	0.04788
+GO:1904894	positive regulation of receptor signalin...	46	4	1.37	0.04788
+GO:0032306	regulation of prostaglandin secretion	12	2	0.36	0.04822
+GO:0032308	positive regulation of prostaglandin sec...	12	2	0.36	0.04822
+GO:0042501	serine phosphorylation of STAT protein	12	2	0.36	0.04822
+GO:0060330	regulation of response to interferon-gam...	12	2	0.36	0.04822
+GO:0060334	regulation of interferon-gamma-mediated ...	12	2	0.36	0.04822
+GO:1903131	mononuclear cell differentiation	392	23	11.71	0.04822
+GO:0006959	humoral immune response	177	21	5.29	0.04903
+GO:1902019	regulation of cilium-dependent cell moti...	28	3	0.84	0.04995
+GO:0070741	response to interleukin-6	28	3	0.84	0.04995
+GO:0060295	regulation of cilium movement involved i...	28	3	0.84	0.04995
+GO:0042269	regulation of natural killer cell mediat...	28	3	0.84	0.04995
+GO:1901222	regulation of NIK/NF-kappaB signaling	89	6	2.66	0.05020
+GO:0035306	positive regulation of dephosphorylation	47	4	1.4	0.05115
+GO:0014009	glial cell proliferation	47	4	1.4	0.05115
+GO:0072577	endothelial cell apoptotic process	47	4	1.4	0.05115
+GO:0031297	replication fork processing	47	4	1.4	0.05115
+GO:0001539	cilium or flagellum-dependent cell motil...	137	8	4.09	0.05321
+GO:0060285	cilium-dependent cell motility	137	8	4.09	0.05321
+GO:0002449	lymphocyte mediated immunity	221	27	6.6	0.05377
+GO:0043123	positive regulation of I-kappaB kinase/N...	162	9	4.84	0.05431
+GO:2000316	regulation of T-helper 17 type immune re...	29	3	0.87	0.05452
+GO:0098542	defense response to other organism	853	90	25.48	0.05474
+GO:0001910	regulation of leukocyte mediated cytotox...	59	8	1.76	0.05485
+GO:0070098	chemokine-mediated signaling pathway	69	5	2.06	0.05511
+GO:0030449	regulation of complement activation	18	5	0.54	0.05525
+GO:0051249	regulation of lymphocyte activation	388	29	11.59	0.05549
+GO:0002698	negative regulation of immune effector p...	90	11	2.69	0.05557
+GO:0045838	positive regulation of membrane potentia...	13	2	0.39	0.05588
+GO:0032725	positive regulation of granulocyte macro...	13	2	0.39	0.05588
+GO:0030889	negative regulation of B cell proliferat...	13	2	0.39	0.05588
+GO:0034162	toll-like receptor 9 signaling pathway	13	2	0.39	0.05588
+GO:0045348	positive regulation of MHC class II bios...	13	2	0.39	0.05588
+GO:0050851	antigen receptor-mediated signaling path...	130	10	3.88	0.05758
+GO:0070664	negative regulation of leukocyte prolife...	70	5	2.09	0.05796
+GO:0048247	lymphocyte chemotaxis	49	4	1.46	0.05805
+GO:0043122	regulation of I-kappaB kinase/NF-kappaB ...	215	11	6.42	0.05838
+GO:0031294	lymphocyte costimulation	29	5	0.87	0.05844
+GO:0007249	I-kappaB kinase/NF-kappaB signaling	241	12	7.2	0.05847
+GO:0002395	immune response in nasopharyngeal-associ...	2	1	0.06	0.05886
+GO:0007349	cellularization	2	1	0.06	0.05886
+GO:0001777	T cell homeostatic proliferation	2	1	0.06	0.05886
+GO:0002387	immune response in gut-associated lympho...	2	1	0.06	0.05886
+GO:0042710	biofilm formation	2	1	0.06	0.05886
+GO:0043315	positive regulation of neutrophil degran...	2	1	0.06	0.05886
+GO:0046013	regulation of T cell homeostatic prolife...	2	1	0.06	0.05886
+GO:1905243	cellular response to 3,3',5-triiodo-L-th...	2	1	0.06	0.05886
+GO:0060816	random inactivation of X chromosome	2	1	0.06	0.05886
+GO:0070946	neutrophil-mediated killing of gram-posi...	2	1	0.06	0.05886
+GO:0035039	male pronucleus assembly	2	1	0.06	0.05886
+GO:0044010	single-species biofilm formation	2	1	0.06	0.05886
+GO:0007291	sperm individualization	2	1	0.06	0.05886
+GO:0001694	histamine biosynthetic process	2	1	0.06	0.05886
+GO:0002215	defense response to nematode	2	1	0.06	0.05886
+GO:1904431	positive regulation of t-circle formatio...	2	1	0.06	0.05886
+GO:0002769	natural killer cell inhibitory signaling...	2	1	0.06	0.05886
+GO:0071658	regulation of IP-10 production	2	1	0.06	0.05886
+GO:1903597	negative regulation of gap junction asse...	2	1	0.06	0.05886
+GO:0051040	regulation of calcium-independent cell-c...	2	1	0.06	0.05886
+GO:0002729	positive regulation of natural killer ce...	2	1	0.06	0.05886
+GO:0070164	negative regulation of adiponectin secre...	2	1	0.06	0.05886
+GO:0061141	lung ciliated cell differentiation	2	1	0.06	0.05886
+GO:2000452	regulation of CD8-positive, alpha-beta c...	2	1	0.06	0.05886
+GO:0071612	IP-10 production	2	1	0.06	0.05886
+GO:1990172	G protein-coupled receptor catabolic pro...	2	1	0.06	0.05886
+GO:0032761	positive regulation of lymphotoxin A pro...	2	1	0.06	0.05886
+GO:0045575	basophil activation	2	1	0.06	0.05886
+GO:1901246	regulation of lung ciliated cell differe...	2	1	0.06	0.05886
+GO:1904270	pyroptosome complex assembly	2	1	0.06	0.05886
+GO:1903615	positive regulation of protein tyrosine ...	2	1	0.06	0.05886
+GO:0044407	single-species biofilm formation in or o...	2	1	0.06	0.05886
+GO:0098630	aggregation of unicellular organisms	2	1	0.06	0.05886
+GO:0038155	interleukin-23-mediated signaling pathwa...	2	1	0.06	0.05886
+GO:0021852	pyramidal neuron migration to cerebral c...	2	1	0.06	0.05886
+GO:0044269	glycerol ether catabolic process	2	1	0.06	0.05886
+GO:2000768	positive regulation of nephron tubule ep...	2	1	0.06	0.05886
+GO:0060355	positive regulation of cell adhesion mol...	2	1	0.06	0.05886
+GO:0150102	negative regulation of monocyte activati...	2	1	0.06	0.05886
+GO:0032690	negative regulation of interleukin-1 alp...	2	1	0.06	0.05886
+GO:0032681	regulation of lymphotoxin A production	2	1	0.06	0.05886
+GO:0035780	CD80 biosynthetic process	2	1	0.06	0.05886
+GO:0032641	lymphotoxin A production	2	1	0.06	0.05886
+GO:0032643	regulation of connective tissue growth f...	2	1	0.06	0.05886
+GO:0032601	connective tissue growth factor producti...	2	1	0.06	0.05886
+GO:0060471	cortical granule exocytosis	2	1	0.06	0.05886
+GO:1901502	ether catabolic process	2	1	0.06	0.05886
+GO:1900190	regulation of single-species biofilm for...	2	1	0.06	0.05886
+GO:1900191	negative regulation of single-species bi...	2	1	0.06	0.05886
+GO:2000552	negative regulation of T-helper 2 cell c...	2	1	0.06	0.05886
+GO:0062234	platelet activating factor catabolic pro...	2	1	0.06	0.05886
+GO:0035504	regulation of myosin light chain kinase ...	2	1	0.06	0.05886
+GO:0035505	positive regulation of myosin light chai...	2	1	0.06	0.05886
+GO:1900228	regulation of single-species biofilm for...	2	1	0.06	0.05886
+GO:1900229	negative regulation of single-species bi...	2	1	0.06	0.05886
+GO:0035698	CD8-positive, alpha-beta cytotoxic T cel...	2	1	0.06	0.05886
+GO:0032917	polyamine acetylation	2	1	0.06	0.05886
+GO:0032918	spermidine acetylation	2	1	0.06	0.05886
+GO:0014717	regulation of satellite cell activation ...	2	1	0.06	0.05886
+GO:1904057	negative regulation of sensory perceptio...	2	1	0.06	0.05886
+GO:0071539	protein localization to centrosome	30	3	0.9	0.05928
+GO:0010742	macrophage derived foam cell differentia...	30	3	0.9	0.05928
+GO:0002548	monocyte chemotaxis	50	4	1.49	0.06168
+GO:0042116	macrophage activation	87	11	2.6	0.06207
+GO:0048232	male gamete generation	491	25	14.67	0.06219
+GO:0032652	regulation of interleukin-1 production	77	9	2.3	0.06265
+GO:0032612	interleukin-1 production	77	9	2.3	0.06265
+GO:0030098	lymphocyte differentiation	350	21	10.46	0.06284
+GO:0046661	male sex differentiation	142	8	4.24	0.06301
+GO:0002920	regulation of humoral immune response	36	6	1.08	0.06326
+GO:0045622	regulation of T-helper cell differentiat...	36	5	1.08	0.06360
+GO:0032103	positive regulation of response to exter...	368	25	10.99	0.06382
+GO:0050871	positive regulation of B cell activation	72	5	2.15	0.06392
+GO:0002283	neutrophil activation involved in immune...	14	2	0.42	0.06394
+GO:0051767	nitric-oxide synthase biosynthetic proce...	14	2	0.42	0.06394
+GO:0051769	regulation of nitric-oxide synthase bios...	14	2	0.42	0.06394
+GO:2001240	negative regulation of extrinsic apoptot...	31	3	0.93	0.06423
+GO:1905508	protein localization to microtubule orga...	31	3	0.93	0.06423
+GO:0090077	foam cell differentiation	31	3	0.93	0.06423
+GO:1901099	negative regulation of signal transducti...	31	3	0.93	0.06423
+GO:0034612	response to tumor necrosis factor	193	10	5.77	0.06450
+GO:0042531	positive regulation of tyrosine phosphor...	51	4	1.52	0.06542
+GO:0031663	lipopolysaccharide-mediated signaling pa...	51	4	1.52	0.06542
+GO:0051353	positive regulation of oxidoreductase ac...	51	4	1.52	0.06542
+GO:0032663	regulation of interleukin-2 production	51	4	1.52	0.06542
+GO:0032623	interleukin-2 production	51	4	1.52	0.06542
+GO:0045005	DNA-templated DNA replication maintenanc...	51	4	1.52	0.06542
+GO:0006954	inflammatory response	642	39	19.18	0.06593
+GO:0035304	regulation of protein dephosphorylation	73	5	2.18	0.06702
+GO:0050868	negative regulation of T cell activation	96	6	2.87	0.06759
+GO:0048525	negative regulation of viral process	71	9	2.12	0.06759
+GO:0038061	NIK/NF-kappaB signaling	120	7	3.58	0.06824
+GO:0032675	regulation of interleukin-6 production	120	7	3.58	0.06824
+GO:0032635	interleukin-6 production	120	7	3.58	0.06824
+GO:0000018	regulation of DNA recombination	120	7	3.58	0.06824
+GO:0032733	positive regulation of interleukin-10 pr...	32	3	0.96	0.06937
+GO:0038093	Fc receptor signaling pathway	20	5	0.6	0.07155
+GO:0051873	killing by host of symbiont cells	23	5	0.69	0.07158
+GO:0042113	B cell activation	227	15	6.78	0.07183
+GO:0042795	snRNA transcription by RNA polymerase II	15	2	0.45	0.07236
+GO:2000318	positive regulation of T-helper 17 type ...	15	2	0.45	0.07236
+GO:0010744	positive regulation of macrophage derive...	15	2	0.45	0.07236
+GO:1903587	regulation of blood vessel endothelial c...	15	2	0.45	0.07236
+GO:0090050	positive regulation of cell migration in...	15	2	0.45	0.07236
+GO:0000712	resolution of meiotic recombination inte...	15	2	0.45	0.07236
+GO:0043558	regulation of translational initiation i...	15	2	0.45	0.07236
+GO:0032645	regulation of granulocyte macrophage col...	15	2	0.45	0.07236
+GO:0032604	granulocyte macrophage colony-stimulatin...	15	2	0.45	0.07236
+GO:0071360	cellular response to exogenous dsRNA	15	2	0.45	0.07236
+GO:0080154	regulation of fertilization	15	2	0.45	0.07236
+GO:2000514	regulation of CD4-positive, alpha-beta T...	58	6	1.73	0.07238
+GO:0070050	neuron cellular homeostasis	53	4	1.58	0.07325
+GO:0006952	defense response	1332	110	39.79	0.07534
+GO:0051090	regulation of DNA-binding transcription ...	361	16	10.78	0.07591
+GO:0002221	pattern recognition receptor signaling p...	174	9	5.2	0.07750
+GO:0032677	regulation of interleukin-8 production	70	9	2.09	0.07942
+GO:0032637	interleukin-8 production	70	9	2.09	0.07942
+GO:0003341	cilium movement	175	9	5.23	0.07966
+GO:0071356	cellular response to tumor necrosis fact...	175	9	5.23	0.07966
+GO:0042554	superoxide anion generation	34	3	1.02	0.08018
+GO:0150077	regulation of neuroinflammatory response	28	5	0.84	0.08028
+GO:0007283	spermatogenesis	478	24	14.28	0.08074
+GO:0002371	dendritic cell cytokine production	16	2	0.48	0.08111
+GO:0032310	prostaglandin secretion	16	2	0.48	0.08111
+GO:0032305	positive regulation of icosanoid secreti...	16	2	0.48	0.08111
+GO:0031571	mitotic G1 DNA damage checkpoint signali...	16	2	0.48	0.08111
+GO:0002220	innate immune response activating cell s...	16	2	0.48	0.08111
+GO:0002758	innate immune response-activating signal...	16	2	0.48	0.08111
+GO:0002730	regulation of dendritic cell cytokine pr...	16	2	0.48	0.08111
+GO:0045623	negative regulation of T-helper cell dif...	16	2	0.48	0.08111
+GO:1901741	positive regulation of myoblast fusion	16	2	0.48	0.08111
+GO:0032516	positive regulation of phosphoprotein ph...	16	2	0.48	0.08111
+GO:0032656	regulation of interleukin-13 production	16	2	0.48	0.08111
+GO:0032674	regulation of interleukin-5 production	16	2	0.48	0.08111
+GO:0032616	interleukin-13 production	16	2	0.48	0.08111
+GO:0032634	interleukin-5 production	16	2	0.48	0.08111
+GO:1901538	changes to DNA methylation involved in e...	16	2	0.48	0.08111
+GO:0043045	DNA methylation involved in embryo devel...	16	2	0.48	0.08111
+GO:0060252	positive regulation of glial cell prolif...	16	2	0.48	0.08111
+GO:1904036	negative regulation of epithelial cell a...	55	4	1.64	0.08153
+GO:1990868	response to chemokine	78	5	2.33	0.08375
+GO:1990869	cellular response to chemokine	78	5	2.33	0.08375

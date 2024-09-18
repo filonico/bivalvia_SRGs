@@ -1,0 +1,501 @@
+GO.ID	Term	Annotated	Significant	Expected	classicFisher
+GO:0007127	meiosis I	71	12	2.92	2.8e-05
+GO:0051321	meiotic cell cycle	234	24	9.62	3.3e-05
+GO:0061982	meiosis I cell cycle process	110	15	4.52	4.1e-05
+GO:0045132	meiotic chromosome segregation	64	11	2.63	5.2e-05
+GO:0140541	piRNA transcription	3	3	0.12	6.9e-05
+GO:0140542	regulation of piRNA transcription	3	3	0.12	6.9e-05
+GO:0140543	positive regulation of piRNA transcripti...	3	3	0.12	6.9e-05
+GO:1903046	meiotic cell cycle process	200	21	8.22	7.3e-05
+GO:0140013	meiotic nuclear division	166	18	6.82	0.00016
+GO:0098813	nuclear chromosome segregation	182	19	7.48	0.00017
+GO:0070192	chromosome organization involved in meio...	54	9	2.22	0.00032
+GO:0000280	nuclear division	318	26	13.07	0.00064
+GO:0007131	reciprocal meiotic recombination	37	7	1.52	0.00066
+GO:0140527	reciprocal homologous recombination	37	7	1.52	0.00066
+GO:0035825	homologous recombination	38	7	1.56	0.00079
+GO:0007059	chromosome segregation	207	19	8.51	0.00087
+GO:0007141	male meiosis I	13	4	0.53	0.00150
+GO:0048136	male germ-line cyst formation	2	2	0.08	0.00168
+GO:0048285	organelle fission	340	26	13.97	0.00170
+GO:0051276	chromosome organization	331	25	13.6	0.00245
+GO:0007129	homologous chromosome pairing at meiosis	15	4	0.62	0.00267
+GO:0010525	regulation of transposition, RNA-mediate...	8	3	0.33	0.00331
+GO:0010526	negative regulation of transposition, RN...	8	3	0.33	0.00331
+GO:0010528	regulation of transposition	8	3	0.33	0.00331
+GO:0010529	negative regulation of transposition	8	3	0.33	0.00331
+GO:0032197	transposition, RNA-mediated	8	3	0.33	0.00331
+GO:0070193	synaptonemal complex organization	17	4	0.7	0.00437
+GO:0032196	transposition	9	3	0.37	0.00481
+GO:0007130	synaptonemal complex assembly	10	3	0.41	0.00666
+GO:0030719	P granule organization	11	3	0.45	0.00888
+GO:0045143	homologous chromosome segregation	21	4	0.86	0.00965
+GO:0051788	response to misfolded protein	12	3	0.49	0.01149
+GO:0071218	cellular response to misfolded protein	12	3	0.49	0.01149
+GO:0140747	regulation of ncRNA transcription	12	3	0.49	0.01149
+GO:0051382	kinetochore assembly	5	2	0.21	0.01551
+GO:0061964	negative regulation of entry into reprod...	5	2	0.21	0.01551
+GO:0007135	meiosis II	15	3	0.62	0.02169
+GO:0043984	histone H4-K16 acetylation	6	2	0.25	0.02264
+GO:0055116	entry into reproductive diapause	6	2	0.25	0.02264
+GO:0061963	regulation of entry into reproductive di...	6	2	0.25	0.02264
+GO:0071712	ER-associated misfolded protein cataboli...	6	2	0.25	0.02264
+GO:0007143	female meiotic nuclear division	54	6	2.22	0.02270
+GO:0019953	sexual reproduction	1005	54	41.3	0.02372
+GO:0000003	reproduction	1314	68	54	0.02493
+GO:0022402	cell cycle process	627	36	25.77	0.02574
+GO:0000819	sister chromatid segregation	140	11	5.75	0.02927
+GO:0055115	entry into diapause	7	2	0.29	0.03084
+GO:1990834	response to odorant	7	2	0.29	0.03084
+GO:0035967	cellular response to topologically incor...	44	5	1.81	0.03334
+GO:0007283	spermatogenesis	259	17	10.64	0.03848
+GO:0009301	snRNA transcription	8	2	0.33	0.04002
+GO:0022611	dormancy process	8	2	0.33	0.04002
+GO:0042795	snRNA transcription by RNA polymerase II	8	2	0.33	0.04002
+GO:0045144	meiotic sister chromatid segregation	8	2	0.33	0.04002
+GO:0051177	meiotic sister chromatid cohesion	8	2	0.33	0.04002
+GO:0034508	centromere complex assembly	19	3	0.78	0.04094
+GO:0001015	snoRNA transcription by RNA polymerase I...	1	1	0.04	0.04109
+GO:0009302	sno(s)RNA transcription	1	1	0.04	0.04109
+GO:0010778	meiotic DNA repair synthesis involved in...	1	1	0.04	0.04109
+GO:0051308	male meiosis chromosome separation	1	1	0.04	0.04109
+GO:0051415	microtubule nucleation by interphase mic...	1	1	0.04	0.04109
+GO:0072765	centromere localization	1	1	0.04	0.04109
+GO:0098653	centromere clustering	1	1	0.04	0.04109
+GO:0048232	male gamete generation	301	19	12.37	0.04180
+GO:0035966	response to topologically incorrect prot...	47	5	1.93	0.04266
+GO:0006883	cellular sodium ion homeostasis	9	2	0.37	0.05008
+GO:0016233	telomere capping	9	2	0.37	0.05008
+GO:0030007	cellular potassium ion homeostasis	9	2	0.37	0.05008
+GO:0036376	sodium ion export across plasma membrane	9	2	0.37	0.05008
+GO:0040020	regulation of meiotic nuclear division	9	2	0.37	0.05008
+GO:0043967	histone H4 acetylation	9	2	0.37	0.05008
+GO:0051383	kinetochore organization	9	2	0.37	0.05008
+GO:0071786	endoplasmic reticulum tubular network or...	9	2	0.37	0.05008
+GO:1902275	regulation of chromatin organization	35	4	1.44	0.05395
+GO:0042078	germ-line stem cell division	36	4	1.48	0.05881
+GO:0050000	chromosome localization	37	4	1.52	0.06389
+GO:0007020	microtubule nucleation	23	3	0.95	0.06639
+GO:0007080	mitotic metaphase plate congression	23	3	0.95	0.06639
+GO:0009047	dosage compensation by hyperactivation o...	11	2	0.45	0.07251
+GO:0045478	fusome organization	11	2	0.45	0.07251
+GO:0055078	sodium ion homeostasis	11	2	0.45	0.07251
+GO:0098781	ncRNA transcription	40	4	1.64	0.08047
+GO:0007287	Nebenkern assembly	2	1	0.08	0.08050
+GO:0007541	sex determination, primary response to X...	2	1	0.08	0.08050
+GO:0009235	cobalamin metabolic process	2	1	0.08	0.08050
+GO:0010705	meiotic DNA double-strand break processi...	2	1	0.08	0.08050
+GO:0019100	male germ-line sex determination	2	1	0.08	0.08050
+GO:0033566	gamma-tubulin complex localization	2	1	0.08	0.08050
+GO:0042262	DNA protection	2	1	0.08	0.08050
+GO:0043007	maintenance of rDNA	2	1	0.08	0.08050
+GO:0051311	meiotic metaphase plate congression	2	1	0.08	0.08050
+GO:0070301	cellular response to hydrogen peroxide	2	1	0.08	0.08050
+GO:0090052	regulation of pericentric heterochromati...	2	1	0.08	0.08050
+GO:0090230	regulation of centromere complex assembl...	2	1	0.08	0.08050
+GO:0110155	NAD-cap decapping	2	1	0.08	0.08050
+GO:1903341	regulation of meiotic DNA double-strand ...	2	1	0.08	0.08050
+GO:1903343	positive regulation of meiotic DNA doubl...	2	1	0.08	0.08050
+GO:1905380	regulation of snRNA transcription by RNA...	2	1	0.08	0.08050
+GO:1905382	positive regulation of snRNA transcripti...	2	1	0.08	0.08050
+GO:0031445	regulation of heterochromatin formation	25	3	1.03	0.08125
+GO:0048134	germ-line cyst formation	25	3	1.03	0.08125
+GO:0120261	regulation of heterochromatin organizati...	25	3	1.03	0.08125
+GO:0031146	SCF-dependent proteasomal ubiquitin-depe...	57	5	2.34	0.08400
+GO:0061983	meiosis II cell cycle process	26	3	1.07	0.08917
+GO:0030717	oocyte karyosome formation	27	3	1.11	0.09740
+GO:0061988	karyosome formation	27	3	1.11	0.09740
+GO:0007538	primary sex determination	13	2	0.53	0.09748
+GO:0006310	DNA recombination	135	9	5.55	0.10386
+GO:0016321	female meiosis chromosome segregation	14	2	0.58	0.11074
+GO:0051307	meiotic chromosome separation	14	2	0.58	0.11074
+GO:0055075	potassium ion homeostasis	14	2	0.58	0.11074
+GO:0051303	establishment of chromosome localization	29	3	1.19	0.11473
+GO:0051310	metaphase plate congression	29	3	1.19	0.11473
+GO:0000711	meiotic DNA repair synthesis	3	1	0.12	0.11829
+GO:0016926	protein desumoylation	3	1	0.12	0.11829
+GO:0019101	female somatic sex determination	3	1	0.12	0.11829
+GO:0043570	maintenance of DNA repeat elements	3	1	0.12	0.11829
+GO:0051039	positive regulation of transcription inv...	3	1	0.12	0.11829
+GO:0051418	microtubule nucleation by microtubule or...	3	1	0.12	0.11829
+GO:1901563	response to camptothecin	3	1	0.12	0.11829
+GO:0140014	mitotic nuclear division	179	11	7.36	0.11924
+GO:0016925	protein sumoylation	15	2	0.62	0.12444
+GO:0036297	interstrand cross-link repair	15	2	0.62	0.12444
+GO:0060180	female mating behavior	31	3	1.27	0.13312
+GO:0000070	mitotic sister chromatid segregation	124	8	5.1	0.13791
+GO:0031453	positive regulation of heterochromatin f...	16	2	0.66	0.13852
+GO:0120263	positive regulation of heterochromatin o...	16	2	0.66	0.13852
+GO:0140115	export across plasma membrane	16	2	0.66	0.13852
+GO:1905269	positive regulation of chromatin organiz...	16	2	0.66	0.13852
+GO:0007062	sister chromatid cohesion	33	3	1.36	0.15245
+GO:0006515	protein quality control for misfolded or...	17	2	0.7	0.15292
+GO:1990573	potassium ion import across plasma membr...	17	2	0.7	0.15292
+GO:0006599	phosphagen metabolic process	4	1	0.16	0.15454
+GO:0006603	phosphocreatine metabolic process	4	1	0.16	0.15454
+GO:0007058	spindle assembly involved in female meio...	4	1	0.16	0.15454
+GO:0030238	male sex determination	4	1	0.16	0.15454
+GO:0042148	strand invasion	4	1	0.16	0.15454
+GO:0042396	phosphagen biosynthetic process	4	1	0.16	0.15454
+GO:0046314	phosphocreatine biosynthetic process	4	1	0.16	0.15454
+GO:0051037	regulation of transcription involved in ...	4	1	0.16	0.15454
+GO:0051598	meiotic recombination checkpoint signali...	4	1	0.16	0.15454
+GO:0051754	meiotic sister chromatid cohesion, centr...	4	1	0.16	0.15454
+GO:0061817	endoplasmic reticulum-plasma membrane te...	4	1	0.16	0.15454
+GO:0000723	telomere maintenance	51	4	2.1	0.15647
+GO:0034587	piRNA metabolic process	18	2	0.74	0.16760
+GO:0065004	protein-DNA complex assembly	73	5	3	0.18050
+GO:0017145	stem cell division	54	4	2.22	0.18067
+GO:0000706	meiotic DNA double-strand break processi...	5	1	0.21	0.18929
+GO:0007065	male meiosis sister chromatid cohesion	5	1	0.21	0.18929
+GO:0007079	mitotic chromosome movement towards spin...	5	1	0.21	0.18929
+GO:0007502	digestive tract mesoderm development	5	1	0.21	0.18929
+GO:0007542	primary sex determination, germ-line	5	1	0.21	0.18929
+GO:0015677	copper ion import	5	1	0.21	0.18929
+GO:0032877	positive regulation of DNA endoreduplica...	5	1	0.21	0.18929
+GO:0033313	meiotic cell cycle checkpoint signaling	5	1	0.21	0.18929
+GO:0034454	microtubule anchoring at centrosome	5	1	0.21	0.18929
+GO:0035434	copper ion transmembrane transport	5	1	0.21	0.18929
+GO:0042138	meiotic DNA double-strand break formatio...	5	1	0.21	0.18929
+GO:0043150	DNA synthesis involved in double-strand ...	5	1	0.21	0.18929
+GO:0045835	negative regulation of meiotic nuclear d...	5	1	0.21	0.18929
+GO:0050728	negative regulation of inflammatory resp...	5	1	0.21	0.18929
+GO:0051643	endoplasmic reticulum localization	5	1	0.21	0.18929
+GO:0070417	cellular response to cold	5	1	0.21	0.18929
+GO:0070601	centromeric sister chromatid cohesion	5	1	0.21	0.18929
+GO:0030968	endoplasmic reticulum unfolded protein r...	20	2	0.82	0.19758
+GO:0046785	microtubule polymerization	38	3	1.56	0.20410
+GO:0032200	telomere organization	57	4	2.34	0.20601
+GO:0007076	mitotic chromosome condensation	21	2	0.86	0.21281
+GO:0007549	dosage compensation	21	2	0.86	0.21281
+GO:0007140	male meiotic nuclear division	78	5	3.21	0.21673
+GO:0048515	spermatid differentiation	119	7	4.89	0.21759
+GO:0000729	DNA double-strand break processing	6	1	0.25	0.22262
+GO:0021952	central nervous system projection neuron...	6	1	0.25	0.22262
+GO:0030576	Cajal body organization	6	1	0.25	0.22262
+GO:0035092	sperm DNA condensation	6	1	0.25	0.22262
+GO:0050727	regulation of inflammatory response	6	1	0.25	0.22262
+GO:0050955	thermoception	6	1	0.25	0.22262
+GO:0050960	detection of temperature stimulus involv...	6	1	0.25	0.22262
+GO:0051305	chromosome movement towards spindle pole	6	1	0.25	0.22262
+GO:0072393	microtubule anchoring at microtubule org...	6	1	0.25	0.22262
+GO:1902292	cell cycle DNA replication initiation	6	1	0.25	0.22262
+GO:1902315	nuclear cell cycle DNA replication initi...	6	1	0.25	0.22262
+GO:1902975	mitotic DNA replication initiation	6	1	0.25	0.22262
+GO:0051445	regulation of meiotic cell cycle	22	2	0.9	0.22814
+GO:0007000	nucleolus organization	7	1	0.29	0.25459
+GO:0007147	female meiosis II	7	1	0.29	0.25459
+GO:0016048	detection of temperature stimulus	7	1	0.29	0.25459
+GO:0021955	central nervous system neuron axonogenes...	7	1	0.29	0.25459
+GO:0030575	nuclear body organization	7	1	0.29	0.25459
+GO:0046662	regulation of oviposition	7	1	0.29	0.25459
+GO:0050951	sensory perception of temperature stimul...	7	1	0.29	0.25459
+GO:0050961	detection of temperature stimulus involv...	7	1	0.29	0.25459
+GO:0051447	negative regulation of meiotic cell cycl...	7	1	0.29	0.25459
+GO:0090309	positive regulation of DNA methylation-d...	7	1	0.29	0.25459
+GO:0040001	establishment of mitotic spindle localiz...	24	2	0.99	0.25899
+GO:2001252	positive regulation of chromosome organi...	24	2	0.99	0.25899
+GO:0030004	cellular monovalent inorganic cation hom...	43	3	1.77	0.25905
+GO:0036503	ERAD pathway	43	3	1.77	0.25905
+GO:0009409	response to cold	25	2	1.03	0.27445
+GO:0006398	mRNA 3'-end processing by stem-loop bind...	8	1	0.33	0.28524
+GO:0006825	copper ion transport	8	1	0.33	0.28524
+GO:0006954	inflammatory response	8	1	0.33	0.28524
+GO:0009631	cold acclimation	8	1	0.33	0.28524
+GO:0018992	germ-line sex determination	8	1	0.33	0.28524
+GO:0030723	ovarian fusome organization	8	1	0.33	0.28524
+GO:0031508	pericentric heterochromatin formation	8	1	0.33	0.28524
+GO:0032875	regulation of DNA endoreduplication	8	1	0.33	0.28524
+GO:0060996	dendritic spine development	8	1	0.33	0.28524
+GO:0060997	dendritic spine morphogenesis	8	1	0.33	0.28524
+GO:0080188	gene silencing by RNA-directed DNA methy...	8	1	0.33	0.28524
+GO:0071824	protein-DNA complex subunit organization	89	5	3.66	0.30280
+GO:0000712	resolution of meiotic recombination inte...	9	1	0.37	0.31463
+GO:0006121	mitochondrial electron transport, succin...	9	1	0.37	0.31463
+GO:0007060	male meiosis chromosome segregation	9	1	0.37	0.31463
+GO:0008334	histone mRNA metabolic process	9	1	0.37	0.31463
+GO:0021954	central nervous system neuron developmen...	9	1	0.37	0.31463
+GO:0050918	positive chemotaxis	9	1	0.37	0.31463
+GO:0090308	regulation of DNA methylation-dependent ...	9	1	0.37	0.31463
+GO:1904659	glucose transmembrane transport	9	1	0.37	0.31463
+GO:0007049	cell cycle	828	37	34.03	0.31915
+GO:0034620	cellular response to unfolded protein	29	2	1.19	0.33588
+GO:0055067	monovalent inorganic cation homeostasis	50	3	2.05	0.33840
+GO:0006878	cellular copper ion homeostasis	10	1	0.41	0.34282
+GO:0007539	primary sex determination, soma	10	1	0.41	0.34282
+GO:0021953	central nervous system neuron differenti...	10	1	0.41	0.34282
+GO:0034453	microtubule anchoring	10	1	0.41	0.34282
+GO:0045751	negative regulation of Toll signaling pa...	10	1	0.41	0.34282
+GO:0097061	dendritic spine organization	10	1	0.41	0.34282
+GO:0006259	DNA metabolic process	420	19	17.26	0.36578
+GO:0031122	cytoplasmic microtubule organization	31	2	1.27	0.36605
+GO:0098659	inorganic cation import across plasma me...	31	2	1.27	0.36605
+GO:0099587	inorganic ion import across plasma membr...	31	2	1.27	0.36605
+GO:0007096	regulation of exit from mitosis	11	1	0.45	0.36985
+GO:0007289	spermatid nucleus differentiation	11	1	0.45	0.36985
+GO:0031648	protein destabilization	11	1	0.45	0.36985
+GO:0090158	endoplasmic reticulum membrane organizat...	11	1	0.45	0.36985
+GO:0106027	neuron projection organization	11	1	0.45	0.36985
+GO:0110154	RNA decapping	11	1	0.45	0.36985
+GO:0007029	endoplasmic reticulum organization	53	3	2.18	0.37244
+GO:0006986	response to unfolded protein	32	2	1.31	0.38094
+GO:0007051	spindle organization	145	7	5.96	0.38677
+GO:0007530	sex determination	33	2	1.36	0.39568
+GO:0051293	establishment of spindle localization	33	2	1.36	0.39568
+GO:0008608	attachment of spindle microtubules to ki...	12	1	0.49	0.39577
+GO:0030237	female sex determination	12	1	0.49	0.39577
+GO:0035308	negative regulation of protein dephospho...	12	1	0.49	0.39577
+GO:0042407	cristae formation	12	1	0.49	0.39577
+GO:2000105	positive regulation of DNA-templated DNA...	12	1	0.49	0.39577
+GO:0022414	reproductive process	1167	50	47.96	0.39781
+GO:0051304	chromosome separation	56	3	2.3	0.40613
+GO:0051225	spindle assembly	79	4	3.25	0.40909
+GO:0051653	spindle localization	34	2	1.4	0.41026
+GO:0090305	nucleic acid phosphodiester bond hydroly...	34	2	1.4	0.41026
+GO:0006767	water-soluble vitamin metabolic process	13	1	0.53	0.42063
+GO:0006882	cellular zinc ion homeostasis	13	1	0.53	0.42063
+GO:0030422	siRNA processing	13	1	0.53	0.42063
+GO:0030720	oocyte localization involved in germariu...	13	1	0.53	0.42063
+GO:0031048	small non-coding RNA-dependent heterochr...	13	1	0.53	0.42063
+GO:0034501	protein localization to kinetochore	13	1	0.53	0.42063
+GO:0040040	thermosensory behavior	13	1	0.53	0.42063
+GO:0051674	localization of cell	13	1	0.53	0.42063
+GO:0055069	zinc ion homeostasis	13	1	0.53	0.42063
+GO:0071459	protein localization to chromosome, cent...	13	1	0.53	0.42063
+GO:1903083	protein localization to condensed chromo...	13	1	0.53	0.42063
+GO:0016573	histone acetylation	35	2	1.44	0.42467
+GO:0018205	peptidyl-lysine modification	104	5	4.27	0.42580
+GO:0006302	double-strand break repair	129	6	5.3	0.43808
+GO:2000736	regulation of stem cell differentiation	36	2	1.48	0.43889
+GO:0031109	microtubule polymerization or depolymeri...	59	3	2.42	0.43928
+GO:0000727	double-strand break repair via break-ind...	14	1	0.58	0.44447
+GO:0007056	spindle assembly involved in female meio...	14	1	0.58	0.44447
+GO:0016074	sno(s)RNA metabolic process	14	1	0.58	0.44447
+GO:0018230	peptidyl-L-cysteine S-palmitoylation	14	1	0.58	0.44447
+GO:0018231	peptidyl-S-diacylglycerol-L-cysteine bio...	14	1	0.58	0.44447
+GO:0018991	oviposition	14	1	0.58	0.44447
+GO:0140719	constitutive heterochromatin formation	14	1	0.58	0.44447
+GO:0000212	meiotic spindle organization	37	2	1.52	0.45291
+GO:0006475	internal protein amino acid acetylation	37	2	1.52	0.45291
+GO:0018393	internal peptidyl-lysine acetylation	37	2	1.52	0.45291
+GO:0034976	response to endoplasmic reticulum stress	109	5	4.48	0.46629
+GO:1902850	microtubule cytoskeleton organization in...	109	5	4.48	0.46629
+GO:0051208	sequestering of calcium ion	15	1	0.62	0.46733
+GO:0051783	regulation of nuclear division	62	3	2.55	0.47169
+GO:0006875	cellular metal ion homeostasis	110	5	4.52	0.47429
+GO:0007286	spermatid development	110	5	4.52	0.47429
+GO:0007315	pole plasm assembly	63	3	2.59	0.48231
+GO:0002921	negative regulation of humoral immune re...	16	1	0.66	0.48925
+GO:0010458	exit from mitosis	16	1	0.66	0.48925
+GO:0018993	somatic sex determination	16	1	0.66	0.48925
+GO:0046008	regulation of female receptivity, post-m...	16	1	0.66	0.48925
+GO:0050982	detection of mechanical stimulus	16	1	0.66	0.48925
+GO:1902969	mitotic DNA replication	16	1	0.66	0.48925
+GO:0016073	snRNA metabolic process	40	2	1.64	0.49374
+GO:0000724	double-strand break repair via homologou...	90	4	3.7	0.50918
+GO:0000725	recombinational repair	90	4	3.7	0.50918
+GO:0006346	DNA methylation-dependent heterochromati...	17	1	0.7	0.51027
+GO:0032968	positive regulation of transcription elo...	17	1	0.7	0.51027
+GO:0035305	negative regulation of dephosphorylation	17	1	0.7	0.51027
+GO:0046692	sperm competition	17	1	0.7	0.51027
+GO:2000242	negative regulation of reproductive proc...	17	1	0.7	0.51027
+GO:0070828	heterochromatin organization	115	5	4.73	0.51366
+GO:0030003	cellular cation homeostasis	140	6	5.75	0.51734
+GO:0016570	histone modification	91	4	3.74	0.51792
+GO:0046916	cellular transition metal ion homeostasi...	42	2	1.73	0.51987
+GO:0000132	establishment of mitotic spindle orienta...	18	1	0.74	0.53043
+GO:0000271	polysaccharide biosynthetic process	18	1	0.74	0.53043
+GO:0000731	DNA synthesis involved in DNA repair	18	1	0.74	0.53043
+GO:0006123	mitochondrial electron transport, cytoch...	18	1	0.74	0.53043
+GO:0006271	DNA strand elongation involved in DNA re...	18	1	0.74	0.53043
+GO:0006829	zinc ion transport	18	1	0.74	0.53043
+GO:0018198	peptidyl-cysteine modification	18	1	0.74	0.53043
+GO:0022616	DNA strand elongation	18	1	0.74	0.53043
+GO:0045572	positive regulation of imaginal disc gro...	18	1	0.74	0.53043
+GO:0045792	negative regulation of cell size	18	1	0.74	0.53043
+GO:0051123	RNA polymerase II preinitiation complex ...	18	1	0.74	0.53043
+GO:0006873	cellular ion homeostasis	142	6	5.84	0.53131
+GO:0007028	cytoplasm organization	69	3	2.84	0.54372
+GO:0007320	insemination	19	1	0.78	0.54976
+GO:0008645	hexose transmembrane transport	19	1	0.78	0.54976
+GO:0042542	response to hydrogen peroxide	19	1	0.78	0.54976
+GO:0045740	positive regulation of DNA replication	19	1	0.78	0.54976
+GO:0044786	cell cycle DNA replication	45	2	1.85	0.55735
+GO:1903047	mitotic cell cycle process	371	15	15.25	0.56416
+GO:0015749	monosaccharide transmembrane transport	20	1	0.82	0.56829
+GO:0030727	germarium-derived female germ-line cyst ...	20	1	0.82	0.56829
+GO:0035304	regulation of protein dephosphorylation	20	1	0.82	0.56829
+GO:0042398	cellular modified amino acid biosyntheti...	20	1	0.82	0.56829
+GO:0044703	multi-organism reproductive process	20	1	0.82	0.56829
+GO:0044706	multi-multicellular organism process	20	1	0.82	0.56829
+GO:0048135	female germ-line cyst formation	20	1	0.82	0.56829
+GO:0055070	copper ion homeostasis	20	1	0.82	0.56829
+GO:0018394	peptidyl-lysine acetylation	46	2	1.89	0.56937
+GO:0008286	insulin receptor signaling pathway	73	3	3	0.58224
+GO:0006334	nucleosome assembly	21	1	0.86	0.58607
+GO:0010043	response to zinc ion	21	1	0.86	0.58607
+GO:0018345	protein palmitoylation	21	1	0.86	0.58607
+GO:0018401	peptidyl-proline hydroxylation to 4-hydr...	21	1	0.86	0.58607
+GO:0032222	regulation of synaptic transmission, cho...	21	1	0.86	0.58607
+GO:0032786	positive regulation of DNA-templated tra...	21	1	0.86	0.58607
+GO:0090306	meiotic spindle assembly	21	1	0.86	0.58607
+GO:0000041	transition metal ion transport	48	2	1.97	0.59269
+GO:0006368	transcription elongation by RNA polymera...	48	2	1.97	0.59269
+GO:0000245	spliceosomal complex assembly	22	1	0.9	0.60311
+GO:0006766	vitamin metabolic process	22	1	0.9	0.60311
+GO:0015986	proton motive force-driven ATP synthesis	22	1	0.9	0.60311
+GO:0033013	tetrapyrrole metabolic process	22	1	0.9	0.60311
+GO:0035099	hemocyte migration	22	1	0.9	0.60311
+GO:0042023	DNA endoreduplication	22	1	0.9	0.60311
+GO:0051865	protein autoubiquitination	22	1	0.9	0.60311
+GO:0070897	transcription preinitiation complex asse...	22	1	0.9	0.60311
+GO:0070918	small regulatory ncRNA processing	22	1	0.9	0.60311
+GO:0030261	chromosome condensation	49	2	2.01	0.60400
+GO:0098739	import across plasma membrane	49	2	2.01	0.60400
+GO:0048609	multicellular organismal reproductive pr...	881	35	36.2	0.61075
+GO:0040029	epigenetic regulation of gene expression	154	6	6.33	0.61121
+GO:0007620	copulation	23	1	0.95	0.61946
+GO:0019511	peptidyl-proline hydroxylation	23	1	0.95	0.61946
+GO:0043279	response to alkaloid	23	1	0.95	0.61946
+GO:0140718	facultative heterochromatin formation	23	1	0.95	0.61946
+GO:2001259	positive regulation of cation channel ac...	23	1	0.95	0.61946
+GO:0055065	metal ion homeostasis	130	5	5.34	0.62329
+GO:0055076	transition metal ion homeostasis	51	2	2.1	0.62589
+GO:0007314	oocyte anterior/posterior axis specifica...	78	3	3.21	0.62739
+GO:0007276	gamete generation	864	34	35.5	0.63249
+GO:0045924	regulation of female receptivity	24	1	0.99	0.63513
+GO:2001257	regulation of cation channel activity	24	1	0.99	0.63513
+GO:0030431	sleep	80	3	3.29	0.64449
+GO:0043543	protein acylation	80	3	3.29	0.64449
+GO:0098657	import into cell	53	2	2.18	0.64684
+GO:0033260	nuclear DNA replication	25	1	1.03	0.65016
+GO:0051294	establishment of spindle orientation	25	1	1.03	0.65016
+GO:0008358	maternal determination of anterior/poste...	81	3	3.33	0.65282
+GO:0031507	heterochromatin formation	108	4	4.44	0.65362
+GO:0055080	cation homeostasis	162	6	6.66	0.66005
+GO:0055082	cellular chemical homeostasis	162	6	6.66	0.66005
+GO:0098771	inorganic ion homeostasis	162	6	6.66	0.66005
+GO:1901379	regulation of potassium ion transmembran...	26	1	1.07	0.66457
+GO:0032869	cellular response to insulin stimulus	83	3	3.41	0.66908
+GO:0050801	ion homeostasis	164	6	6.74	0.67165
+GO:0006354	DNA-templated transcription elongation	56	2	2.3	0.67650
+GO:0071805	potassium ion transmembrane transport	84	3	3.45	0.67699
+GO:0001582	detection of chemical stimulus involved ...	27	1	1.11	0.67838
+GO:0034243	regulation of transcription elongation b...	27	1	1.11	0.67838
+GO:0035303	regulation of dephosphorylation	27	1	1.11	0.67838
+GO:0007304	chorion-containing eggshell formation	112	4	4.6	0.68156
+GO:0071375	cellular response to peptide hormone sti...	85	3	3.49	0.68477
+GO:1901653	cellular response to peptide	85	3	3.49	0.68477
+GO:0045814	negative regulation of gene expression, ...	113	4	4.64	0.68830
+GO:0007157	heterophilic cell-cell adhesion via plas...	28	1	1.15	0.69164
+GO:0018126	protein hydroxylation	28	1	1.15	0.69164
+GO:0051784	negative regulation of nuclear division	28	1	1.15	0.69164
+GO:0006997	nucleus organization	86	3	3.53	0.69240
+GO:0030703	eggshell formation	114	4	4.68	0.69493
+GO:0006473	protein acetylation	58	2	2.38	0.69513
+GO:0008592	regulation of Toll signaling pathway	29	1	1.19	0.70434
+GO:0036099	female germ-line stem cell population ma...	29	1	1.19	0.70434
+GO:0043266	regulation of potassium ion transport	29	1	1.19	0.70434
+GO:0044773	mitotic DNA damage checkpoint signaling	29	1	1.19	0.70434
+GO:0032504	multicellular organism reproduction	1018	39	41.83	0.70521
+GO:0006813	potassium ion transport	88	3	3.62	0.70725
+GO:0006270	DNA replication initiation	30	1	1.23	0.71652
+GO:0006754	ATP biosynthetic process	30	1	1.23	0.71652
+GO:0034728	nucleosome organization	30	1	1.23	0.71652
+GO:0035162	embryonic hemopoiesis	30	1	1.23	0.71652
+GO:0050916	sensory perception of sweet taste	30	1	1.23	0.71652
+GO:2000241	regulation of reproductive process	118	4	4.85	0.72046
+GO:0048542	lymph gland development	61	2	2.51	0.72140
+GO:0032868	response to insulin	90	3	3.7	0.72155
+GO:0032411	positive regulation of transporter activ...	31	1	1.27	0.72821
+GO:0032414	positive regulation of ion transmembrane...	31	1	1.27	0.72821
+GO:0090307	mitotic spindle assembly	31	1	1.27	0.72821
+GO:0007052	mitotic spindle organization	91	3	3.74	0.72849
+GO:0010466	negative regulation of peptidase activit...	62	2	2.55	0.72973
+GO:0031503	protein-containing complex localization	62	2	2.55	0.72973
+GO:0010243	response to organonitrogen compound	203	7	8.34	0.73461
+GO:0043434	response to peptide hormone	92	3	3.78	0.73530
+GO:1901652	response to peptide	92	3	3.78	0.73530
+GO:0032446	protein modification by small protein co...	284	10	11.67	0.73641
+GO:0007007	inner mitochondrial membrane organizatio...	32	1	1.31	0.73941
+GO:0007099	centriole replication	32	1	1.31	0.73941
+GO:0006383	transcription by RNA polymerase III	33	1	1.36	0.75015
+GO:0034605	cellular response to heat	33	1	1.36	0.75015
+GO:0098534	centriole assembly	33	1	1.36	0.75015
+GO:0048599	oocyte development	124	4	5.1	0.75573
+GO:0006506	GPI anchor biosynthetic process	34	1	1.4	0.76045
+GO:0006885	regulation of pH	34	1	1.4	0.76045
+GO:0008347	glial cell migration	34	1	1.4	0.76045
+GO:0009145	purine nucleoside triphosphate biosynthe...	34	1	1.4	0.76045
+GO:0009206	purine ribonucleoside triphosphate biosy...	34	1	1.4	0.76045
+GO:0022406	membrane docking	34	1	1.4	0.76045
+GO:0030641	regulation of cellular pH	34	1	1.4	0.76045
+GO:0032784	regulation of DNA-templated transcriptio...	34	1	1.4	0.76045
+GO:0034219	carbohydrate transmembrane transport	34	1	1.4	0.76045
+GO:0034614	cellular response to reactive oxygen spe...	34	1	1.4	0.76045
+GO:0044774	mitotic DNA integrity checkpoint signali...	34	1	1.4	0.76045
+GO:0140056	organelle localization by membrane tethe...	34	1	1.4	0.76045
+GO:1904064	positive regulation of cation transmembr...	34	1	1.4	0.76045
+GO:0006497	protein lipidation	67	2	2.75	0.76824
+GO:0034599	cellular response to oxidative stress	67	2	2.75	0.76824
+GO:0042158	lipoprotein biosynthetic process	67	2	2.75	0.76824
+GO:0007271	synaptic transmission, cholinergic	35	1	1.44	0.77033
+GO:0022898	regulation of transmembrane transporter ...	35	1	1.44	0.77033
+GO:0032409	regulation of transporter activity	35	1	1.44	0.77033
+GO:0032412	regulation of ion transmembrane transpor...	35	1	1.44	0.77033
+GO:0034502	protein localization to chromosome	35	1	1.44	0.77033
+GO:0034767	positive regulation of ion transmembrane...	35	1	1.44	0.77033
+GO:0045570	regulation of imaginal disc growth	35	1	1.44	0.77033
+GO:0048863	stem cell differentiation	68	2	2.79	0.77534
+GO:0019098	reproductive behavior	128	4	5.26	0.77728
+GO:0006505	GPI anchor metabolic process	36	1	1.48	0.77980
+GO:0030433	ubiquitin-dependent ERAD pathway	36	1	1.48	0.77980
+GO:0034764	positive regulation of transmembrane tra...	36	1	1.48	0.77980
+GO:0035172	hemocyte proliferation	36	1	1.48	0.77980
+GO:0006367	transcription initiation at RNA polymera...	69	2	2.84	0.78226
+GO:0033044	regulation of chromosome organization	100	3	4.11	0.78498
+GO:0007443	Malpighian tubule morphogenesis	37	1	1.52	0.78888
+GO:0009612	response to mechanical stimulus	37	1	1.52	0.78888
+GO:0019221	cytokine-mediated signaling pathway	37	1	1.52	0.78888
+GO:0042052	rhabdomere development	37	1	1.52	0.78888
+GO:0055059	asymmetric neuroblast division	37	1	1.52	0.78888
+GO:0061333	renal tubule morphogenesis	37	1	1.52	0.78888
+GO:0090068	positive regulation of cell cycle proces...	70	2	2.88	0.78898
+GO:0071456	cellular response to hypoxia	38	1	1.56	0.79758
+GO:0051258	protein polymerization	103	3	4.23	0.80151
+GO:1901698	response to nitrogen compound	219	7	9	0.80175
+GO:0072503	cellular divalent inorganic cation homeo...	72	2	2.96	0.80189
+GO:0009201	ribonucleoside triphosphate biosynthetic...	39	1	1.6	0.80593
+GO:0048010	vascular endothelial growth factor recep...	39	1	1.6	0.80593
+GO:0051306	mitotic sister chromatid separation	39	1	1.6	0.80593
+GO:0071345	cellular response to cytokine stimulus	39	1	1.6	0.80593
+GO:0090329	regulation of DNA-templated DNA replicat...	39	1	1.6	0.80593
+GO:0099173	postsynapse organization	39	1	1.6	0.80593
+GO:0062197	cellular response to chemical stress	73	2	3	0.80808
+GO:0007351	tripartite regional subdivision	105	3	4.31	0.81194
+GO:0008595	anterior/posterior axis specification, e...	105	3	4.31	0.81194
+GO:0006281	DNA repair	250	8	10.27	0.81231
+GO:0006099	tricarboxylic acid cycle	40	1	1.64	0.81394
+GO:0008063	Toll signaling pathway	40	1	1.64	0.81394
+GO:0036294	cellular response to decreased oxygen le...	40	1	1.64	0.81394
+GO:0043270	positive regulation of ion transport	40	1	1.64	0.81394
+GO:0045793	positive regulation of cell size	40	1	1.64	0.81394
+GO:0055057	neuroblast division	40	1	1.64	0.81394
+GO:0051346	negative regulation of hydrolase activit...	74	2	3.04	0.81409
+GO:0030718	germ-line stem cell population maintenan...	75	2	3.08	0.81994
+GO:0042157	lipoprotein metabolic process	75	2	3.08	0.81994
+GO:0009743	response to carbohydrate	41	1	1.68	0.82161
+GO:0034097	response to cytokine	41	1	1.68	0.82161
+GO:0051298	centrosome duplication	41	1	1.68	0.82161
+GO:0071453	cellular response to oxygen levels	41	1	1.68	0.82161
+GO:0009266	response to temperature stimulus	138	4	5.67	0.82459
+GO:0000075	cell cycle checkpoint signaling	76	2	3.12	0.82562
+GO:0007446	imaginal disc growth	42	1	1.73	0.82897
+GO:0048619	embryonic hindgut morphogenesis	42	1	1.73	0.82897
+GO:0007309	oocyte axis specification	109	3	4.48	0.83140
+GO:0000578	embryonic axis specification	110	3	4.52	0.83598
+GO:0008643	carbohydrate transport	43	1	1.77	0.83603
+GO:0072507	divalent inorganic cation homeostasis	78	2	3.21	0.83650
+GO:0022412	cellular process involved in reproductio...	798	28	32.79	0.83693
+GO:0016567	protein ubiquitination	258	8	10.6	0.83809
+GO:0000278	mitotic cell cycle	507	17	20.83	0.84017
