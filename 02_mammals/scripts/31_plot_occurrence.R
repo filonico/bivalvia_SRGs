@@ -152,6 +152,10 @@ gene_order <- as.factor(c(rev(c("dmrt5", "Dmrt-A2", "Dmrt-A1", "Dmrt-1", "Dmrt-3
 
 occurrence_matrix_withOUT <- compute_occurrenceMatrix(occurrence_data, species_order_withOUT)
 
+# switch sox3 and sry from platypus and chicken
+occurrence_matrix_withOUT[c(1,2),63] <- 0
+occurrence_matrix_withOUT[c(1,2),62] <- 1
+
 # add plot spacer genes
 occurrence_matrix_withOUT$dmrt5 <- NA
 occurrence_matrix_withOUT$foxZ <- NA

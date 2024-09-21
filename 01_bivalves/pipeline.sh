@@ -296,3 +296,10 @@ bash 39_get_set_geneOfInterests.sh
 # perform GO enrichment
 Rscript scripts/40_topgGO_enrichment.R 14_GO_enrichment/geneUniverse_GOannotation.tsv 14_GO_enrichment/genesOfInterest1quants_GOannotation.tsv 14_GO_enrichment/genesOfInterest1quants_
 Rscript scripts/40_topgGO_enrichment.R 14_GO_enrichment/geneUniverse_GOannotation.tsv 14_GO_enrichment/genesOfInterest2quants_GOannotation.tsv 14_GO_enrichment/genesOfInterest2quants_
+
+
+######################################################
+#      Divergence analysis with just Crassostrea     #
+######################################################
+
+mkdir 09a_orthogroup_alignments_onlyCrassostrea/
