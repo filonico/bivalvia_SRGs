@@ -1,4 +1,4 @@
-# Investigating the role of Dmrt, Sox, and Fox genes in the bivalve sex determination pathway through a genome-wide molecular evolution analysis — Data and code
+# Exploring the evolution of sex determination related genes through a cross-species genomics analysis — Data and code
 
 In this repository you will find data and codes used to perform the analyses for the research paper:
 
