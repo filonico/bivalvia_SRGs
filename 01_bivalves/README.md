@@ -6,7 +6,7 @@ In this folder you'll find all the code, input files, and intermediate results f
 
 * [`00_input/`](00_input) contains some of the input files used throughout the analysis:
 
-    * [`00_input/aa_subst_models.tsv`](00_input/aa_subst_models.tsv) is the conversion of amino acid substitution model names between ModelFinder and <code>dist.ml;
+    * [`00_input/aa_subst_models.tsv`](00_input/aa_subst_models.tsv) is the conversion of amino acid substitution model names between ModelFinder and `dist.ml`;
     * [`00_input/bivalve_genomes_toDownload.tsv`](00_input/bivalve_genomes_toDownload.tsv) contains the list of the NCBI accession numbers for the analysed bivalve genomes;
     * [`00_input/complete_dataset_withTaxonomy.tsv`](00_input/complete_dataset_withTaxonomy.tsv) is a table containing all the analysed bivalve species, plus some metadata (e.g., taxonomy);
     * [`00_input/dmrt_reference.faa`](00_input/dmrt_reference.faa) contains the sequences of the reference genes used to annotate the bivalve Dmrt complement;
@@ -34,7 +34,7 @@ In this folder you'll find all the code, input files, and intermediate results f
     * [`intermediate_results/06_SRGs_occurence/`](intermediate_results/06_SRGs_occurence/) contains the presence/absence matrix of Dmrt, Sox, and Fox genes in the analysed species, as well as the annotation of possvm orthogroups;
     * [`intermediate_results/07_distribution_divergence/`](intermediate_results/07_distribution_divergence/) contains the median values of the amino acid sequence divergence per decomposed orthogroup, as well as the amino acid substitution models and other metadata;
     * [`intermediate_results/08_additional_trees/`](intermediate_results/08_additional_trees/) contains additional ML phylogenetic trees of Dmrt, Sox, and Fox genes, inferred to better establish the identity of certain groups;
-    * [`intermediate_results/09_GO_enrichment/`](intermediate_results/09_GO_enrichment/) contains the GO-enrichment results, divided per category (Biological Process, Cellular Component, or Molecular Function) and per enrichment method (classic or elim, as implemented in <code>topGO);
+    * [`intermediate_results/09_GO_enrichment/`](intermediate_results/09_GO_enrichment/) contains the GO-enrichment results, divided per category (Biological Process, Cellular Component, or Molecular Function) and per enrichment method (classic or elim, as implemented in `topGO`);
 
 * [`scripts/`](scripts/) contains all the scripts used in the analyses, each with extensive code comments;
 * [`pipeline.sh`](pipeline.sh) is the entire pipeline documenting the analyses, containing extensive code comments; mind that every command is supposed to be run from the current directory.
