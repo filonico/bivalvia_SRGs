@@ -1,4 +1,4 @@
-# Analysis in bivalves
+# Analysis in mammals
 
 ![alt text`](../figures/mouse_sexDet_comic_v3.png)
 
