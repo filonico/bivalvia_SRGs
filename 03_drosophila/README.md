@@ -1,4 +1,4 @@
-# Analysis in bivalves
+# Analysis in fruit flies
 
 ![alt text`](../figures/drosophila_sexDet_comic_v3.png)
 
