@@ -9,7 +9,7 @@ library(ggtree)
 ######################
 
 # gene trees
-dmrtTree_data <- read.tree(text = "(Dmrt-1L,(Dmrt-3,(Dmrt-2,Dmrt-4/5)));")
+dmrtTree_data <- read.tree(text = "(Dmrt-1L,Dmrt-3,(Dmrt-2,Dmrt-4/5));")
 soxTree_data <- read.tree(text = "((Sox-OG0/NA,Sox-OG1/NA),(Sox-H,(Sox-D,(Sox-B1/2,(Sox-C,(Sox-F,Sox-E))))));") %>%
   ape::drop.tip(c("soxOG1", "soxOG0"))
 foxTree_data <- read.tree(text = "(Fox-M,((Fox-O,Fox-P),(Fox-J2/3,(((Fox-OG13/NA,Fox-N2/3),(Fox-OG16/NA,Fox-N1/4)),((Fox-K,Fox-J1),((Fox-Q2b,(Fox-Q2,Fox-Q2c)),(Fox-G,(Fox-L2,((Fox-L1,Fox-C),((Fox-F,Fox-H),((Fox-E,Fox-D),(Fox-AB,(Fox-B,Fox-A)))))))))))));") %>%

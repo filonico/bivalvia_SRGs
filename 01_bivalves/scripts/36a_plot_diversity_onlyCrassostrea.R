@@ -57,9 +57,9 @@ plot_density <- ggplot(density.median.df, aes(x = x, y = y)) +
   
   guides(fill = guide_legend(title = "Quantiles")) +
   
-  scale_x_continuous(limits = c(0, 3), breaks = seq(0, 3, 1)) +
+  scale_x_continuous(limits = c(-0.1, 3), breaks = seq(0, 3, 1)) +
   
-  scale_y_reverse(limits = c(1,0)) +
+  scale_y_reverse(limits = c(4.6,0)) +
   
   xlab("Amino acid divergence") +
   ylab("Density") +
@@ -120,7 +120,7 @@ plot_points <- diversity_data_SRGs %>%
   
   xlab("Genes") +
   
-  scale_y_continuous(limits = c(0, 3), breaks = seq(0, 3, 1)) +
+  scale_y_continuous(limits = c(-0.1, 3), breaks = seq(0, 3, 1)) +
   # scale_x_discrete(breaks = gene_order[-c(5,12)]) +
   
   # scale_colour_manual(values = c("#fcba9b", "#f57b83", "#e91674"), na.value = "transparent",

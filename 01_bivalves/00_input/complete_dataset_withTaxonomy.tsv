@@ -16,9 +16,9 @@ Haliotis_rufescens	Hruf	no	Gastropoda	Vetigastropoda	Lepetellida	Genome
 Hyriopsis_bialata_(Unio_delphinus)	Hbia	yes	Bivalvia	Palaeoheterodonta	Unionida	Genome
 Loripes_orbiculatus	Lorb	yes	Bivalvia	Imparidentia	Lucinida	Transcriptome
 Mactra_chinensis	Mchi	yes	Bivalvia	Imparidentia	Venerida	Transcriptome
-Magallana_(Crassostrea)_angulata	Cang	no	Bivalvia	Pteriomorpha	Ostreida	Genome
+Magallana_(Crassostrea)_angulata	Cang	yes	Bivalvia	Pteriomorpha	Ostreida	Genome
 Magallana_(Crassostrea)_ariakensis	Cari	no	Bivalvia	Pteriomorpha	Ostreida	Genome
-Magallana_(Crassostrea)_gigas	Cgig	yes	Bivalvia	Pteriomorpha	Ostreida	Genome
+Magallana_(Crassostrea)_gigas	Cgig	no	Bivalvia	Pteriomorpha	Ostreida	Genome
 Margaritifera_margaritifera	Mmar	yes	Bivalvia	Palaeoheterodonta	Unionida	Genome
 Megalonaias_nervosa	Mner	yes	Bivalvia	Palaeoheterodonta	Unionida	Genome
 Mercenaria_mercenaria	Mmer	yes	Bivalvia	Imparidentia	Venerida	Genome
@@ -26,9 +26,9 @@ Mizuhopecten_(Patinopecten)_yessoensis	Pyes	yes	Bivalvia	Pteriomorpha	Pectinida	
 Modiolus_modiolus	Mmod	yes	Bivalvia	Pteriomorpha	Mytilida	Transcriptome
 Modiolus_philippinarum	Mphi	no	Bivalvia	Pteriomorpha	Mytilida	Genome
 Mya_arenaria	Mare	yes	Bivalvia	Imparidentia	Myida	Genome
-Mytilus_californianus	Mcal	no	Bivalvia	Pteriomorpha	Mytilida	Genome
+Mytilus_californianus	Mcal	yes	Bivalvia	Pteriomorpha	Mytilida	Genome
 Mytilus_edulis	Medu	no	Bivalvia	Pteriomorpha	Mytilida	Genome
-Mytilus_galloprovincialis	Mgal	yes	Bivalvia	Pteriomorpha	Mytilida	Genome
+Mytilus_galloprovincialis	Mgal	no	Bivalvia	Pteriomorpha	Mytilida	Genome
 Mytilus_unguiculatus_(coruscus)	Mcor	no	Bivalvia	Pteriomorpha	Mytilida	Genome
 Octopus_bimaculoides	Obim	no	Cephalopoda	Coleoidea	Octopoda	Genome
 Octopus_sinensis	Osin	no	Cephalopoda	Coleoidea	Octopoda	Genome
