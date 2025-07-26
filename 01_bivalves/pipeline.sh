@@ -167,8 +167,8 @@ mkdir 09_orthogroup_alignments
 bash scripts/23_extract_orthogroup_cdss.sh
 
 # remove two species with a lot of stop codons
-sed -Ei '/Sglo/,+1d' 09_orthogroup_alignments_withoutSgloAmar/*fna
-sed -Ei '/Amar/,+1d' 09_orthogroup_alignments_withoutSgloAmar/*fna
+sed -Ei '/Sglo/,+1d' 09_orthogroup_alignments/*fna
+sed -Ei '/Amar/,+1d' 09_orthogroup_alignments/*fna
 
 # generate a table with genes per each decomposed orthogroup
 for i in 09_orthogroup_alignments/*fna; do OG="$(basename ${i%.*})"; GENES="$(grep ">" $i | sed -E 's/^>//' | tr '\n' ',' | sed -E 's/,$//')"; echo -e $OG$'\t'$GENES; done > 09_orthogroup_alignments/decomposed_orthogroups.tsv
@@ -177,10 +177,6 @@ for i in 09_orthogroup_alignments/*fna; do OG="$(basename ${i%.*})"; GENES="$(gr
 grep -h ">" 05_family_phylogeny/*ALL.faa | grep -v OUT | sed -E 's/^>//' | grep -v -f - 09_orthogroup_alignments/decomposed_orthogroups.tsv | awk -F "\t" '{print $1}' > 09_orthogroup_alignments/decomposed_orthogroups_tokeep.ls
 
 sed -Ei 's/TAG$//; s/TGA$//; s/TAA$//' 09_orthogroup_alignments/*fna
-
-# remove Amar and Sglo
-sed -Ei '/Amar/,+1d' 09_orthogroup_alignments_withoutSgloAmar/*fna
-sed -Ei '/Sglo/,+1d' 09_orthogroup_alignments_withoutSgloAmar/*fna
 
 # align and trim orthogorups
 # REQUIRES: conda_envs/alignments_env.yml
@@ -228,7 +224,7 @@ bash scripts/28_modelSelection.sh
 
 mkdir -p 13_distribution_divergence/01_input_alignments
 
-# create a file ith the selected substitution model per each orthogroup
+# create a file with the selected substitution model per each orthogroup
 grep Best 12_model_selection/*faa.log | sed -E 's/^.+\///; s/\.log.+: /\t/; s/\+.+$//; s/ .+$//; 1i alignment\tmodel' > 13_distribution_divergence/models_perOrthogroup.tsv
 
 # substitute model names to match names accepted by dist.ml in the subsequent R script

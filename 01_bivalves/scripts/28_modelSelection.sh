@@ -6,7 +6,7 @@ mkdir -p 12_model_selection/01_random_trees
 MODELS="$(tail -n +2 00_input/aa_subst_models.tsv | awk -F "\t" '{print $1}' | tr $'\n' ',' | sed -E 's/,$//')"
 
 echo "Running IQTREE ModelFinder on trimmed amino acids..."
-for i in 09_orthogroup_alignments_withoutSgloAmar/*trim.fna; do
+for i in 09_orthogroup_alignments/*trim.fna; do
 
 	FILENAME="$(basename "${i%%.*}")".faa
 

@@ -4,7 +4,7 @@ for i in $(tail -n +2 13_distribution_divergence/models_perOrthogroup_Rformatted
 	
 	if [[ $i =~ ^OG.* ]]; then
 
-		LINK="$(realpath 09_orthogroup_alignments_withoutSgloAmar/"$i")"
+		LINK="$(realpath 09_orthogroup_alignments/"$i")"
 		
 		ln -s "$LINK" 13_distribution_divergence/01_input_alignments/
 	
