@@ -106,14 +106,14 @@ plot_density <- ggplot(density.median.df, aes(x = x, y = y)) +
   
   guides(fill = guide_legend(title = "Quantiles")) +
   
-  scale_x_continuous(limits = c(0, 3), breaks = seq(0, 3, 0.5)) +
+  scale_x_continuous(limits = c(-0.11, 3), breaks = seq(0, 3, 0.5)) +
   
   scale_y_reverse(limits = c(2.1,0)) +
   
   xlab("Amino acid divergence") +
   ylab("Density") +
   
-  ggtitle(paste0("Distribution out of\n", number_of_genes, " genes")) +
+  ggtitle(paste0("Distribution out of\n", format(round(as.numeric(number_of_genes), " genes")) +
   
   theme_minimal() +
   
@@ -215,7 +215,7 @@ plot_points <- joined_data %>%
   
   xlab("") +
   
-  scale_y_continuous(limits = c(0, 3), breaks = seq(0, 3, 0.5)) +
+  scale_y_continuous(limits = c(-0.11, 3), breaks = seq(0, 3, 0.5)) +
   scale_x_discrete(breaks = gene_order[-c(8,29)]) +
   
   scale_colour_manual(values = c("#0e65d1", "#b353df", "#cf1c47"),

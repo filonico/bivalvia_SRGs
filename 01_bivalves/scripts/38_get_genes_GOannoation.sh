@@ -2,9 +2,9 @@
 
 echo -e "\nGenerating the tsv file with selected genes per orthogroup..."
 
-for i in 09_orthogroup_alignments_withoutSgloAmar/*trim.faa; do
+for i in 09_orthogroup_alignments/*trim.faa; do
     OG="$(basename "$i" | sed -E 's/_aligned.+$//')"
-    for species in Pmax Cgig Hbia Tsqu Sgra; do
+    for species in Pmax Cang Hbia Tsqu Sgra; do
         if grep -q "$species" "$i"; then
             echo -e "$OG\t$(grep "$species" "$i" | sed -E 's/>//')"
             break
@@ -14,7 +14,7 @@ done > 14_GO_enrichment/genes_for_GOannotation.tsv
 
 echo -e "\tDone!"
 
-cat 01d_FINAL_dataset/01_PROTEOMES/{Pmax,Cgig,Hbia,Tsqu,Sgra}*faa > proteome.tmp
+cat 01d_FINAL_dataset/01_PROTEOMES/{Pmax,Cang,Hbia,Tsqu,Sgra}*faa > proteome.tmp
 awk -F "\t" '{print $2}' 14_GO_enrichment/genes_for_GOannotation.tsv > list.tmp
 
 echo -e "\nGenerating the fasta file..."

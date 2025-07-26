@@ -127,14 +127,14 @@ plot_density <- ggplot(density.median.df, aes(x = x, y = y)) +
   
   guides(fill = guide_legend(title = "Quantiles")) +
   
-  scale_x_continuous(limits = c(0, 5), breaks = seq(0, 5, 1)) +
+  scale_x_continuous(limits = c(-0.2, 5), breaks = seq(0, 5, 1)) +
   
   scale_y_reverse(limits = c(1,0)) +
   
   xlab("Amino acid divergence") +
   ylab("Density") +
   
-  ggtitle(paste0("Distribution out of\n", number_of_genes, " genes")) +
+  ggtitle(paste0("Distribution out of\n", format(round(as.numeric(number_of_genes), 0), big.mark=","), " genes")) +
   
   theme_minimal() +
   
@@ -186,7 +186,7 @@ diversity_data_SRGs <- diversity_data %>%
 diversity_data_SRGs
 
 # define species to keep
-species_toKeep <- c("Sbro","Airc","Apec","Amar","Cflu","Cvir","Cpli","Csin","Dpol","Hbia","Lorb","Mchi","Cgig","Mmar","Mner","Mmer","Pyes","Mmod","Mare","Mgal","Oedu","Pgen","Pmax","Pvir","Ppur","Poku","Pmar","Pcor","Pstr","Rdec","Rphi","Sglo","Scon","Sgra","Tgra","Tsqu")
+species_toKeep <- c("Sbro","Airc","Apec","Amar","Cflu","Cvir","Cpli","Csin","Dpol","Hbia","Lorb","Mchi","Cang","Mmar","Mner","Mmer","Pyes","Mmod","Mare","Mcal","Oedu","Pgen","Pmax","Pvir","Ppur","Poku","Pmar","Pcor","Pstr","Rdec","Rphi","Sglo","Scon","Sgra","Tgra","Tsqu")
 
 # # get counts of genes
 # gene_counts <- occurrence_data %>%
