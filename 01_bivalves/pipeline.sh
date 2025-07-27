@@ -244,7 +244,7 @@ Rscript scripts/31_compute_divergence.R
 #     Selection analysis     #
 ##############################
 
-mkdir -p 14_selection_analysis/01_input
+mkdir -p 15_selection_analysis/01_input
 
 # infer ML trees on nucleotide alignments of SRGs
 # REQUIRES: conda_envs/phylogeny_env.yml
