@@ -287,8 +287,9 @@ bash scripts/38_get_genes_GOannoation.sh
 # RESULTS OF THE GO ANNOTATION CAN BE FOUND IN intermediate_results/09_GO_enrichment/geneUniverse_GOannotation.tsv.gz
 
 # get the files with the list of genes of interest (genes from the upper quantiles) 
-bash 39_get_set_geneOfInterests.sh
+bash scripts/39_get_set_geneOfInterests.sh
 
 # perform GO enrichment
+# REQUIRES: conda_envs/R_env.yml
 Rscript scripts/40_topgGO_enrichment.R 14_GO_enrichment/geneUniverse_GOannotation.tsv 14_GO_enrichment/genesOfInterest1quants_GOannotation.tsv 14_GO_enrichment/genesOfInterest1quants_
 Rscript scripts/40_topgGO_enrichment.R 14_GO_enrichment/geneUniverse_GOannotation.tsv 14_GO_enrichment/genesOfInterest2quants_GOannotation.tsv 14_GO_enrichment/genesOfInterest2quants_

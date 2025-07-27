@@ -37,7 +37,7 @@ distance_median_values_quant <- "13_distribution_divergence/distance_median_valu
 
 diversity_panel <- "13_distribution_divergence/02_plot_diversity/diversity_panel.pdf"
 
-correlation_panel <- "13_distribution_divergence/02_plot_diversity/correlations.png"
+correlation_panel <- "13_distribution_divergence/02_plot_diversity/correlations.pdf"
 
 
 #####################

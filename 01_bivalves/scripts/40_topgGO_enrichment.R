@@ -62,7 +62,7 @@ names(geneList) <- geneNames
 
 
 #########################
-##### GO ENRICHMENT #####
+#     GO ENRICHMENT     #
 #########################
 
 # define GO ontologies
