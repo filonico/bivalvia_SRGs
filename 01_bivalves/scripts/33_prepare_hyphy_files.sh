@@ -6,7 +6,7 @@ for i in 15_selection_analysis/01_input/*fna; do
 	OUTNAME="$(echo 15_selection_analysis/01_input/"$GENE"_busted.txt)"
 	
 	awk '/^>/ {printf("\n%s\n",$0);next; } { printf("%s",$0);}  END {printf("\n");}' $i |\
-		tail -n +2 | sed -E 's/TAA\-\-/-----/; s/TGA\-\-/-----/; s/TAA$//; s/TGA$//' > "$OUTNAME"
+		tail -n +2 | sed -E 's/TAA\-\-/-----/; s/TAG\-\-/-----/; s/TGA\-\-/-----/; s/TAG$//; s/TAA$//; s/TGA$//' > "$OUTNAME"
 		
 	cat "$i".treefile >> "$OUTNAME"
 
