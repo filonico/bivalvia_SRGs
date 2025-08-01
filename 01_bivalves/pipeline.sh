@@ -250,12 +250,15 @@ mkdir -p 15_selection_analysis/01_input
 # REQUIRES: conda_envs/phylogeny_env.yml
 bash scripts/32_compute_MLtrees_SRGs.sh
 
-# prepare busted input
+# prepare busted and relax inputs
+# REQUIRES: conda_envs/possvm.yml
 bash scripts/33_prepare_hyphy_files.sh
 
 # run BUSTED
 # REQUIRES: conda_envs/selection_env.yml
-bash scripts/34_run_busted.sh
+bash scripts/34a_run_busted.sh
+
+# run RELAX
 
 
 ########################
