@@ -259,6 +259,11 @@ bash scripts/33_prepare_hyphy_files.sh
 bash scripts/34a_run_busted.sh
 
 # run RELAX
+# REQUIRES: conda_envs/selection_env.yml
+bash scripts/34b_run_relax.sh
+
+# aggregate results
+bash scripts/41_aggregate_selection_results.sh
 
 
 ########################
