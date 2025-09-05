@@ -17,5 +17,3 @@ This repository contains three different directories, one per each analysed data
 * in [`03_drosophila/`](03_drosophila) you can find data and codes used to analyse the dataset of *Drosophila* sp. reference genomes.
 
 Note that if you are going to repeat the analyses, you'll need to run commands and scripts as reported in the documented codes from within each directory.
- 
-
